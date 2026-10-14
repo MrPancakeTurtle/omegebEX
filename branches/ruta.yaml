@@ -1,0 +1,289 @@
+- _Warp::TechLab::Hateno:
+    color: yellow
+
+- .dir(<E)
+- _Korok::N44
+
+- .dir(<N) + midairs to Naydra
+- Shoot an eye:
+    icon: bow
+    coord: [3965,1353]
+    vars:
+      - counter-location: .add(1) # Spring of Wisdom
+
+- .dir(<N)
+- _Korok::N18:
+    comment: " "
+
+- .dir(<S)
+- _Korok::N24:
+    comment: " "
+
+- .gale(GALE 3)
+- Shoot an eye:
+    icon: bow
+    icon-map: null
+
+- midair .dir(<S)
+- _Korok::N31:
+    comment: Far down
+
+- .dir(<<W)
+- Shoot an eye:
+    icon: bow
+    icon-map: null
+- _Korok::N39:
+    comment: " "
+
+- .dir(W>) + midairs
+- _Korok::N21:
+    comment: Far peak
+
+- .dir(E.)
+- _Korok::N29:
+    comment: Glide out to cryo block
+
+- .dir(<E):
+    coord: [3241.75,1472.75]
+
+- _Korok::N30::Away<white>:
+    comment: .rune(Stasis) and bomb arrow
+    notes: Aim with bow to get apples to spawn
+
+- _Korok::N22
+
+- .dir(<E)
+- _Korok::N23:
+    comment: " "
+
+- Shoot final eye:
+    icon: bow
+    coord: [3502.5,1433]
+
+- Shoot Naydra for scale:
+    icon: bow
+    movements:
+        - to: [3965,1353]
+          warp: true
+
+- Offer .item(Naydra Scale):
+    icon: tots
+    icon-map: null
+    notes: Shoot the top of the scale with normal arrows to avoid picking it up. A faster but risky strat is to place a bomb behind where the scale will fall, run to the door, and explode the scale into the water when it reaches the ground.
+- _Shrine::JitanSami
+
+- .dir(<E) + .dir(<W):
+    notes: Windbomb .dir(<E) away from the mountain, until you reach the trees on the minimap, and then back. Otherwise, Naydra will not spawn. Make morning at the spot marked on the map, and point the camera up at the peak of the mountain.
+    movements:
+      - to: [4103,1186]
+
+- _Tod::Morning:
+    coord: [3975,1217]
+    comment: Twice if 12am-5am
+
+- Shoot Naydra (Horn):
+    icon: calamity
+    icon-map: null
+    movements:
+      - push
+      - to: [4284,1086]
+        color: white
+      - pop
+    markers:
+      - at: [4284,1086]
+        color: white
+
+- _Tod::Morning:
+    comment: At the same spot
+
+- Shoot Naydra (Claw):
+    icon: calamity
+    icon-map: null
+
+- _Korok::N19
+
+- Pick up parts:
+    icon: material
+    icon-map: null
+
+- .dir(W)
+- _Korok::N17:
+    comment: " "
+
+- .dir(<<W)
+- _Boss::Hinox::Red:
+    coord: [3250.94, 268.75, 1331.63]
+
+- _Snap::Quest<Lynel>:
+    movements:
+        - push
+        - to: [3261.15, 263.12, 1211.79]
+          color: white
+          icon: camera
+        - pop
+    icon-map: null
+
+- .dir(<N)
+- _Memory::LanayruRoad:
+    comment: Memory
+    vars:
+      - counter-location: .add(1) # Lanayru Road East Gate
+
+- .dir(W)
+- _KorokLoc<N15,Lanayru Promenade>
+
+- .dir(E.)
+- _Korok::N16
+
+- .dir(S)
+- _Shrine::DowNaeh
+
+- .dir(N) + .dir(W)
+- _Korok::N20
+
+- .dir(NW)
+- _Boss::Hinox::Red:
+    coord: [2414.72, 304.69, 1177.84]
+
+- .dir(N>)
+- _Korok::N11:
+    comment: " "
+
+- .dir(E)
+- _Korok::N13:
+    comment: .rune(Stasis) & hit, .rune(Stasis) & hit
+
+- .dir(<E)
+- _Boss::Hinox::Blue:
+    coord: [2990.90, 251.39, 787.92]
+
+- .dir(<N) midair
+- _Korok::N06
+
+- .dir(W)
+- _Korok::N05
+
+- .dir(W)
+- Tame mountain buck:
+    icon: tots
+    coord: [2601.50, 222.01, 552.50]
+
+- _Npc::Rito<Kass>:
+    coord: [2589.68, 232.40, 444.25]
+    comment: The Crowned Beast
+
+- .dir(<W)
+- _Korok::N04:
+    comment: " "
+
+- .dir(NW)
+- _Korok::N02
+
+- .dir(E)
+- _Korok::N03:
+    comment: Behind shrine
+
+- _Shrine::MezzaLo
+
+- .dir(E)
+- _Korok::Z42:
+    comment: Way below
+
+- .dir(E) + midair
+- _Korok::Z43
+
+- .dir(E>) and curve left
+- _Korok::Z44
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [3526.26, 251.18, 364.97]
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3393.74, 314.18, 49.77]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(W)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3265.50, 341.84, 38.70]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(W>) down
+- _Korok::Z33
+
+- .dir(<W)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3099.83, 236.67, 70.72]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(N>) turn
+- _Location::LutosCrossing:
+    notes: Discover location as you fly over
+
+- _Korok::Z32
+
+- .dir(<N)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3062.39, 184.92, -216.65]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(E.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3260.31, 241.83, -145.22]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(N>)
+- _Korok::Z25
+
+- .dir(N)
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+    vars:
+      - counter-location: .add(1) # Zora's Domain
+
+- _Equipment::Shield<Zora Armor>:
+    comment: .!!(Equip)
+    icon-map: null
+
+- _Npc::ZoraMale<Sidon>:
+    coord: [3299.5,-474.5]
+    comment: Mipha Memory
+
+- _Shrine::NeezYohma
+
+- .gale(GALE 1) + .dir(E)
+- _Korok::Z18
+
+- .dir(S)
+- _KorokLoc<Z26,East Reservoir Lake>:
+    comment: Up on peak
+
+- .dir(NE)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- _Boss::VahRuta:
+    comment: .gale(GALE 2)
+
+- _Boss::Waterblight:
+    notes: "1-cycle: .rune(Stasis) → 2 GEB (shock arrow) + 1 OmeGEB (AA), all headshots"
+
+- .!!(Mipha's Grace):
+    icon: ruta-done
+    icon-priority: 1
+    counter: .user-defined-split()
+    color: "#D3CCFF"
+    movements:
+        - to: [3283.5,-431]
+          warp: true

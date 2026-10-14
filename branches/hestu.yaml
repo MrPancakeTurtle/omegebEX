@@ -1,0 +1,75 @@
+- _Warp::Shrine::TalohNaeg:
+    comment: (Kakariko Village) WARP
+    color: lime
+
+- .dir(<S) short
+- _Npc::SheikaMale<Olkin>:
+    coord: [1870.87, 227.97, 965.85]
+    comment: Fortified Pumpkin
+    notes: At pumpkin patch before 5pm; goes to shelter near northern campfire at 5pm; starts running around the village at 8pm
+
+- .dir(W) run
+- _Npc::SheikaFemale<Impa>:
+    coord: [1772.71, 229.43, 984.31]
+    comment: Unlock memories
+
+- .dir(E>) + .dir(SE)
+- Kill .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [2163,1380.125]
+- _Chest::Special<Hestu's Maracas>:
+    coord: [2172.24, 218.76, 1369.20]
+
+- .dir(E) glide
+- _Korok::D21
+
+- .dir(W)
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [2069.45, 188.17, 1422.25]
+    notes: Get bow + weapon
+    counter: .user-defined-split()
+
+- .dir(.W)
+- _KorokLoc<D20,Kakariko Bridge>:
+    comment: On bridge
+
+- .dir(<<N)
+- _Korok::D19:
+    comment: On island
+
+- .dir(NW)
+- _Korok::D18:
+    comment: " "
+
+- _Warp::Shrine::KayaWan
+
+- _Location::WetlandStable
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [870.83, 131.54, 203.47]
+    notes: Get 1 bow + 4 weapon slots
+
+- .dir(S) run
+- _Korok::Z37:
+    comment: Among thorns
+
+- .dir(<E)
+- _Korok::Z38
+
+- .dir(E>)
+- _Location::GopongaVillageRuins:
+    coord: [1564.5,358.5]
+
+- .dir(N)
+- _Korok::Z39
+
+- .dir(E) run
+- _Korok::Z40
+
+- .dir(<N)
+- _Location::MoorGarrisonRuins
+
+- .dir(N>) midair
+- _Korok::Z12:
+    comment: " "

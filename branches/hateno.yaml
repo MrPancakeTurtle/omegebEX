@@ -1,0 +1,161 @@
+
+- WB chain .dir(E) to Hateno:
+    notes: If you need to use a stamfood on the way, then eat one fewer after cooking the speedfood (i.e. eat 3 instead of 4)
+- Finish IST steps and cooking
+
+- Eat speedfood:
+    icon: material
+    icon-map: null
+    comment: Eat the other when it runs out
+
+- Eat 20 stamfood:
+    icon: material
+    icon-map: null
+    comment: One full page
+
+- _Npc<Bolson + Hudson>:
+    coord: [3302.77, 239.88, 2302.60]
+    notes: Send Hudson to Tarrey Town, then fully upgrade house. If you want, you can wait until the next Hateno visit to do the house upgrades.
+    vars:
+      - counter-location: .add(1) # Hateno Village
+
+- .dir(<N)
+- _Npc<Horned Statue>:
+    coord: [3285.60, 217.60, 2197.58]
+    comment: Ask for stamina
+    notes: You should have 9 hearts and full stamina afterward
+
+- .dir(.E)
+- _Npc<Lady on dock>:
+    coord: [3434.98, 226.90, 2149.15]
+    comment: Clavia
+    notes: Secret of the Cedars shrine quest
+
+- .dir(<N)
+- _Npc::SheikaMale<Farmer>:
+    coord: [3381.11, 226.15, 2105.53]
+    notes: Spring of Wisdom
+    comment: Medda
+
+- .dir(N>)
+- _Korok::N42:
+    comment: Past blue flame
+
+- .dir(E>) + .dir(E)
+- Activate .loc(Hateno Tech Lab):
+    icon: location
+    movements:
+        - to: [3637.5,2098]
+        - to: [3783,2106.5]
+    vars:
+      - counter-location: .add(1) # Hateno Ancient Tech Lab
+
+- Slated for Upgrades:
+    icon: camera-plus
+    icon-map: null
+    notes: If less than 3 screws, upgrade sensor when you come back later
+
+- Run .dir(E)
+- _Material<2 Apples>:
+    comment: On trees by lab
+
+- .dir(E) down
+- _Korok::N48:
+    comment: " "
+
+- .dir(N.) + .dir(W.)
+- _Korok::N43:
+    comment: " "
+
+- .dir(S>)
+- _Npc<Sheep Rustler lady>:
+    coord: [3621.69, 283.36, 2098.13]
+    comment: Koyin
+    notes: Choose option 2
+
+- .dir(<<W)
+- _Korok::N59:
+    comment: " "
+
+- .dir(W)
+- _Korok::N58
+
+- .dir(<W)
+- _Material<1 Hearty Bass>:
+    coord: [3011.06, 229.73, 2538.95]
+    comment: null
+
+- .dir(W>)
+- _Korok::N50:
+    comment: " "
+
+- _Korok::N49::Away<skyblue>:
+    comment: Snipe with Falcon Bow
+
+- .dir(N) + midair
+- _Tower::Hateno
+
+- .dir(W)
+- _Korok::D53
+
+- .dir(W) + .dir(S)
+- _Korok::D58
+
+- .dir(S>)
+- _Korok::D57
+
+- .dir(<S)
+- _Korok::F07
+
+- .dir(<W)
+- _Korok::F13
+
+- .dir(N) + .dir(W) midair
+- _Korok::F06
+
+- .dir(SW)
+- _Korok::F09
+
+- .dir(W)
+- _Korok::F08
+
+- .dir(E)
+- _Korok::F12
+
+- .dir(W)
+- _Korok::F11
+
+- .dir(SW)
+- Camp and Shoot Farosh:
+    notes: Set a campfire and make morning to spawn Farosh 3 times.
+    coord: [1735,2971]
+    icon: tots
+- _Material<1 Farosh Scale>:
+    coord: [1739,3024]
+    icon-map: null
+    comment: null
+- _Material<1 Farosh Claw>:
+    icon-map: null
+    comment: null
+- _Material<1 Farosh Horn>:
+    coord: [1739,3024]
+    comment: null
+
+- .dir(<W)
+- _Korok::F25:
+    notes: Pick a durian, keep it
+
+- .dir(SW)
+- _Tower::Faron
+
+- .dir(.S)
+- _Korok::F39:
+    notes: Keep the durian
+
+- .dir(E>)
+- _Material<6 Bananas>:
+    coord: [1481.29, 241.32, 3550.63]
+    comment: null
+
+- Drop .dir(W>)
+- _Korok::F40

@@ -1,0 +1,224 @@
+- BTB .dir(W>) to Satori Mountain:
+    coord: [-2203.83, 267.93, 792.66]
+- _Material<Check 3 Peppers>:
+    comment: Scrap
+    notes: Substitute with 3 zapshrooms if missing.
+- _Material<Hylian Shrooms>:
+    comment: Scrap
+    notes: Keep at least 3.
+- _Material<Sunshrooms>:
+    comment: Scrap
+    notes: Keep at least 3.
+- _Material<2 Endura Shroom>:
+    notes: Save one to cook, can eat the other
+    comment: null
+- _Material<2 Razorshrooms>:
+    comment: Scrap
+    notes: Do not eat. You may gather any other mushrooms here to eat.
+
+- .dir(W)
+- _Material<Courser Bee Honey, 1>:
+    movements:
+      - to: [-2469.86, 320.38, 736.31]
+    comment: .rune(Bomb) it down
+    notes: Do not eat
+- _Material<2 Bird Egg>:
+    coord: [-2479.27, 316.89, 721.97]
+    comment: For korok and speedfood
+    notes: Do not eat
+
+- .dir(W>)
+- _Material<6 Fleet Lotus Seed>:
+    coord: [-2558.07, 306.99, 655.56]
+    comment: Speedfood
+    notes: Do not eat
+
+- .dir(E.)
+- _Material<1 Rushroom>:
+    coord: [-2349.25, 355.64, 672.69]
+    notes: Do not eat
+    comment: null
+- _Chest<Forest Dweller's Bow>:
+    coord: [-2342.64, 348.37, 680.81]
+- _Material<1 Acorn>:
+    coord: [-2338.68, 348.73, 678.83]
+    notes: Do not eat
+    comment: null
+
+- .dir(N>)
+- _Material<8 Hearty Durians>:
+    coord: [-2196.75, 410.21, 443.15]
+    notes: Eat 1 right away, cook 4 in castle, and use 3 for IST scrap. You can get 2 more to eat if you want extra healing.
+    comment: null
+- _Material<2+ Wood>:
+    comment: null
+
+- .dir(W)
+- _Shrine::MoggLatan
+
+- .dir(<<E)
+- _Korok::R53:
+    comment: On peak
+
+- .dir(E far)
+- _KorokLoc<C36,Sage Temple Ruins>:
+    comment: On wall in ruins
+
+- Lizalfos BTB to .loc(Hyrule Castle):
+    icon-doc: tots
+    movements:
+      - to: [-1338.5,226.5]
+      - to: [-319.74, 183.89, -781.52]
+        icon: location
+    markers:
+      - at: [-1338.5,226.5]
+    vars:
+      - counter-location: .add(1) # Hyrule Castle
+    comment: .link([video reference]https://youtu.be/IF6sbyBVNpY)
+    notes: This uses a headshot BTB, because this route's IST setup doesn't work if you get ice arrows. If you strongly prefer the easier method of freezing the lizalfos, you can get the ice arrow chest at Satori, and you'll have to use .link([this slower IST setup instead]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ice-arrow-ist.txt). Pay close attention to the inventory differences if you use this. (2 zapshrooms, 4 princesses, 3 fairies, and equipping fire arrows at WMC)
+
+- Run through passage to the back of the .loc(Guard's Chamber):
+    vars:
+      - counter-location: .add(1) # Guard's Chamber
+
+- _Equipment::Bow<Falcon Bow>:
+    comment: Against wall on upper level
+    coord: [-412.66, 182.53, -851.28]
+
+- Drop 5 Branches, Axe, and Boko Bow:
+    icon-doc: equipment
+
+- _Chest<5 Bomb Arrows>:
+    comment: Next to Falcon Bow
+    icon-map: null
+
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-377.44, 168.59, -870.37]
+    comment: Behind Moblin
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    icon-map: null
+    comment: Sneakstrike the Moblin
+- _Chest<Naydra Fang>:
+    comment: Under stairs
+
+- _Korok::X19
+- _Chest<3 Ancient Arrows>
+
+- Kill .enemy(Lizalfos) for parts:
+    icon-map: null
+    icon: hinox-blue
+    notes: Tail, 2 Talon, Horn
+
+- _Cook<Cook stamina food>:
+    coord: [-330.55, 192.35, -834.53]
+    notes: Use all your endura shrooms. You may cook an extra stamina meal (using both shrooms separately), but make sure you use it and have exactly one when you start IST.
+    comment: Endura shroom
+- _Cook<Cook speedfood>:
+    icon-map: null
+    coord: [-330.55, 192.35, -834.53]
+    comment: 4 lotus seeds + egg
+- _Cook<Cook hearty food>:
+    icon-map: null
+    coord: [-330.55, 192.35, -834.53]
+    notes: Make sure you have at least 3 durians left, or you'll have to get apples in Kakariko to substitute for durians during IST.
+    comment: 4-5 durians
+- Eat speedfood and hearty food
+- Run down hallway, left at the end, drop to hidden room
+
+- _Chest<Dinraal's Fang>:
+    coord: [-326.46, 151.16, -1002.40]
+- _Korok::X08:
+    comment: Activate updraft to get here
+- _KorokLoc<X13,East Passage>:
+    comment: In a side passage
+- _Equipment::Bow<5 arrows>:
+    comment: In box next to lockup wall
+    vars:
+      - counter-location: .add(1) # Lockup
+
+- _Boss::Hinox::Stal:
+    coord: [-491.34, 126.08, -1009.82]
+    notes: Use and throw away RGC
+- _Equipment::Shield<Hylian Shield>:
+    counter: .user-defined-split()
+    coord: [-501.57, 126.08, -1011.58]
+
+- _Warp::TravelMedallion<-253.85, -600.23>:
+    text: Exit Castle
+    comment: Warp from map menu
+    vars:
+      - counter-location: .add(1) # Hyrule Castle Town Ruins
+
+- .dir(S)
+- Kill Guardian Stalker:
+    icon: tots
+    coord: [-254.52, 125.34, -193.39]
+    notes: Get 1 spring, 1 shaft, 0-3 Screws. Pick up a Core if you get one. Do not pick up extra. Kill more stalkers if you don't get at least 1 Shaft + 1 Spring.
+    vars:
+      - counter-location: .add(1) # Central Square
+
+- WB chain .dir(E>) to NPC Izra
+- _Material<4 Hyrule Bass>:
+    comment: Bomb the water
+    notes: If you miss a fish, continue as usual. You'll be 3 fish short of the 15 you need, but you can get them at Sarjon Bridge.
+    icon-map: null
+- _Chest<Knight's Broadsword>:
+    coord: [826.64, 112.80, 123.61]
+    comment: In water
+    notes: Drop the sword immediately
+- _Npc<Izra>:
+    icon-map: null
+    notes: Text option 2
+    comment: Riverbed Reward
+- _Shrine::KayaWan:
+    comment: Ancient Core in chest
+    notes: Skip Ancient Core if you already have one
+
+- .dir(E>) + .dir(E>)
+- _Shrine::DakaTuss
+
+- .dir(S) + .dir(E>) + .dir(S)
+- _Shrine::TalohNaeg:
+    comment: Opal in chest
+    vars:
+      - counter-location: .add(1) # Kakariko Village
+
+- _Material<2 Nightshade>:
+    coord: [1965.43, 269.69, 854.73]
+    comment: null
+- _Material<2 Fairy>:
+    comment: null
+- _Material<1 Endura Carrot>:
+    coord: [1977.61, 268.81, 824.60]
+    comment: null
+- _Material<2 Silent Princess>:
+    coord: [1995.75, 267.90, 842.24]
+    comment: null
+
+- _Npc::SheikaFemale<Impa>:
+    comment: Talk twice
+    coord: [1772.71, 229.43, 984.31]
+
+- _Material<1 Energetic Rhino Beetle>:
+    coord: [1811.23, 221.34, 1050.06]
+    comment: 9pm to 7am
+    notes: On tree near shop. Make morning if needed.
+
+- _Npc::SheikaFemale<Arrow Shopkeeper>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Talk twice
+
+- Eat or remove any extra materials/food:
+    icon-doc: material
+
+- IST:
+    coord: [1811.23, 221.34, 1050.06]
+    icon: link
+    icon-map: null
+    comment: |
+      .link([IST Instructions]https://docs.google.com/presentation/d/1mrrG4W08Ri0xB_Jox7eXfeOV0pGGcaFgGQJCTaLf7eg/edit?usp=sharing) or .link([IST Simulator steps]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ist.txt)
+    counter: .user-defined-split()
+    notes: |
+      .link([Outdated (but still useful for learning\) video guide for an older IST setup]https://youtu.be/0YZkmVyhfy4?t=3245)
+
+- Do NOT reload or close the game until WMC is done.

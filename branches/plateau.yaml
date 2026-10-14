@@ -1,0 +1,98 @@
+- SoR clip:
+    icon: location
+    color: white
+    notes: After cutscene, hold ZL and hop left to exit
+    comment: Front entrance
+    vars:
+      - counter-location: .add(2) # Great Plateau, Shrine of Resurrection
+
+- _Equipment::Weapon<5 Tree Branch>:
+    icon-map: null
+    movements:
+        - to: [-1059.15, 249.33, 1805.13]
+        - to: [-1053.44, 249.44, 1802.61]
+        - to: [-1024.63, 251.40, 1812.55]
+        - to: [-1034.19, 249.09, 1847.06]
+        - to: [-1012.43, 247.58, 1892.02]
+
+- _Material<Eat Baked Apple>:
+    notes: Knock it away from the old man to avoid dialog. Make sure to eat it immediately.
+    comment: null
+
+- _Equipment::Weapon<Torch and Axe>:
+    notes: Sidehop down the hill while grabbing torch to avoid dialog
+    movements:
+        - to: [-936.20, 224.90, 1880.20] #torch
+        - to: [-920.93, 220.65, 1871.83] #axe
+
+- Unequip weapon
+
+- Run toward Boko Camp
+
+- SAVE:
+    icon: tots
+    icon-map: null
+    notes: Hard save as soon as you get the autosave on the way to the camp. Make sure not to make any additional hard saves until IST.
+
+- .!!(System Clock -1 day):
+    comment: (unless using DST)
+    icon: calamity
+    icon-map: null
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Material<3 Shrooms>:
+    icon-map: null
+    comment: Food
+    notes: More shrooms at Satori for scrap
+
+- _Material<12 Peppers>:
+    icon-map: null
+    comment: Scrap + Food
+    notes: 6 by camp, 6 up by gate. Try to keep at least 3.
+
+- _Chest<5 Normal Arrows>:
+    comment: Boko camp
+    coord: [-1011.19, 287.02, 2155.60]
+
+- _Equipment::Bow<Boko Bow>:
+    icon: bow
+    icon-map: null
+    comment: Boko camp
+
+- _Shrine::OwaDaim:
+    comment: Stasis shrine
+    notes: This is the SCMtB plateau route. There are other viable routes to complete plateau, like .link([BtMCS]https://www.youtube.com/watch?v=7mB8wXQnsmw). Any plateau route is fine provided you set up the autosave with the correct inventory, and have at least 3 arrows at Paraglider for BTBs.
+
+- _Npc::SheikaMale<Old Man>:
+    coord: [-925.03, 272.84, 2306.23]
+    comment: Text option 2-1-1-2
+
+- Boulder ride
+- BTB to Cryonis
+- _Shrine::KehNamut:
+    comment: Cryonis shrine
+
+- BTB to Magnesis
+- _Shrine::OmanAu:
+    comment: Magnesis shrine
+
+- Stasis launch with slab from water
+
+- _Tower::GreatPlateau
+
+- Jump down, walk to Bombs
+
+- _Shrine::JaBaij:
+    comment: Bombs shrine
+
+- Tree launch to Temple of Time:
+    vars:
+      - counter-location: .add(1) # Temple of Time
+
+- .!!(Paraglider):
+    icon: king
+    coord: [-809.33, 263.58, 1964.35]
+    icon-priority: 1
+    counter: .user-defined-split()

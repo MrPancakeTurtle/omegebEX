@@ -1,0 +1,64 @@
+- _Warp::Shrine::MoggLatan
+
+- .dir(NW) + midair chain
+- _Tower::Tabantha
+
+- .dir(N) to Rito Village:
+    vars:
+      - counter-location: .add(1) # Rito Village
+- _Npc::Rito<Kaneli>:
+    comment: Owl Elder
+    coord: [-3627.20, 323.57, -1830.81]
+
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali Memory
+
+- .dir(.N)
+- _KorokLoc<T02,Flight Range>:
+    comment: Top of flight range
+
+- _Boss::VahMedoh:
+    notes: |
+      1 ancient arrow per cannon. Visual cues: .link([Left-Right]https://cdn.discordapp.com/attachments/293465650540838913/688224174937735188/a3.png), .link([Middle]https://cdn.discordapp.com/attachments/293465650540838913/688224173427785910/a4.png)
+
+- _Boss::Windblight:
+    notes: "1-cycle: .rune(Stasis) + Ancient Arrow → 1 FDB body + 4 FDB head"
+
+- .!!(Revali's Gale):
+    icon: medoh-done
+    icon-priority: 1
+    counter: .user-defined-split()
+    color: yellow
+    movements:
+        - to: [-3585.5,-1802]
+          warp: true
+
+- Equip normal arrow, unequip bow:
+    icon: equipment
+    icon-map: null
+
+- _Material<Cold Darner>:
+    comment: null
+    coord: [-3591.41, 319.37, -1804.93]
+- _Chest::Special<Great Eagle Bow>:
+    coord: [-3630.37, 323.57, -1828.17]
+    comment: Chest gives autosave for WMC
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-3588.54, 298.00, -1809.50]
+
+- Cook speedfood:
+    icon-map: null
+    icon: cook
+    comment: 3 Lotus + Rushroom + Farosh Horn
+    notes: Ensure you have only two tabs of meals after cooking speedfood.
+
+- WMC:
+    icon: bow
+    coord: [-3637.5,-1792.75]
+    counter: .user-defined-split()
+    comment: |
+      .link([WMC Instructions]https://docs.google.com/presentation/d/1bHuYNCK6jkmvWBslKHeA0I7fTmewz1hqPn2l8Fna9yw/edit?usp=sharing)
+    notes: .link([Simulator link (line 145\)]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ist.txt). Here is a .link([video guide for the WMC]https://youtu.be/0YZkmVyhfy4?t=9690) (old).
+- " "

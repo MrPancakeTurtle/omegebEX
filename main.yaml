@@ -1,0 +1,16 @@
+- Great Plateau:
+  - use: ./branches/plateau.yaml
+- Material Gathering /IST:
+  - use: ./branches/materials.yaml
+- Hateno / Farosh:
+  - use: ./branches/hateno.yaml
+- Hestu:
+  - use: ./branches/hestu.yaml
+- Vah Medoh:
+  - use: ./branches/medoh.yaml
+- Hebra 1:
+  - use: ./branches/hebra1.yaml
+- Vah Naboris:
+  - use: ./branches/naboris.yaml
+- Vah Ruta:
+  - use: ./branches/ruta.yaml
