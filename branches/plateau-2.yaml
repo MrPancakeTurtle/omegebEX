@@ -10,9 +10,10 @@
 - _Shrine::YowakaIta
 - _Shrine::RohtaChigah:
     comment: Kill one lizalfos without AA and get horn (for 9 total)
-- _Snap<Stalhorse>:
+- _Snap::Quest<Stalhorse>:
     notes: Stalhorse, Pictured!
-    coords: [-816, 2139]
+    movements: 
+        - to: [-816, 2139]
 - _Shrine::RuvoKorbah
 - .dir(S.)
 - _Korok::P18:

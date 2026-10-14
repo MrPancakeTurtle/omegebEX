@@ -42,3 +42,10 @@ config:
   - use: link
     with:
       Shrines: "[.var(pad02:counter-shrine)] .prop(text)"
+- presets:
+    _Snap:
+      Quest:
+        text: $(0)
+        icon: camera
+        icon-priority: 2
+        comment: SNAP for quest
