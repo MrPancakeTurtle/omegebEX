@@ -1,0 +1,80 @@
+- _Warp::Shrine::ShaeMosah:
+    color: "blue"
+    comment: (Goron City)
+
+- _Shrine::ShaeMosah:
+    vars:
+      - counter-location: .sub(1) # already activated
+
+- .dir(S.)
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]
+    comment: Daruk Memory
+
+- .dir(E)
+- _Korok::E16
+
+- .dir(<S)
+- _Korok::E17:
+    comment: " "
+
+- .dir(E. + midair)
+- _Shrine::DaqaKoh
+
+- .dir(S>>)
+- _Equipment::Weapon<Drillshaft>:
+    coord: [1946.80, 632.72, -2203.24]
+    notes: Save for quest
+    comment: Behind rubble
+
+- .dir(<E)
+- Kill .enemy(2 moblins):
+    icon: calamity
+    coord: [2142.43, 634.02, -2288.29]
+
+- Escort Yunobo:
+    icon: rudania-enter
+    movements:
+        - to: [2235,-2370]
+        - to: [2502.61, 667.95, -2270.26]
+        - to: [2701.02, 726.21, -2363.06]
+        - to: [2794.50, 774.84, -2657.93]
+    notes: Break ores during escort for amber (10) and flint (11)
+    vars:
+      - counter-location: .add(1) # Bridge of Eldin
+
+- _Boss::VahRudania:
+    comment: .gale(GALE 1)
+
+- _Boss::Fireblight:
+    notes: "1-cycle: AA + .rune(Stasis) → 2 GEB body + 1 OmeGEB head"
+
+- .!!(Daruk's Protection):
+    icon: rudania-done
+    icon-priority: 1
+    counter: .user-defined-split()
+    movements:
+        - to: [1572.5,-2422.5]
+          warp: true
+    color: "#4343FF"
+
+- _Npc::Goron<Rock Roast Brother>:
+    comment: Bladon
+    notes: Text option 2-1
+    coord: [1648.50, 490.02, -2472.50]
+
+- _Shop<Buy Goron Spice>:
+    coord: [1689.61, 491.59, -2468.49]
+
+- _Npc::Goron<Headband Goron>:
+    comment: Fugo
+    notes: Talk twice
+    coord: [1676.75,-2479.5]
+
+- _Npc::Gerudo<Gerudo Lady>:
+    comment: Ramella
+    notes: Talk twice
+    coord: [1707.75,-2422.5]
+
+- _Npc::Goron<Bludo>:
+    coord: [1713.95, 498.05, -2446.92]

@@ -1,3 +1,7 @@
+- _Shop<Brazen Beak>:
+    coords: [ -3628, -1785]
+    comment: Buy Snowquill Headdress for Plateau Revisit
+
 - _Shop<General Shop>:
     movements:
       - to: [-3630.37, 323.57, -1828.17]

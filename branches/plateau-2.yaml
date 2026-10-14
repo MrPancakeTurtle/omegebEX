@@ -1,0 +1,27 @@
+- _Warp::SOR
+- _Korok::P09
+- _Npc::Sheika<Monk Maz Koshia>:
+    comment: EX The Champions' Ballad
+    coord: [-1124.96, 238.47, 1903.14]
+    icon: maz
+- _Warp::Shrine::KehNamut:
+    notes: Eat speedfood for every WB or you die
+- _Shrine::EtsuKorima
+- _Shrine::YowakaIta
+- _Shrine::RohtaChigah:
+    comment: Kill one lizalfos without AA and get horn (for 9 total)
+- _Snap<Stalhorse>:
+    notes: Stalhorse, Pictured!
+    coords: [-816, 2139]
+- _Shrine::RuvoKorbah
+- _Korok::P18
+- _Korok::P11
+- _Korok::P10
+- _Korok::P06
+- _Korok::P05
+- _Korok::P02
+- _Korok::P01
+- _Korok::P04
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1)
+    coord: [-1087.75, 179.14, 1663.18]

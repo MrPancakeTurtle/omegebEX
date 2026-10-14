@@ -60,7 +60,7 @@
     hide-icon-on-map: true
 
 - BTB to shrine, clip in:
-    comment: https://www.youtube.com/watch?v=yRrB52FAhjE
+    notes: https://www.youtube.com/watch?v=yRrB52FAhjE
 - _Shrine::JaBaij:
     comment: Bombs shrine
 
@@ -76,7 +76,8 @@
     comment: Magnesis shrine
 
 - _Chest<Amber>:
-    comment: Mag amber up and grab it (unless you want to suffer at the hands of RNG during Rudania)
+    comment: IST Setup asumes you get this
+    notes: Mag amber up and grab it (unless you want to suffer at the hands of RNG during Rudania)
     coord: [-684.41, 168.85, 1536.43]
 
 - .dir(N)
@@ -85,17 +86,18 @@
 
 
 - Walk to bokocamp and BTB to Cryonis:
-    comment: https://www.youtube.com/watch?v=LW01skRA7_Q
-    warp: true
+    notes: https://www.youtube.com/watch?v=LW01skRA7_Q
+
     movements:
         - to: [-1020, 1790]
+          warp: true
         - to: [-1140, 1770]
 
 - _Shrine::KehNamut:
     comment: Cryonis shrine
 
 - BTB to Stasis:
-    comment: https://www.youtube.com/watch?v=fntljFZgt-k
+    notes: https://www.youtube.com/watch?v=fntljFZgt-k
 - _Shrine::OwaDaim:
     comment: Stasis shrine
 

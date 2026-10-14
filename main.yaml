@@ -1,3 +1,14 @@
+- This route is intended to be run on patch 1.9 of the original switch edition of BOTW. Either original switch or switch 2 consoles work, though switch 2 has faster loads. If you're running on patch 1.6, this route will also work, but a route with BLSS will be faster. Join the .link([BOTW Speedrunning discord]https://discord.gg/94YzaMFZxC) and ask in the 100% channel for any questions or corrections.
+- Document/Route Info >> .link(["What does '<N' mean?"]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit?usp=sharing), .link([NPC Info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283), .link([Simple Glitch Explanations]https://docs.google.com/document/d/14EUBX0M96nGINX3mS7cQceKKUHfIBgOrvFElaHIj-Z0/edit?usp=sharing)
+- "Resources >> .link([Object Map]https://objmap.zeldamods.org/#/map/z5,0,0), .link([Master Guide]https://docs.google.com/spreadsheets/d/1qLOC3ajm6a-vrXvlwAecbhW88iT8vtv9iSvP0jUcwzY/edit?usp=sharing), .link([Drop Table Calculator]https://restite.org/drops/), .link([Database of Shrine Strats]https://restite.org/as/)"
+- "Celer Settings (click the gear icon) >> I recommend - Theme: Granatus | Sync map view: ON | Icons: Primary=Large, Secondary=Regular, Other=Small | Lines: Section mode=Show All Highlight Current, Thickness=Regular"
+
+- Before Starting:
+  - Set system clock:
+      icon: memory-final
+      icon-map: null
+      notes: .link([System clock instructions]https://docs.google.com/document/d/13eFkTmChmSTIPahNfOr5xA3VQ8lOXyRm3qUxxTzJvhg/edit?usp=sharing) | .link([DST Table]https://docs.google.com/spreadsheets/d/161rXWdxUxBO8iY6PGltQKQBjbT-nufX2eto1yR84d_g/edit?usp=sharing)
+  - Ensure the clock is at least a day ahead of any existing saves on your profile
 - Great Plateau:
   - use: ./branches/plateau.yaml
 - Material Gathering /IST:
@@ -14,3 +25,9 @@
   - use: ./branches/naboris.yaml
 - Vah Ruta:
   - use: ./branches/ruta.yaml
+- Eldin:
+  - use: ./branches/eldin.yaml
+- Vah Rudania:
+  - use: ./branches/rudania.yaml
+- Champion's Ballad:
+  - use: ./branches/plateau-2.yaml
