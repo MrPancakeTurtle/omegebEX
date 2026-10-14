@@ -14,14 +14,64 @@
     notes: Stalhorse, Pictured!
     coords: [-816, 2139]
 - _Shrine::RuvoKorbah
-- _Korok::P18
-- _Korok::P11
-- _Korok::P10
-- _Korok::P06
-- _Korok::P05
-- _Korok::P02
-- _Korok::P01
-- _Korok::P04
+- .dir(S.)
+- _Korok::P18:
+    comment: On Old Man's Hut
+
+- .dir(N) + midair
+- _Korok::P11:
+    comment: Spire of temple
+
+- .dir(NW) down
+- _Korok::P10:
+    comment: " "
+
+- .dir(NW)
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 1)
     coord: [-1087.75, 179.14, 1663.18]
+    comment: .fury(FURY 1)
+
+- .dir(E) run
+- _Korok::P04
+
+- .dir(.S)
+- _Korok::P06
+
+- .dir(<E)
+- _Korok::P05
+
+- .dir(NE)
+- _Korok::P02
+
+- .dir(NW) run
+- _Korok::P01
+
+- .dir(W>>)
+- _Korok::C81:
+    comment: Small ruins next to coliseum
+
+- .dir(E)
+- _Korok::C82
+
+- .dir(E)
+- _Korok::C83:
+    comment: Pinwheel
+
+- .dir(SE) short
+- _Location::GatepostTownRuins
+
+- .dir(N>)
+- _KorokLoc<C76,Kolomo Garrison Ruins>
+
+- .dir(N>) short
+- _Korok::C75:
+    comment: " "
+
+- .dir(W>)
+- _Boss::Talus::Luminous:
+    coord: [-514.75, 127.49, 1181.74]
+    comment: .fury(FURY 2-3)
+
+- .dir(.W)
+- _Memory::LakeKolomo:
+    comment: Memory
