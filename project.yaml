@@ -5,7 +5,9 @@ route:
   use: ./main.yaml
 
 config:
-- use: Pistonight/celer-presets/botw/full.yaml
+- use: sobolews/celer-presets/botw/full.yaml
+- use: ./100.yaml
+- use: ./locations.yaml
 - icons:
     malice: https://icons.pistonite.org/icon/misc.apple.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
     purple: https://icons.pistonite.org/icon/misc.apple.none.613b75.b96cf5.613b75.b96cf5.613b75.b96cf5.png
@@ -26,6 +28,16 @@ config:
     - custom-item
   plugins:
   - use: variables
+    with:
+      init:
+        with-dlc: 1
+        great-plateau-count: 2
+        map-pct-items-total: 1227
+      split-types:
+        - Shrines
+        - Towers
+        - UserDefined
+      expose: true
   - use: split-format
   - use: link
     with:

@@ -47,47 +47,59 @@
     comment: Food
     notes: More shrooms at Satori for scrap
 
-- _Material<12 Peppers>:
+- _Material<6 Peppers>:
     icon-map: null
     comment: Scrap + Food
-    notes: 6 by camp, 6 up by gate. Try to keep at least 3.
+    notes: 6 by camp. Try to keep at least 3.
 
-- _Chest<5 Normal Arrows>:
-    comment: Boko camp
-    coord: [-1011.19, 287.02, 2155.60]
-
-- _Equipment::Bow<Boko Bow>:
+- _Chest<Traveler's Bow>:
+    comment: Clip through ToT
+    coord: [-832.43, 222.00, 1963.11]
+- 5 Normal Arrows:
     icon: bow
-    icon-map: null
-    comment: Boko camp
+    hide-icon-on-map: true
 
-- _Shrine::OwaDaim:
-    comment: Stasis shrine
-    notes: This is the SCMtB plateau route. There are other viable routes to complete plateau, like .link([BtMCS]https://www.youtube.com/watch?v=7mB8wXQnsmw). Any plateau route is fine provided you set up the autosave with the correct inventory, and have at least 3 arrows at Paraglider for BTBs.
-
-- _Npc::SheikaMale<Old Man>:
-    coord: [-925.03, 272.84, 2306.23]
-    comment: Text option 2-1-1-2
-
-- Boulder ride
-- BTB to Cryonis
-- _Shrine::KehNamut:
-    comment: Cryonis shrine
-
-- BTB to Magnesis
-- _Shrine::OmanAu:
-    comment: Magnesis shrine
-
-- Stasis launch with slab from water
-
-- _Tower::GreatPlateau
-
-- Jump down, walk to Bombs
-
+- BTB to shrine, clip in:
+    comment: https://www.youtube.com/watch?v=yRrB52FAhjE
 - _Shrine::JaBaij:
     comment: Bombs shrine
 
-- Tree launch to Temple of Time:
+- _Npc::SheikaMale<Old Man>:
+    coord: [-461.70, 178.41, 1990.18]
+    comment: Text option 2-1-1-2
+
+- .dir(.N)
+- _Tower::GreatPlateau
+
+- .dir(<N)
+- _Shrine::OmanAu:
+    comment: Magnesis shrine
+
+- _Chest<Amber>:
+    comment: Mag amber up and grab it (unless you want to suffer at the hands of RNG during Rudania)
+    coord: [-684.41, 168.85, 1536.43]
+
+- .dir(N)
+- Void of Plateau:
+    coord: [-650, 1300]
+
+
+- Walk to bokocamp and BTB to Cryonis:
+    comment: https://www.youtube.com/watch?v=LW01skRA7_Q
+    warp: true
+    movements:
+        - to: [-1020, 1790]
+        - to: [-1140, 1770]
+
+- _Shrine::KehNamut:
+    comment: Cryonis shrine
+
+- BTB to Stasis:
+    comment: https://www.youtube.com/watch?v=fntljFZgt-k
+- _Shrine::OwaDaim:
+    comment: Stasis shrine
+
+- BTB to Temple of Time:
     vars:
       - counter-location: .add(1) # Temple of Time
 
