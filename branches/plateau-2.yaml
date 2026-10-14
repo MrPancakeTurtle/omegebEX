@@ -1,6 +1,6 @@
 - _Warp::SOR
 - _Korok::P09
-- _Npc::Sheika<Monk Maz Koshia>:
+- _Npc::SheikaFemale<Monk Maz Koshia>:
     comment: EX The Champions' Ballad
     coord: [-1124.96, 238.47, 1903.14]
     icon: maz
