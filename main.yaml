@@ -61,6 +61,5 @@
   - use: ./branches/ridgeland.yaml
 - Mipha's Song:
   - use: ./branches/mipha.yaml
-
 - Kakariko/Hateno:
   - use: ./branches/kakariko.yaml

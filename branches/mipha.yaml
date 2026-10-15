@@ -1,0 +1,109 @@
+- _Warp::Shrine::DagahKeek:
+    color: lime
+    presets:
+      - _map%<comment>
+
+- Get storage .dir(.N)
+- _Shrine::SatoKoda:
+    comment: Kill all guardians and then discover the shrine for location
+
+- Discover .loc(Sato Koda)
+- .dir(SE)
+- _Korok::Z16:
+    comment: In carved flower
+
+- _Npc::ZoraMale<Blue frog kid>:
+    coord: [3320.59, 244.66, -474.01]
+    comment: Tumbo
+    notes: Talk twice.
+
+- _Npc::ZoraFemale<Pink Girl>:
+    coord: [3298.5,-473]
+    comment: Laruta
+    notes: Near statue
+
+- _Npc::ZoraMale<Luminous Stones guy>:
+    coord: [3290.09, 244.86, -451.28]
+    comment: Ledo
+    notes: At the gate. Talk twice.
+
+- _Npc::ZoraFemale<Letter Quest girl>:
+    coord: [3264.00, 249.76, -480.00]
+    comment: Finley
+    notes: Up the stairs, left railing
+
+- _Npc::ZoraMale<Diving Guy>:
+    coord: [3292.20, 255.43, -520.38]
+    comment: Gruve
+
+- _Npc::ZoraFemale<Black hinox lady>:
+    coord: [3301,-536]
+    comment: Torfeau
+    notes: Talk twice
+
+- _Npc::ZoraMale<Blue monuments guy>:
+    coord: [3340.25, 256.66, -564.31]
+    comment: Jiahto
+    notes: Talk twice
+
+- _Npc::ZoraMale<Pink priest guy>:
+    coord: [3327.76, 256.41, -522.71]
+    comment: Kapson
+    notes: Send to Tarrey Town
+
+- _Npc::ZoraFemale<Pink lynel lady>:
+    coord: [3328.97, 268.46, -532.02]
+    comment: Laflat
+    notes: Talk twice
+
+- .dir(E) and follow Rings
+- _Shrine::MahEliya
+
+- .dir(NE)
+- _Korok::A54:
+    comment: Pinwheel
+
+- .dir(<E)
+- _Korok::A53:
+    comment: " "
+
+- .dir(S.)
+- _Shrine::KenaiShakah:
+    comment: Modest Test of Strength
+
+- Jump out + midair .dir(S>)
+- _Korok::A55
+
+- .dir(E>)
+- _Korok::A57
+
+- .dir(<E)
+- _Korok::A56
+
+- .dir(E.)
+- _Korok::Z09
+
+- .dir(SE)
+- _Korok::Z10
+
+- .dir(N)
+- _Korok::Z07:
+    comment: On island pillar
+
+- Drop down .dir(N)
+- _Korok::Z06:
+    comment: On wood planks
+
+- .dir(N)
+- _Shrine::KahMael:
+    comment: Under slab
+- _Tod::Morning:
+    comment: For Kee Dafunia
+
+- .gale(GALE 3) and run to Korok
+- _Korok::Z01
+
+- .dir(<<S)
+- _Shrine::KeeDafunia:
+    comment: Land in ring
+
