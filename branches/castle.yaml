@@ -161,7 +161,7 @@
 - Run further inside
 - _Chest::Special<Royal Guard Uniform>:
     icon: chest-special
-    coord: [-360, -855]
+    coord: [-175.26, 211.33, -889.62]
 - _Korok::X15
 
 - _Material<Raw Meat>:

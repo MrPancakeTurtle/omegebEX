@@ -1,0 +1,837 @@
+- _Warp::Shrine::KuhTakkar:
+    color: "#00dded"
+    presets:
+      - _map%<comment>
+
+- .dir(.S)
+- _Korok::G22:
+    comment: On snowy ledge
+
+- .dir(N>)
+- _Korok::G17
+
+- .dir(E)
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury(FURY 1-3)
+
+- .dir(<E)
+- _Korok::G18:
+    comment: " "
+
+- .dir(<<S)
+- _Korok::G23:
+    comment: On hill far away
+
+- .dir(<W)
+- _Korok::G27:
+    comment: Platform against cliff
+
+- .dir(E>)
+- _Korok::G28:
+    comment: Way down against cliff
+
+- .dir(<E)
+- _Korok::G24
+
+- .dir(<S) far
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+
+- .dir(SW) midair
+- _Korok::W14:
+    comment: Other end of bridge
+
+- .dir(SE)
+- _Korok::W26
+
+- Down
+- _Shrine::JeeNoh
+
+- .dir(N>)
+- _Korok::G36
+
+- .dir(SE)
+- _Korok::W20
+
+- _Korok::W21
+
+- .dir(<S)
+- _Korok::W27:
+    comment: Pinwheel
+
+- .dir(<E)
+- _Korok::W22:
+    comment: Pinwheel
+
+- .dir(S)
+- _Korok::L21
+
+- .dir(<E)
+- _Korok::L22
+
+- Tame Giant Horse:
+    icon: tots
+    coord: [-1196.01, 170.87, 2633.46]
+
+- Ride through canyon:
+    notes: The lynels won't bother you if you keep the camera turned away from them.
+
+- _Korok::L36:
+    comment: In tall tree
+
+- _Korok::L62:
+    movements:
+        - to: [-920,3114]
+        - to: [-836,3240]
+        - to: [-866,3350]
+        - to: [-923.50, 214.58, 3436.38]
+    comment: On right side of canyon
+
+- _Location::MountedArcheryCamp:
+    text: Ride to .loc(Mounted Archery Camp)
+    movements:
+        - to: [-716,3700]
+        - to: [-474,3738]
+        - to: [-266,3658]
+
+- _Npc<Guy near cookpot>:
+    coord: [-212.39, 128.70, 3487.13]
+    comment: Straia
+    notes: Show him the big horse
+
+- .dir(NE) run
+- _Korok::L64
+
+- .dir(NW) surf
+- Start L47 race:
+    icon: tots
+    coord: [-276.76, 153.65, 3316.47]
+
+- .dir(.W)
+- _Korok::L63
+
+- .dir(N)
+- _Korok::L47:
+    coord: [-387.59, 152.98, 3151.55]
+
+- .dir(<N)
+- _Korok::L38:
+    comment: Along shoreline
+
+- .dir(<N)
+- _Korok::L24:
+    comment: Further along shoreline
+
+- .dir(<N)
+- _Korok::L08:
+    comment: " "
+
+- .dir(E>>)
+- _Korok::L25
+
+- .dir(SE)
+- _Shrine::YaNaga
+
+- _Tod::Night:
+    text: Make Night (no rain)
+    comment: if needed
+    notes: Make night if it's raining or if you won't be able to get to the fountain before 4am.
+    icon-map: null
+
+- .dir(E)
+- _Npc::ZoraFemale<Zora Lady>:
+    coord: [-226.89, 90.03, 2577.47]
+    comment: Wife Washed Away
+
+- .dir(<E)
+- _KorokLoc<L26,Bridge of Hylia>
+
+- Glide left
+- _Korok::L15:
+    comment: In broken pillar
+
+- _Korok::L14:
+    comment: " "
+
+- .dir(N) + .gale(GALE 1)
+- _Korok::D54
+
+- Drop .dir(S)
+- _Korok::L09
+
+- .dir(<S)
+- _Korok::L27:
+    comment: In fountain
+
+- Look .dir(SE) in the sky:
+    icon: tots
+    icon-map: null
+    notes: For Salvager chest. Watch it land.
+
+- Kill .enemy(Lizalfos):
+    icon: calamity
+    coord: [-29.11, 145.01, 2543.49]
+    comment: 1 Lizalfos Horn
+    notes: IST leaves us with 8 of 9 required lizalfos horns. Get the 9th one here.
+
+- _Korok::L30
+
+- _Korok::L31:
+    comment: below bridge
+
+- .dir(E)
+- _Korok::L32
+
+- .dir(E)
+- _Korok::L33:
+    comment: Pinwheel
+
+- .dir(<W)
+- _Chest::Special<Salvager Headwear>:
+    coord: [126.03, 92.65, 2710.94]
+
+- Run .dir(S) along shore
+- _Korok::L39
+
+- .dir(E)
+- _Korok::L40
+
+- midair .dir(<S)
+- _Korok::L44
+
+- .dir(W)
+- _Korok::L42:
+    comment: " "
+
+- .dir(W) run
+- _Korok::L43
+
+- .dir(SW)
+- _Korok::L51:
+    notes: Stasis + 2 hits + shoot upwards
+
+- .gale(GALE 2) + .dir(W)
+- _TowerWithMap%::Lake
+
+- .dir(SW)
+- _Korok::L48:
+    comment: On small ledge against cliff
+
+- .dir(SE) short
+- _Korok::L49
+
+- .dir(NE) down
+- _Korok::L50:
+    comment: Against cliff, hard to see
+
+- .dir(<S)
+- _Korok::L59:
+    comment: " "
+
+- .dir(.S)
+- _Korok::L60:
+    comment: Up against cliff
+
+- .dir(<E)
+- _KorokLoc<L52,Faron Woods>
+
+- .dir(.E)
+- _Korok::L53:
+    comment: " "
+
+- _Shrine::PumaagNitae:
+    comment: Minor Test of Strength
+
+- .dir(E>)
+- _Korok::L55
+
+- .dir(.S)
+- _Korok::L61:
+    comment: " "
+
+- Run .dir(SW)
+- Kill the .enemy(Octorok):
+    icon: calamity
+    icon-map: null
+- _Material<Octorok Balloon>:
+    coord: [720.28, 134.40, 3276.11]
+    comment: Balloon Flight quest
+    notes: If you don't get one, you can buy one from the shop in Lurelin
+
+- _Korok::L66:
+    comment: .rune(Cryo) block
+
+- .gale(GALE 3) + .dir(SE)
+- _KorokLoc<L72,Guchini Plain Barrows>:
+    comment: "Top of pillar"
+
+- .dir(E>)
+- _Korok::F38
+
+- .dir(W.)
+- _Boss::Hinox::Blue:
+    coord: [1031.43, 127.22, 3496.26]
+
+- midair .dir(S)
+- _Korok::L79
+
+- .dir(S>>)
+- _Korok::L92
+
+- .dir(N) + run
+- _Korok::L78:
+    comment: On peak
+
+- .dir(W) surf down
+- Open Horse God Fountain:
+    icon: tots
+    coord: [802.00, 186.73, 3719.93]
+    vars:
+      - counter-location: .add(1) # Malanya Spring
+
+- .dir(W>)
+- _Korok::L77:
+    comment: Up the cliff
+
+- .dir(W) down
+- _Location::HorseGodBridge
+
+- .dir(N>)
+- _Korok::L75:
+    comment: " "
+
+- .dir(<N)
+- Kill 5 .enemy(Blue Bokoblins):
+    icon: calamity
+    coord: [485,3342]
+    comment: Ancient Arrows
+    notes: Horseback Hoodlums quest
+
+- .dir(S) to stable:
+    vars:
+      - counter-location: .add(1) # Highland Stable
+
+- _Material<Swift Carrot>:
+    coord: [523.34, 152.89, 3463.33]
+    comment: for Koko
+- _Npc<Lady near stable horses>:
+    coord: [516.76, 152.98, 3453.71]
+    comment: Perosa
+
+- Take out horse:
+    icon: tots
+    icon-map: null
+
+- _Npc<Start Horse Minigame>:
+    time-override: 120
+    coord: [514.26, 152.72, 3449.75]
+    comment: Blynne
+    notes: Make noon if raining. Need to finish twice, one under 1:30 and one under 1:15, to get horse saddle and bridle. Can dismount horse to restart if needed.
+
+- .dir(S)
+- _Shrine::KaoMakagh
+
+- .dir(S)
+- Start L65 race:
+    icon: tots
+    coord: [546.27, 231.59, 3580.35]
+
+- .dir(W) ride horse:
+    movements:
+        - to: [502,3447.5]
+        - to: [274,3465.5]
+        - to: [237.5,3515]
+        - to: [190,3518]
+    notes: Ride across the pond, a bit past the right fork. Leave the horse there and windbomb to finish the korok. Do not whistle until after the next shrine, you'll come back here to pick up the horse.
+- Leave horse:
+    icon: tots
+    coord: [161.5,3487]
+
+- .dir(N>>)
+- _Korok::L65:
+    coord: [271.72, 222.37, 3289.59]
+    comment: " "
+
+- .dir(S.)
+- _Korok::L70:
+    comment: " "
+
+- .dir(E>) short
+- _Korok::L71
+
+- .gale(GALE 1) + .dir(S)
+- _Korok::L73:
+    comment: Pinwheel on peak
+
+- .dir(E)
+- _Korok::L74:
+    comment: " "
+
+- .dir(E)
+- _Korok::L76:
+    comment: " "
+
+- .dir(S>) up
+- _Korok::L91
+
+- .dir(SW) surf
+- _Korok::L90:
+    comment: By the pond
+
+- .dir(<W)
+- _Korok::L89:
+    comment: " "
+
+- .dir(<N) run
+- _Korok::L88
+
+- .dir(W)
+- _Npc<Loone>:
+    coord: [104.50, 109.30, 3825.50]
+    comment: Guardian Slideshow
+
+- _Shrine::ShoqaTatone:
+    comment: Modest Test of Strength
+
+- _Tod::Night:
+    icon-map: null
+    comment: for Stalnoxes
+
+- .dir(NW) surf
+- _Korok::L86
+
+- .dir(E>)
+- _Korok::L87:
+    comment: Above shrine
+
+- .dir(<N)
+- Whistle for horse:
+    comment: from cliff near Stalnox
+    icon: tots
+    icon-map: null
+- _Boss::Hinox::Stal:
+    comment: Shoot once + .fury(FURY 1-3)
+    coord: [100.50, 111.28, 3371.00]
+    notes: Kill stalnox while the horse is approaching you.
+
+- Ride to Mounted Archery Camp:
+    comment: null
+    icon-map: null
+    movements:
+        - to: [25,3350]
+        - to: [-26.5,3362]
+        - to: [-185,3479]
+
+- Archery Minigame:
+    icon: bow
+    notes: To save OmeGEB durability, equip normal GEB for this. Talk to guy while mounted on horse. Need to finish twice, with scores of at least 20 and 23, to get the saddle and bridle.
+
+- .dir(<S)
+- _Korok::L85
+
+- .dir(W)
+- _Korok::L83
+
+- .dir(S) run
+- _Korok::L82:
+    comment: Top of palm tree
+
+- Drop .dir(E)
+- _Korok::L84
+
+- .dir(W)
+- _Korok::L81:
+    comment: On ledge
+
+- Jump off and midair .dir(W)
+- _Korok::L80:
+    comment: " "
+
+- .dir(NW) + .dir(<N) midair
+- _Korok::L69
+
+- .dir(S>) + .dir(<W) midair
+- _Boss::Hinox::Stal:
+    coord: [-1062.00, 275.24, 3771.50]
+
+- .dir(N) midair
+- _Korok::L68
+
+- .dir(W>)
+- _Korok::L67:
+    comment: Pinwheel
+
+- .dir(E)
+- _Shrine::IshtoSoh
+
+- .dir(N)
+- _Boss::Talus::Luminous:
+    coord: [-971.13, 355.71, 3236.14]
+
+- .dir(W>)
+- _Korok::L41
+
+- .dir(<<E)
+- _Korok::L37
+
+- midair .dir(N)
+- _Korok::L23
+
+- .dir(<N)
+- _Korok::P17:
+    comment: On ledge under Plateau wall
+
+- .dir(W) down
+- _Korok::P16:
+    comment: " "
+
+- .gale(GALE 2) + .dir(NW) midair
+- _Korok::P15
+
+- .dir(NW) surf
+- _Korok::P14:
+    comment: On ledge under Plateau wall
+
+- .dir(N)
+- _Korok::P07
+
+- .dir(<E)
+- _Korok::P08:
+    comment: Under bridge
+
+- .dir(N>)
+- _Korok::P03:
+    comment: Other side of hill
+
+- .dir(N)
+- _Korok::C80:
+    comment: " "
+
+- .dir(<E)
+- _Korok::C79
+
+- .dir(N>)
+- _KorokLoc<C74,Coliseum Ruins>:
+    comment: High on coliseum wall
+
+- Glide .dir(NW) down
+- _Korok::C73:
+    comment: " "
+
+- .dir(N>>)
+- _Korok::C61
+
+- .dir(W>) run
+- _Korok::C60
+
+- .dir(S.)
+- _Location::AquameBridge
+- _Korok::C68:
+    comment: Shoot nut under bridge
+- _Korok::C67:
+    comment: On ledge against cliff
+
+- .dir(<W)
+- _Korok::C66
+
+- .dir(N)
+- _Korok::C52
+
+- .dir(<E) + midair
+- _Korok::C53
+
+- .dir(<E)
+- _TowerWithMap%::Central
+
+- .dir(N>) down
+- _Korok::C48:
+    comment: " "
+
+- .dir(SE)
+- _Location::HyruleGarrisonRuins
+- _Korok::C54
+
+- .dir(NE)
+- _Korok::C49
+
+- midair .dir(SE)
+- _Korok::C55:
+    comment: Two trees left of guardian
+
+- .dir(S)
+- _Korok::C64
+
+- .dir(S)
+- _Korok::C70:
+    comment: " "
+
+- .dir(E)
+- _Korok::C71
+
+- .dir(<<E)
+- _Korok::C65
+
+- .dir(SE)
+- _Shrine::WahgoKatta
+
+- .dir(S) surf
+- _Npc<Lady in Stable>:
+    coord: [345.00, 121.73, 1091.50]
+    comment: Parcy
+    notes: Talk twice for Royal Guard's Gear quest
+    vars:
+      - counter-location: .add(1) # Riverside Stable
+
+- _Npc<Fruitcake Guy>:
+    coord: [325.82, 115.40, 1092.50]
+    comment: Gotter
+    notes: Talk twice. In stable if raining.
+
+- .dir(S.)
+- _Korok::C77
+- _Korok::D14:
+    comment: Under bridge
+
+- Surf .dir(S)
+- _Location::OwlanBridge
+
+- .dir(<E)
+- _Korok::D13:
+    comment: " "
+
+- .dir(NE)
+- _Location::HorwellBridge
+
+- .dir(<S)
+- Steal horse:
+    icon: calamity
+    coord: [867,1226]
+
+- .dir(S) ride
+- _Korok::D25:
+    comment: " "
+
+- .dir(<S)
+- _Korok::D29:
+    comment: On small island
+
+- .dir(W)
+- _Korok::D28
+
+- .dir(.N)
+- _Korok::D24:
+    comment: " "
+
+- .dir(E) surf
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1)
+    coord: [705.34, 137.62, 1471.88]
+
+- .dir(N)
+- _Korok::D15
+
+- .dir(<W)
+- _Korok::D23
+
+- .dir(W.)
+- _Korok::D22
+
+- .dir(W)
+- Kill .enemy(Red Moblin):
+    icon: calamity
+    coord: [132.65, 116.42, 1397.90]
+    icon-map: null
+- _Equipment::Weapon<Moblin Club>:
+    comment: Weapon Connoisseur
+
+- .dir(SW) run
+- _Korok::C84:
+    comment: " "
+
+- .dir(S)
+- _Location::EastPostRuins:
+    notes: Glide below the height of the pole to trigger the location.
+- _Korok::D26
+
+- .dir(E)
+- _KorokLoc<D27,Proxim Bridge>
+
+- .dir(S)
+- _Korok::D34
+
+- .dir(W) run
+- _Korok::D33
+
+- .dir(W>)
+- _Shrine::BoshKala
+
+- .dir(S) run
+- _Korok::D32:
+    comment: " "
+
+- .dir(S.)
+- _Korok::D31
+
+- .dir(S>)
+- _Korok::D44:
+    comment: On ruins
+
+- .dir(.W)
+- _Korok::P12:
+    comment: Behind shrine
+
+- Down
+- _Korok::P13
+
+- .dir(N>)
+- _Location::OutpostRuins
+
+- .dir(<S)
+- _Boss::Talus::Luminous:
+    comment: .fury(FURY 2) if raining
+    notes: If raining, land and wake with fury, then shoot as it gets up. Otherwise you can wake it with bomb arrow from the air on the way to Outpost Ruins, and shoot it on the way to D43.
+    coord: [-176.93, 132.59, 1771.62]
+
+- .dir(S)
+- _Korok::D43
+
+- .dir(<S) + .dir(E>)
+- _Korok::L03:
+    comment: .gale(GALE 3) to cryo block
+
+- .dir(<S)
+- _Korok::L10:
+    comment: " "
+
+- .dir(E)
+- _Korok::L11
+
+- .dir(<S)
+- _Korok::L16:
+    comment: " "
+
+- .dir(N)
+- _KorokLoc<L05,Deya Village Ruins>:
+    comment: In big hollow tree stump
+
+- Surf to bottom of log
+- _Korok::L06
+
+- .dir(NW)
+- _Korok::L02:
+    comment: In hollow tree stump
+
+- .dir(N) short
+- _Korok::L01
+
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 3) (waste fury if needed)
+    coord: [359.34, 114.45, 1904.01]
+
+- .dir(S>>)
+- _Korok::L04
+
+- .dir(<N)
+- _Memory::WestNecluda:
+    comment: Memory
+- _Korok::D45:
+    comment: Behind statues
+
+- .dir(NE)
+- _Korok::D35:
+    comment: Pinwheel
+
+- .dir(<E)
+- _Korok::D36:
+    comment: In hollow log
+
+- .dir(<S)
+- _Korok::D46:
+    comment: " "
+
+- .dir(NE)
+- _Korok::D37
+
+- .dir(SE) run
+- _Korok::D38:
+    comment: In cave
+
+- .dir(E>)
+- _Korok::D47
+
+- .dir(<E)
+- _Korok::D39:
+    comment: " "
+
+- .dir(E>)
+- _Shrine::ReeDahee
+
+- .dir(.S)
+- _Location::BigTwinBridge
+- _Location::LittleTwinBridge
+
+- .dir(<E)
+- _Korok::D51:
+    comment: " "
+
+- .dir(W)
+- Tame a horse:
+    icon: tots
+    coord: [1784.94, 117.91, 2036.54]
+    comment: Park horse near wagon at stable
+- _Npc<Guy outside stable>:
+    coord: [1748.38, 116.11, 1923.67]
+    comment: Wild Horses
+    notes: Talk to horse guy, cancel dialogue, talk again, deliver horse.
+    vars:
+      - counter-location: .add(1) # Dueling Peaks Stable
+
+- _Npc<Brothers in stable>:
+    coord: [1767.48, 116.07, 1925.15]
+    comment: Misko, the Great Bandit
+    notes: Talk twice
+
+- .dir(W)
+- _Shrine::HaDahamar
+
+- .dir(E)
+- _Korok::D42
+
+- .dir(<N) + midair
+- _Boss::Talus::Stone:
+    coord: [1465.91, 203.77, 1328.91]
+
+- .dir(W)
+- _Korok::D17
+
+- .dir(S) + midair
+- _Korok::D30
+
+- .dir(E) + .dir(S) midair
+- _Korok::D41
+
+- .dir(W)
+- _Korok::D40
+
+- .dir(S)
+- _Korok::D49
+
+- Kill .enemy(Stalkoblin):
+    comment: spawns in front of shrine
+    icon: calamity
+    coord: [1282.48, 523.75, 1939.55]
+    icon-map: null
+    notes: Need to get here at night, otherwise get the one in Kakariko later.
+- _Equipment::Weapon<Traveler's Sword>:
+    comment: Weapon Connoisseur
+
+- _Shrine::SheeVaneer
+- Drop down .dir(N)
+- _Shrine::SheeVenath
+
+- .dir(<W)
+- _Korok::D48
+
+- .dir(<N)
+- _TowerWithMap%::DuelingPeaks

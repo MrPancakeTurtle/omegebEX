@@ -1,5 +1,5 @@
 - _Warp::Shrine::ShadaNaw:
-    color: orange
+    color: lime
     presets:
       - _map%<comment>
 
@@ -206,6 +206,71 @@
 - _Shrine::MakaRah
 
 - _Warp::Shrine::ShadaNaw:
+    color: "#3a0063"
+    notes: Hopefully I routed it so it's night here
+    presets:
+      - _map%<comment>
+
+- .dir(W>>) down
+- _KorokLoc<H09,Goflam's Secret Hot Spring>
+
+- .dir(E>)
+- _Korok::H11
+
+- .dir(W)
+- _Korok::H10:
+    comment: " "
+
+- .dir(<N)
+- _Korok::H04:
+    comment: " "
+
+- .dir(W)
+- _Boss::Hinox::Stal:
+    coord: [-4260.15, 327.00, -3777.48]
+
+- .dir(W)
+- _Korok::H01
+
+- _Shrine::HiaMiu:
+    comment: Major Test of Strength
+
+- .dir(S.) + midairs
+- _Korok::H23:
+    comment: On peak far
+
+- .dir(N>)
+- _Location::SherfinsSecretHotSpring
+
+- .dir(N) + climb
+- _Korok::H07
+
+- .dir(E) + midair .dir(E):
+- _Korok::H08:
+    comment: Pinwheel
+
+- .dir(.N)
+- _Korok::H02:
+    comment: Leftmost ice block
+
+- Clip in to mountain:
+    icon: tots
+    icon-map: null
+    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
+
+- Clip back in bounds:
+    icon: tots
+    icon-map: null
+    notes: .link([Setup]https://youtu.be/MZqANcvFr4c?t=16379)
+
+- _KorokLoc<H03,Hebra Great Skeleton>
+
+- _Shrine::ToQuomo
+
+- _Snap::Quest<Hebra Great Skeleton>:
+    icon-map: null
+
+- _Warp::Shrine::ShadaNaw:
     color: blue
     presets:
       - _map%<comment>
@@ -266,7 +331,7 @@
 - _Shrine::LannoKooh
 
 - _Korok::H64
-- _Tod::Night:
+- _Tod::Morning:
     icon-map: null
     comment: Might be needed for Dinraal depending on ToD
 
@@ -317,7 +382,11 @@
 - .dir(S>>)
 - _Korok::T19
 
-- _Warp::Beast::Medoh
+- _Warp::Beast::Medoh:
+    color: orange
+    presets:
+      - _map%<comment>
+
 - Revali's Gale+:
     notes: P1 just spam bow. P2 use all 3 furies and spam bow
     comment: .fury(FURY 1-3)
@@ -369,7 +438,7 @@
     coord: [-3647.125,-1822.125]
     comment: Cree
 
-- Run back to previous room's entrance and .gale(GALE 2)
+- Run back to previous room's entrance and .gale(GALE 1)
 - _Npc::SheikaFemale<Baked Apple lady>:
     coord: [-3616.25,-1829.375]
     comment: Juney
@@ -522,67 +591,3 @@
 - .dir(E>>) down
 - _Korok::R04
 
-- _Warp::Shrine::ShadaNaw:
-    color: "#3a0063"
-    notes: Make night for Stalnox if needed.
-    presets:
-      - _map%<comment>
-
-- .dir(W>>) down
-- _KorokLoc<H09,Goflam's Secret Hot Spring>
-
-- .dir(E>)
-- _Korok::H11
-
-- .dir(W)
-- _Korok::H10:
-    comment: " "
-
-- .dir(<N)
-- _Korok::H04:
-    comment: " "
-
-- .dir(W)
-- _Boss::Hinox::Stal:
-    coord: [-4260.15, 327.00, -3777.48]
-
-- .dir(W)
-- _Korok::H01
-
-- _Shrine::HiaMiu:
-    comment: Major Test of Strength
-
-- .dir(S.) + midairs
-- _Korok::H23:
-    comment: On peak far
-
-- .dir(N>)
-- _Location::SherfinsSecretHotSpring
-
-- .dir(N) + climb
-- _Korok::H07
-
-- .gale(GALE 1) + .dir(E)
-- _Korok::H08:
-    comment: Pinwheel
-
-- .dir(.N)
-- _Korok::H02:
-    comment: Leftmost ice block
-
-- Clip in to mountain:
-    icon: tots
-    icon-map: null
-    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
-
-- Clip back in bounds:
-    icon: tots
-    icon-map: null
-    notes: .link([Setup]https://youtu.be/MZqANcvFr4c?t=16379)
-
-- _KorokLoc<H03,Hebra Great Skeleton>
-
-- _Shrine::ToQuomo
-
-- _Snap::Quest<Hebra Great Skeleton>:
-    icon-map: null

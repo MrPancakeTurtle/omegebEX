@@ -32,6 +32,9 @@
 - _Korok::C37:
     comment: On beach
 
+- _Chest::Special<Midna's Helmet>:
+    coord: [-1402.26, 113.92, 219.36]
+
 - .dir(<<N)
 - _Korok::R49:
     comment: On beach
@@ -105,6 +108,8 @@
 - .dir(.N)
 - _Korok::R52:
     comment: In pink tree
+- _Chest::Special<Ancient Saddle>:
+    coord: [-2295, 343]
 
 - .dir(N)
 - _Korok::R37:

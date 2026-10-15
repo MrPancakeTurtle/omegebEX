@@ -1,0 +1,26 @@
+- _Warp::Beast::Rudania:
+    color: orange
+    presets:
+      - _map%<comment>
+
+- _Shrine::SharoLun:
+    comment: Float through the rings
+
+- .dir(SE)
+- _Location::ShadowHamletRuins
+
+- .dir(N>>)
+- _Korok::E12
+
+- .dir(<S)
+- _Korok::A20
+
+- _Warp::Beast::Rudania:
+    presets:
+      - _map%<comment>
+
+- Daruk's Protection+:
+    notes: P1 spin2win. P2 use all 3 furies
+    comment: .fury(FURY 1-3)
+    icon-doc: rudania-done
+

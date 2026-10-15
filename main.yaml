@@ -45,3 +45,9 @@
   - use: ./branches/tabantha.yaml
 - Revali's Song:
   - use: ./branches/hebra2.yaml
+- Travel Medallion:
+  - use: ./branches/medallion.yaml
+- Daruk's Song:
+  - use: ./branches/daruk.yaml
+- Lake:
+  - use: ./branches/lake.yaml
