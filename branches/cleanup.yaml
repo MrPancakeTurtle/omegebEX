@@ -1,0 +1,94 @@
+- _Warp::Shrine::DahHesho:
+    comment: Tarrey Town
+    color: darkgray
+    presets:
+      - _map%<notes>
+
+- .dir(.E):
+    notes: ".link([Missable Locations]https://drive.google.com/file/d/1hN-TJYfVUIlQGkuJYRkK4f0mCPJoIyxW/view). Also missable: Dining Hall, Gisa Crater."
+- _Korok::A48
+
+- _Location::GreatFairyFountainAkkala
+
+- .!!(Upgrade armor):
+    icon: tots
+    icon-map: null
+    notes: "7 full upgrades: Set of the Wild, Zora Set, Champion's Tunic"
+
+- .dir(N.)
+- _Npc<Kilton>:
+    coord: [4152.87, 194.63, -1597.24]
+- Sell Lizalfos Tails for .!!(mon):
+    icon: shop
+    icon-map: null
+- Buy .item(extract), .item(bridle), .item(saddle):
+    icon: shop
+    icon-map: null
+- Get .!!(Kilton medals):
+    icon: tots
+    icon-map: null
+    notes: Map of .link([Hinox, Stalnox, and Talus]https://objmap.zeldamods.org/#/map/z3,0,0?q=%28talus%20OR%20enemy_giant_bone%20OR%20hinox%29%20NOT%20titan)
+
+- .dir(W)
+- _Npc::SheikaFemale<Listen at back window>:
+    coord: [3968.57, 233.44, -1590.29]
+    comment: A Parent's Love quest
+
+- _Cook<Cook Monster Cake>:
+    coord: [3946.69, 233.67, -1603.18]
+    notes: Wheat, sugar, butter, monster extract
+
+- _Npc<Give cake to mom>:
+    icon: cook
+    comment: Talk again in morning
+    icon-map: null
+
+- _Npc::SheikaMale<Rich guy>:
+    coord: [3919,-1605]
+    comment: Talk twice
+    notes: Sitting at western end of town past cook pot.
+
+- _Npc::SheikaMale<Hudson>:
+    coord: [3970.74, 233.60, -1623.47]
+    comment: From the Ground Up
+    notes: Talk to Hudson again after the wedding
+
+- _Warp::Shrine::KeoRuug:
+    presets:
+      - _map%<comment>
+
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [466.03, 249.56, -2112.38]
+    comment: All inventory upgrades
+
+- _Chest::Special<Hestu's Gift>:
+    icon-map: null
+
+- _Npc<Korok near Deku Entrance>:
+    comment: Korok Trials
+    coord: [431.66, 250.56, -2139.55]
+
+- _Warp::Shrine::JolooNah:
+    presets:
+      - _map%<comment>
+- .dir(S)
+- _Npc<Horse Guy>:
+    coord: [-2033.50, 157.54, 1873.19]
+    comment: Zyle - Whistle for horse
+    notes: Good Sized Horse quest
+
+- Check quests:
+    icon: tots
+    icon-map: null
+    notes: 18/20 Main Quests, 42/42 Shrine Quests, 90/90 Side Quests. 4 Key items on page 2
+
+- _Warp::SOR:
+    presets:
+      - _map%<comment>
+
+- _Boss::MonkMazKoshia:
+    icon: maz
+    coord: [-1124.96, 238.47, 1903.14]
+    notes: For verifying, show 1. the map counter, 2. the quest log, 3. the Master
+      Sword, 4. the Key items tab 

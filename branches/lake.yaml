@@ -38,20 +38,13 @@
 - _Boss::Talus::Luminous:
     coord: [-1896.00, 200.68, 2044.68]
 
-- .dir(SW) midair
-- _Korok::W14:
-    comment: Other end of bridge
-
-- .dir(SE)
+- .dir(S) midair
 - _Korok::W26
 
 - Down
 - _Shrine::JeeNoh
 
-- .dir(N>)
-- _Korok::G36
-
-- .dir(SE)
+- .dir(<<E)
 - _Korok::W20
 
 - _Korok::W21

@@ -67,3 +67,5 @@
   - use: ./branches/lanayru.yaml
 - Forgotten Temple:
   - use: ./branches/temple.yaml
+- 100% Cleanup and Final Trial:
+  - use: ./branches/cleanup.yaml
