@@ -183,6 +183,7 @@
 
 - _Warp::Tower::Akkala:
     text: Warp .loc(Akkala Tower)
+    color: orange
     presets:
       - _map%<comment>
 
