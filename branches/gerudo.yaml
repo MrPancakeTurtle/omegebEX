@@ -281,7 +281,8 @@
     time-override: 360
 - _Npc::Gerudo<Kohm>:
     coord: [-3903.74,2882.96]
-    notes: Talk for a sand seal. It is faster to do this than run in the sand
+    comment: Talk for a sand seal.
+    notes: This is where you can activate all the quests if the ToD was not favourable after Naboris
 - Pass through the light rings:
     movements:
     - to: [-4201.4, 154.24, 2713.2]

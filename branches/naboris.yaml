@@ -156,6 +156,7 @@
       movements:
           - to: [-3772,2851]
             warp: true
+      notes: If the ToD is bad here (NPCs aren't awake) you can delay activating all the quests (except Bozai) until later, since we are here to rent a Sand Seal later
 
   - _Npc<Boots Guy>:
       coord: [-3750,2874]
