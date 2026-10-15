@@ -14,7 +14,6 @@
         - to: [2141.56, 559.13, -2178.47]
           color: white
         - pop
-    icon-map: null
 
 - .dir(W>)
 - _Npc::Goron<Goron Kid>:
@@ -47,7 +46,11 @@
 - _Korok::E22
 
 - _Boss::Talus::Igneo:
-    coord: [2372.52, 507.89, -1998.62]
+    movements:
+        - push
+        - to: [2372.52, 507.89, -1998.62]
+          color: white
+        - pop
     notes: Wake + shoot from E22
 
 - Drop off island into ring and midair .dir(SW)
@@ -63,3 +66,148 @@
 
 - .dir(<W)
 - _Shrine::QuaRaym
+
+- .dir(<<W)
+- _Korok::E35
+
+- .dir(W)
+- _Location::MilitaryTrainingCamp:
+    coord: [926,-1364]
+- _Korok::K32::Away<white>
+
+- midair .dir(N>)
+- _Korok::K31:
+    comment: On scaffolding
+
+- .dir(W.) + climb
+- _Tower::Woodland
+
+- .dir(<N) to Chest + 
+- _Chest::Special<Korok Mask>:
+    coord: [721, -1847]
+    notes: Getthing this Mask ensures you get the Lost Woods location too
+    vars:
+        - counter-location: .add(1) #LostWoods
+
+- .dir(W>)
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't follow Oaki; he'll move along his path while we do the next steps. Note the in-game time that he starts moving; he will arrive at the shrine 5:20 later.
+    vars:
+      - counter-location: .add(1) # Korok Forest
+
+- .dir(E) to .loc(top of Deku tree)
+- _Npc<Walton>:
+    coord: [407.59, 334.17, -2180.27]
+    comment: Riddles of Hyrule
+- Drop .item(Apple, Pumpkin, Sunshroom, Voltfin, Hoof):
+    icon: material
+    icon-map: null
+
+- _Snap::Quest<Sunshroom>:
+    coord: [427.59, 334.17, -2180.27]
+
+- Drop .dir(E)
+- _Material<2 Hylian Shroom>:
+    notes: For transmutation
+    comment: null
+
+- Activate .loc(Keo Ruug):
+    icon: shrine
+    coord: [474.69, 248.84, -2167.82]
+    notes: Don't enter shrine or Oaki will reset
+
+- _Material<2 frogs>:
+    comment: In bush near shrine
+
+- _Equipment::Weapon<Korok Leaf>:
+    coord: [473.68, 249.02, -2125.30]
+    notes: For Voo Lota
+
+- _Material<2 Bird Egg>:
+    notes: In tree near Hestu, for transmutation.
+    comment: null
+
+- _Npc<Hestu>:
+    icon: hestu
+    coord: [466.03, 249.56, -2112.38]
+    comment: Max out weapons
+
+- _Material<3 Frogs>:
+    comment: South of Master Sword
+    coord: [417.15, 248.60, -2085.43]
+
+- Equip ice rod:
+    icon: equipment
+    notes: The claymore's durability would get overwritten if equipped while pulling master sword.
+
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
+- _Npc<Kula>:
+    comment: Freezing Rod
+    coord: [419.28, 248.65, -2134.93]
+
+- Heal to full 13 hearts:
+    icon: cook
+
+- _Equipment::Weapon<Master Sword>:
+    coord: [431.66, 250.53, -2111.00]
+
+- Follow Oaki:
+    notes: Follow blue nightshades → honey → hollow log → nightshades. Don't get too close to Oaki.
+    movements:
+        - to: [257,-2249]
+        - to: [248,-2274]
+        - to: [200.5,-2262]
+        - to: [172.5,-2294]
+        - to: [173.5,-2327.5]
+        - to: [150.5,-2357.5]
+        - to: [110,-2350.5]
+        - to: [90,-2370.5]
+        - to: [76,-2414]
+
+- _Material<5+ Blue Nightshade>:
+    comment: Save for transmutation
+    icon-map: null
+- _Material<10 Restless Crickets>:
+    notes: Spin attack grass to collect while walking to Oaki. If you're short you can buy some from Beedle near Rota Ooh.
+    icon-map: null
+    comment: null
+- _Material<5 Frogs>:
+    comment: If missed any before
+    icon-map: null
+
+- _Shrine::DaagChokah:
+    notes: |
+      Don't approach until you see the Oaki say: "Woo! I finally made it!"
+
+- _Warp::Shrine::KeoRuug
+- _Shrine::KeoRuug
+
+- .dir(E)
+- _Npc<Damia>:
+    coord: [564.99, 264.83, -2160.65]
+    comment: Start Trial of Wood
+
+- .dir(<E)
+- _Shrine::MaagHalan
+
+- Jump into mud to void out
+- .dir(<W)
+- Trial of the Skew Clips:
+    coord: [431, -2111]
+    comment: All 3 Trials of the Sword
+
+- _Npc<Zooki>:
+    coord: [251.03, 285.34, -1979.93]
+    comment: Trial of Second Sight
+
+- .dir(<W):
+    notes: Glide until the white void stops, then drop
+
+- _Equipment::Shield<Rusty Shield>:
+    coord: [100.06, 286.08, -1827.37]
+    notes: Keep the shield for a korok later
+
+- _Shrine::KuhnSidajj

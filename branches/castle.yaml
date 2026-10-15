@@ -1,0 +1,188 @@
+- .dir(S>) + .dir(S) midairs:
+    notes: Need a high-speed windbomb to escape korok forest. .link([Easier/slower movement without midairs]https://twitter.com/TaoPlusPlus/status/1525684201256787968?s=20&t=B-BWPy4MWcQnNr5kUJ9Tkg).
+- _Korok::X05:
+    comment: Castle spire
+    commands: [ToggleHyruleCastle]
+
+- Down
+- _Korok::X06:
+    comment: In belltower
+
+- .dir(S) down
+- _Korok::X10:
+    comment: " "
+
+- .dir(W)
+- _Korok::X07:
+    comment: Spire of Zelda's Study
+
+- .dir(NE)
+
+- _Chest::Special<Royal Guard Cap>:
+    icon: chest-special
+    coord: [-253, -1080]
+    notes: Just above Sanctum, gives an autosave
+    vars:
+      - counter-location: .add(1) # Sanctum
+
+- _Boss::CalamityGanon
+- _Boss::DarkBeastGanon:
+    counter: .user-defined-split()
+    split-name: Ganon
+    vars: # user-defined-split overrides preset
+      - counter-dark-beast-ganon: .add(1)
+
+- Continue
+- .dir(N) down
+- _Korok::X03
+
+- Glide .dir(<E) to slab
+- _Chest<Naydra's Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+    comment: Under slab
+
+- Drop .dir(E)
+- _Korok::X02:
+    comment: " "
+
+- .dir(<<N) short
+- _Chest<Dinraal's Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+    comment: Behind rubble
+
+- .dir(N>)
+- _Korok::K30:
+    comment: Ledge across water
+
+- .dir(S) thru tunnel
+- _KorokLoc<X11,West Passage>:
+    comment: Inside tunnel
+
+- Run:
+    time-override: 720
+- _Boss::Talus::Rare:
+    coord: [-136.65, 127.21, -956.26]
+    comment: .fury(FURY 1-3)
+
+- Updraft
+- _Chest<Shard of Farosh's Fang>:
+    coord: [-133.07, 170.48, -950.46]
+
+- Enter .loc(Library):
+    vars:
+      - counter-location: .add(1) # Library
+- _Location::KingsStudy
+
+- _Equipment::Shield<Royal Guard's Shield>:
+    notes: Royal Guard's Gear quest
+
+- Down stairs:
+    notes: .rune(Magnesis) book shelf
+- Light torch:
+    icon: tots
+    icon-map: null
+
+- _Shrine::SaasKosah:
+    comment: Major Test of Strength
+
+- _Tod::Night:
+    icon-map: null
+    notes: (Optional) If close to blood moon, making night will cancel it while you're in castle and give you enough time to get to Mijah Rokee by 1am. Do not sleep if it's between 9pm-midnight.
+
+- WB out of docks:
+    vars:
+      - counter-location: .add(1) # Docks
+
+- _Korok::X01
+
+- .dir(<W)
+- _Korok::X04:
+    comment: Pinwheel on castle wall
+
+- .dir(S) + .gale(GALE 1)
+- _Location::PrincessZeldasStudy
+- _Memory::HyruleCastle:
+    comment: Memory
+- _Snap::Quest<Guardian Skywatcher>:
+    icon-map: null
+
+- _Korok::X09:
+    comment: On balcony, below/left
+
+- _Location::PrincessZeldasRoom:
+    notes: Run into the room to get location
+
+- .dir(.S)
+- _Korok::X14
+
+- .dir(<W)
+- _Korok::X17:
+    comment: Spire of First Gatehouse
+
+- _Location::FirstGatehouse:
+    coord: [-351.61, 217.85, -830.25]
+    notes: For the gatehouses, there are specific places to climb down and get the location without triggering the Lynel. Watch vod in those places for how to do it.
+
+- _Korok::X18
+
+- .dir(E>)
+- _Korok::X23:
+    comment: Pinwheel
+
+- Down
+- _Location::ObservationRoom:
+    notes: Walk into the malice
+- _Korok::X21:
+    notes: Shoot the top with ancient arrows
+- _Korok::X22:
+    comment: Far
+    notes: Aim at top of the wall in background
+
+- .gale(GALE 2) + midair
+- _Korok::X16:
+    comment: Spire of Second Gatehouse
+
+- Down
+- _Location::SecondGatehouse
+- .dir(<E)
+- _Korok::X12:
+    comment: On wall
+
+- .dir(S):
+    movements:
+      - to: [-78.5,-839]
+- _Location::DiningHall:
+    icon-map: null
+
+- _Material<Raw Gourmet Meat>:
+    coord: [-152.50, 210.39, -821.58]
+    comment: Rare Find
+
+- Run further inside
+- _Chest::Special<Royal Guard Uniform>:
+    icon: chest-special
+    coord: [-360, -855]
+- _Korok::X15
+
+- _Material<Raw Meat>:
+    coord: [-108.37, 210.59, -848.95]
+    comment: Koko Cuisine
+
+- Glide down/right
+- _Korok::X20
+
+- .dir(S>)
+- _Korok::X24:
+    commands: [ToggleHyruleCastle]
+
+- .dir(SW) down
+- _Korok::C16
+
+- _Korok::X25:
+    comment: " "
+    notes: .link([Strat for rain]https://twitter.com/bings_f/status/1576785789534765056) (skip next gale if you do this)
+
+- .dir(.S)
+- _Korok::C33:
+    comment: Pinwheel on outer wall
+

@@ -1,0 +1,127 @@
+- .dir(S>)
+- _Korok::C35
+- _Memory::SacredGrounds:
+    comment: Memory
+    vars:
+      - counter-location: .add(1) # Sacred Ground Ruins
+- _Chest::Special<Phantom Armor>:
+    coord: [-245, -86]
+
+- .dir(S>>)
+- _Korok::C43:
+    comment: Pinwheel
+- _Korok::C42::Away<white>:
+    comment: Hanging in tree
+
+- .dir(W)
+- _Korok::C40:
+    comment: " "
+- _Korok::C41::Away<white>
+
+- .dir(<W)
+- _Korok::C39
+
+- .dir(W.)
+- _Boss::Hinox::Black:
+    coord: [-1177.05, 139.48, 118.51]
+
+- _Korok::C38:
+    comment: Starts at tree stump
+
+- .dir(<W)
+- _Korok::C37:
+    comment: On beach
+
+- .dir(<<N)
+- _Korok::R49:
+    comment: On beach
+
+- .dir(N) up
+- _Korok::R48
+
+- .gale(GALE 3) + .dir(<N)
+- _Korok::R39
+
+- .dir(<E)
+- _Boss::Hinox::Blue:
+    movements:
+        - to: [-1590.04, 210.73, -229.13]
+        - push
+        - to: [-1534.88, 214.82, -171.59]
+          icon: hinox-blue
+          color: white
+        - pop
+    notes: Shoot from above R40
+    icon-map: null
+- _Korok::R40
+
+- .dir(S>)
+- _Korok::R41
+
+- .dir(S>) surf
+- _Npc::Rito<Kass>:
+    coord: [-1681.68, 214.50, 51.38]
+
+- Run .dir(S)
+- _Location::JeddoBridge
+
+- .dir(W)
+- Shoot through 2 rings:
+    icon: tots
+    coord: [-1855.25,76.25]
+    notes: Use Falcon Bow
+
+- _Shrine::SheemDagoze
+
+- .dir(N)
+- _Korok::R38:
+    comment: " "
+
+- .dir(S>)
+- _Korok::R47:
+    comment: Pinwheel
+
+- .dir(<<S)
+- _Korok::R56
+
+- .dir(<W)
+- _Korok::R55:
+    comment: In tree stump
+    notes: If the Lord of the Mountain is awake, reload the autosave from this korok or the stalnox won't wake up. Also make night if you need to.
+
+- .dir(N) (run or WB)
+- _Korok::R54
+
+- .dir(SW)
+- _Boss::Hinox::Stal:
+    coord: [-2217.00, 372.31, 584.00]
+- _Korok::R62:
+    comment: " "
+
+- .dir(W.)
+- _Korok::R61
+
+- .dir(.N)
+- _Korok::R52:
+    comment: In pink tree
+
+- .dir(N)
+- _Korok::R37:
+    comment: Ledge on far cliff
+
+- .dir(<W) + midairs
+- _Npc::Rito<Kass>:
+    coord: [-2778.84, 348.24, 206.35]
+
+- Down
+- _Tod::Night:
+    coord: [-2758.84, 348.24, 206.35]
+    notes: If you missed the blood moon, skip this. When the next Blood Moon occurs, warp to Mogg Latan and windbomb over.
+
+- Activate .!!(Pedestal):
+    comment: Remove armor
+    icon: tots
+    icon-map: null
+- _Shrine::MijahRokee:
+    comment: Modest Test of Strength
+    notes: Leave armor off until later
