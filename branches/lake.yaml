@@ -640,7 +640,7 @@
 - .dir(<S)
 - _Boss::Talus::Luminous:
     comment: .fury(FURY 1-2) if raining
-    notes: If raining, land and wake with fury, then shoot as it gets up. Otherwise you can wake it with bomb arrow from the air on the way to Outpost Ruins, and shoot it on the way to D43.
+    notes: If raining, land and kill with fury. Otherwise you can wake it with bomb arrow from the air on the way to Outpost Ruins, and shoot it on the way to D43.
     coord: [-176.93, 132.59, 1771.62]
 
 - .dir(S)
@@ -676,7 +676,7 @@
 - _Korok::L01
 
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 3) (or .fury(FURY 1) if it rained at OutpostRuins)
+    comment: .fury(FURY 3) (or .fury(FURY 1) if it rained at Outpost Ruins)
     coord: [359.34, 114.45, 1904.01]
 
 - .dir(S>>)
@@ -751,7 +751,7 @@
 
 - .dir(S>)
 - _Boss::Talus::Stone:
-    comment: .fury(2-3) if it rained at outpost ruins
+    comment: .fury(FURY 2-3) if it rained at Outpost Ruins
     coord: [1186.62, 254.28, 1642.77]
 
 - .dir(SW)

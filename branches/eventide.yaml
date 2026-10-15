@@ -1,0 +1,121 @@
+  - .dir(W>>)
+  - _Korok::F31
+
+  - .dir(<E) + midair
+  - _Korok::F22:
+      comment: " "
+
+  - .dir(NE)
+  - _Korok::F18
+
+  - .dir(E) run
+  - _Korok::N64:
+      comment: Stasis + bomb from a distance
+
+  - .dir(S) run
+  - _Boss::Hinox::Red:
+      coord: [3210.17, 172.01, 2996.33]
+      notes: Shoot from above, aim just below upper rim of hole
+
+  - .dir(S) + midair
+  - _Korok::F32
+
+  - .dir(E>) + midair
+  - _Shrine::MuwoJeem:
+      comment: Modest Test of Strength
+
+  - .dir(<N)
+  - _Korok::F33:
+      comment: On cliff ledge
+
+  - .dir(W>) + down
+  - _Korok::N65
+
+  - .dir(N)
+  - _Korok::N61
+
+  - .dir(N>)
+  - _Korok::N60:
+      comment: " "
+
+  - .dir(<S)
+  - _Npc<Kass>:
+      coord: [3746.19, 125.42, 2629.38]
+      comment: The Hero's Cache
+  - _Chest::Special<Gold Rupee>:
+      coord: [3773.34, 100.52, 2647.44]
+      comment: .rune(Magnesis) chest in water
+
+  - .dir(<E)
+  - _Korok::N62:
+      comment: " "
+
+  - .dir(N)
+  - .fury(FURY 2) .!!(Enemy Camp):
+      icon: calamity
+      notes: Sheep Rustlers
+      coord: [4121.98, 113.17, 2369.62]
+
+  - .dir(NE)
+  - _Korok::N54:
+      notes: Palm fruit on nearby tree if needed
+
+  - .dir(E>)
+  - _Korok::N56:
+      comment: " "
+
+  - .dir(S)
+  - _Boss::Talus::Luminous:
+      coord: [4558.50, 105.41, 2465.00]
+  - _Korok::N63
+
+  - .dir(E) run
+  - _Korok::N57
+
+  - .dir(W>)
+  - _Korok::N55:
+      comment: " "
+
+  - .dir(SW) + midair
+  - _Shrine::ChaasQeta:
+      comment: Major Test of Strength
+
+  - Check speedfood:
+      icon: cook
+      icon-map: null
+  - Turn on Mipha's Grace:
+      icon: ruta-done
+      icon-map: null
+      comment: if turned off earlier
+  - _Korok::N66
+
+  - .dir(<S) + midair
+  - _Boss::Hinox::Blue:
+      comment: Kill without landing
+      coord: [4537.11, 110.76, 3701.95]
+  - Shoot arrow at ground:
+      icon: bow
+      icon-map: null
+      comment: Use single shot bow
+
+  - Eventide:
+      icon: calamity
+      icon-map: null
+      vars:
+        - counter-location: .add(1) # Eventide Island
+
+  - Pick up club, bow, arrow:
+      icon: tots
+      icon-map: null
+  - Return 3 orbs:
+      icon: tots
+      icon-map: null
+      movements:
+          - to: [4483.25, 142.10, 3746.42]
+          - to: [4640,3626]
+          - to: [4500.46, 109.56, 3392.43]
+          - to: [4500.46, 109.56, 3392.43]
+          - to: [4674.92, 168.30, 3742.44]
+
+  - .gale(GALE 2) to shrine
+  - _Shrine::KorguChideh

@@ -1,0 +1,384 @@
+- _Warp::Tower::DuelingPeaks:
+    text: Warp .loc(Dueling Peaks Tower)
+    color: red
+    presets:
+      - _map%<comment>
+
+- .dir(W>)
+- _Korok::D29
+
+- .dir(W)
+- _Korok::D28
+
+- .dir(NW)
+- _Korok::D23
+
+- .dir(E)
+- _Korok::D24
+
+- .dir(E) surf
+- _Boss::Talus::Stone:
+    comment: Whistle for horse and .fury(FURY 3)
+    coord: [705.34, 137.62, 1471.88]
+
+- .dir(E) ride
+- _Korok::D24
+
+- .dir(W)
+- _Korok::D15
+
+- .dir(W>>)
+- _Korok::D13
+
+- .dir(NE)
+- _Location::HorwellBridge
+
+- .dir(<E)
+- _Location::EagusBridge
+
+- _Korok::D01:
+    comment: Below bridge
+
+- .dir(W>)
+- _Shrine::HilaRao:
+    vars:
+      - counter-location: .add(1) # Floret Sandbar
+
+- Run (avoid flowers)
+- _Npc<Flower Lady>:
+    coord: [816.80, 115.22, 836.77]
+    comment: Magda
+    notes: Talk once for quest
+
+- .dir(N>>)
+- _Korok::Z47
+
+- .dir(<E)
+- _Korok::Z48
+
+- .dir(E>>) short
+- _Korok::Z49:
+    comment: " "
+
+- .dir(E>)
+- _Korok::Z50
+
+- .dir(S>)
+- _Korok::Z60
+
+- .dir(<E) + .dir(N>)
+- _Korok::N01
+
+- .dir(N.)
+- _Boss::Hinox::Red:
+    icon-map: null
+    comment: Shoot from above Z41
+    movements:
+      - _Korok::Z41
+      - push
+      - to: [1969.04, 115.44, 97.40]
+        color: white
+        icon: hinox-red
+      - pop
+- _Korok::Z41
+
+- .dir(<E) + .dir(N>)
+- _Boss::Hinox::Black:
+    coord: [2485.10, 152.09, -133.56]
+- _Korok::Z22:
+    comment: " "
+
+- .dir(E.)
+- _Korok::Z23
+- Surf .dir(S)
+- _Npc::ZoraFemale<Finley>:
+    coord: [2754.00, 189.53, -83.50]
+    comment: Special Delivery
+
+- .dir(E)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2868.11, 249.51, -68.34]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(S) run/drop
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2877.09, 229.49, -32.75]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(S) drop
+- _Location::OrenBridge
+
+- .dir(S.)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [2838.09, 228.01, 188.33]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(NW)
+- _Korok::Z31
+
+- .dir(<<E)
+- Letter Quest:
+    icon: npc-zora-female
+    movements:
+        - to: [2752.25,-78]
+        - to: [2716.75,-122.5]
+        - to: [2629.75,-153]
+        - to: [2595.25,-158.75]
+        - to: [2540.5,-136.5]
+        - to: [2361.5,-44.5]
+        - to: [2304.5,-49]
+        - to: [2235.25,-58.75]
+        - to: [2215.875,-69]
+        - to: [2173.75,-60.5]
+        - to: [2151.5,-80]
+        - to: [2132.5,-80]
+        - to: [2008.5,-30.25]
+        - to: [1934,-62.5]
+        - to: [1904,-39.5]
+        - to: [1884.5,-47.5]
+        - to: [1869,-36.5]
+        - to: [1787.5,-23.5]
+        - to: [1760.46, 115.80, -36.04]
+    notes: Walk with the letter to the guy at the tent. See map for path. Keep camera pointed away from enemies at all times.
+
+- _Tod::Noon:
+    coord: [1760.46, 115.80, -36.04]
+    comment: For Balloon Girl and stalnox
+    notes: Make noon later if you can't get to Balloon Girl by 8pm.
+
+- .dir(<<N)
+- _Shrine::ShehRata
+
+- .dir(S>)
+- _Korok::Z30:
+    comment: In building ruins
+
+- .dir(.W)
+- _Korok::Z29:
+    comment: Among trees
+
+- .dir(<W)
+- _KorokLoc<C46,Rebonae Bridge>:
+    comment: Under bridge
+
+- .dir(SW)
+- _Korok::C51:
+    comment: On pillar
+    notes: Yiga Blademasters often appear through this segment. Kill one for a windcleaver if convenient.
+
+- .dir(.S)
+- _Memory::HyruleField:
+    comment: Memory
+
+- .gale(GALE 3) + .dir(.W)
+- _Korok::C56
+
+- .dir(N>)
+- _Boss::Hinox::Blue:
+    coord: [421.00, 161.27, 329.50]
+
+- .dir(W>)
+- _Korok::C50:
+    comment: " "
+
+- .dir(NW)
+- _Korok::C44
+- _Chest::Special<Tingle's Tights>:
+    coord: [-31, 211]
+    vars:
+        - counter-location: .add(1) #MabeVillageRuins
+
+- .dir(E)
+- _Korok::C45:
+    comment: " "
+
+- .dir(N>)
+- _Korok::C34:
+    comment: " "
+
+- .dir(N.)
+- _Boss::Hinox::Blue:
+    coord: [626.49, 123.09, -305.54]
+
+- .dir(E>) midair
+- _Korok::Z21:
+    comment: " "
+
+- .dir(N)
+- _Korok::Z11
+
+- .dir(N>)
+- _KorokLoc<C13,Thims Bridge>:
+    comment: On bridge
+
+- .dir(<E)
+- _Korok::K35
+
+- .dir(S>)
+- _Korok::Z02:
+    comment: Starts in big tree
+- _Korok::Z03
+
+- .dir(<N)
+- _Korok::K34:
+    comment: " "
+
+- .dir(W>) short
+- _Korok::K33
+
+- _Shrine::MirroShaz
+
+- .dir(<W)
+- _Npc<Balloon Girl>:
+    coord: [1080.50, 127.38, -1125.00]
+    notes: 7am-8pm. Make noon if needed.
+    comment: Shamae
+    vars:
+      - counter-location: .add(1) # Woodland Stable
+
+- .dir(W>)
+- _Location::RauruSettlementRuins
+- _Location::HelmheadBridge
+
+- .dir(E>)
+- _Korok::C02
+
+- .dir(E>)
+- _Boss::Talus::Luminous:
+    comment: .fury(FURY 1-3)
+    notes: Waste a fury if it's not raining. If raining, save a fury to kill the Keese around C09.
+    coord: [771.50, 152.53, -1014.00]
+
+- .dir(S)
+- _Equipment::Weapon<Ancient Battle Axe+>:
+    comment: Thundra Plateau AND Weapon Connoisseur
+    icon-map: null
+    notes: From guardian in shrine
+- _Chest::Special<Frostspear>:
+    comment: Weapon Connoisseur
+    icon-map: null
+    notes: From chest in shrine
+- _Shrine::NamikaOzz:
+    comment: Modest Test of Strength
+
+- .dir(W)
+- _Korok::C09:
+    notes: Fury keese if raining
+
+- .dir(SW)
+- _Korok::C11:
+    comment: Inside hollow log
+
+- .dir(E.)
+- _Korok::C12
+
+- .dir(<W)
+- _Korok::C19
+
+- .dir(.W)
+- _Location::OrseddBridge
+
+- _Korok::C23
+
+- .dir(NW) midair
+- _Korok::C18
+
+- .dir(NW)
+- _KorokLoc<C10,Boneyard Bridge>:
+    comment: From bridge
+
+- .dir(<<E)
+- _Korok::C06:
+    comment: " "
+
+- .dir(W.)
+- _Korok::C05:
+    comment: " "
+- _Boss::Hinox::Stal:
+    coord: [256.50, 142.49, -913.50]
+
+- .dir(W) surf
+- _KorokLoc<C04,Hyrule Forest Park>
+
+- .dir(S>)
+- _KorokLoc<C17,Hyrule Cathedral>
+
+- .dir(S)
+- _Korok::C29
+
+- Drop down
+- _KorokLoc<C28,Castle Town Watchtower>
+
+- .dir(<W)
+- _Korok::C32:
+    comment: " "
+- _Korok::C27:
+    comment: " "
+
+- .dir(<W)
+- _Korok::C31
+
+- .dir(NW)
+- _Shrine::KatahChuki:
+    comment: Minor Test of Strength
+
+- .dir(.W)
+- _Korok::C30:
+    comment: " "
+
+- .dir(N>)
+- _Korok::C25
+
+- .dir(<E):
+    movements:
+      - to: [-596.67, 130.98, -525.32]
+
+- _Korok::C26::Away<skyblue>
+
+- _Location::WaterReservoir
+- .dir(W) run
+- _Korok::C22
+
+- .gale(GALE 1) + .dir(W>):
+    notes: Skip this gale if you used one for the castle bridge flower chase.
+- _Korok::C21
+
+- .dir(N>) run
+- _Korok::C20
+
+- .dir(N)
+- _Boss::Talus::Rare:
+    coord: [-768.74, 152.76, -804.49]
+
+- .dir(SE)
+- _KorokLoc<C15,Moat Bridge>:
+    comment: " "
+
+- .dir(<N)
+- _KorokLoc<C08,Castle Town Prison>:
+    comment: Drop Rusty Shield
+
+- .dir(N) run
+- _Korok::C03
+
+- .dir(<<N)
+- _Korok::C01:
+    comment: Near malice pillar
+
+- .dir(W)
+- _Korok::R11
+
+- .dir(<S)
+- _Korok::C07
+
+- .dir(S)
+- _Korok::C14
+
+- In cave on west side
+- _Shrine::NoyaNeha

@@ -21,10 +21,7 @@
 - .dir(<W)
 - _Korok::C39
 
-- .dir(W.)
-- _Boss::Hinox::Black:
-    coord: [-1177.05, 139.48, 118.51]
-
+- .dir(W)
 - _Korok::C38:
     comment: Starts at tree stump
 

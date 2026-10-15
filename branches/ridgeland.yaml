@@ -1,0 +1,260 @@
+- Jump out → .dir(W)
+- _Korok::R19:
+    comment: " "
+
+- .dir(N>)
+- _Korok::R16:
+    comment: Against cliff
+
+- .dir(<N)
+- _KorokLoc<R10,Royal Ancient Lab Ruins>:
+    comment: In ruins
+
+- .dir(N>)
+- _Memory::IrchPlain:
+    comment: Memory
+- _Korok::R07
+
+- .dir(E)
+- _Boss::Hinox::Blue:
+    coord: [-752.49, 187.41, -1268.12]
+
+- .dir(N)
+- _Korok::K29
+
+- .dir(<E) + .dir(N>) midairs
+- _Korok::K27:
+    comment: Pinwheel
+
+- .dir(E) surf
+- _Korok::K28
+
+- .dir(<N)
+- _Boss::Hinox::Blue:
+    coord: [-480.55, 278.99, -2039.64]
+
+- .dir(<W)
+- _Korok::K19
+
+- midair .dir(NW)
+- _Korok::K16
+
+- midair .dir(S.)
+- _Korok::K18
+
+- .dir(<S)
+- _Korok::K26
+
+- .dir(W)
+- _Korok::K24
+
+- .dir(<<E)
+- _Korok::K25
+
+- Steal horse:
+    icon: calamity
+    coord: [-1019.50, 208.96, -1721.00]
+
+- .dir(NW) ride
+- _Korok::K17:
+    comment: " "
+
+- .dir(S>)
+- _Korok::K23:
+    comment: " "
+
+- midair .dir(S>)
+- _Shrine::MonyaToma
+
+- .dir(W)
+- _Shrine::MaagNorah:
+    comment: In cave
+
+- .dir(<<N)
+- _Korok::R03
+
+- .dir(<N)
+
+- _Korok::H71:
+    comment: Across the canyon
+
+- .dir(S)
+
+- _Boss::Talus::Luminous:
+    comment: .fury(FURY 1-3) (waste the third one)
+    coord: [-2177.46, 322.30, -1585.39]
+- _Korok::R02:
+    comment: Hidden behind rocks
+
+- .dir(E>) + .dir(S)
+- _Korok::R06
+
+- .dir(E>)
+- _Korok::R09:
+    comment: " "
+
+- .dir(.S)
+- _TowerWithMap%::Ridgeland:
+    notes: Post-Ganon, the game shows the map completion %. This document automatically calculates the expected map% at each tower and warp. Each location counts for ~0.08%. You may differ by ±0.01% due to rounding.
+
+- .dir(W.)
+- Launch red orb:
+    icon: tots
+    coord: [-2135.60, 219.98, -909.20]
+    comment: Fully charge stasis
+    notes: Equip ancient axe + wooden shield to avoid lightning
+    vars:
+      - counter-location: .add(1) # Thundra Plateau
+
+- .dir(NW)
+- Launch orange orb:
+    icon: tots
+    coord: [-2271.02, 228.58, -1040.27]
+    comment: Fully charge stasis
+
+- .dir(NW)
+- _Korok::R08:
+    comment: Against cliff
+
+- .dir(<S)
+- Place green orb:
+    icon: tots
+    coord: [-2288.70, 235.47, -882.80]
+
+- Place other orbs:
+    icon: tots
+    icon-map: null
+
+- _Shrine::TohYahsa
+
+- .dir(S) short
+- _Korok::R14
+
+- .dir(E)
+- _Korok::R15:
+    comment: " "
+
+- .dir(S)
+- _Korok::R23:
+    notes: Complete R24 before the last flower of R23
+- _Korok::R24:
+    comment: " "
+
+- .dir(NE) run
+- _Korok::R18:
+    comment: .gale(GALE 1)
+
+- .dir(<<S)
+- _Korok::R25:
+    comment: " "
+
+- .dir(.E)
+- _Shrine::ZaltaWa
+
+- .dir(E>)
+- _KorokLoc<C24,Carok Bridge>:
+    comment: Small hill near bridge
+
+- .dir(<N)
+- _Korok::R26:
+    comment: " "
+
+- _Korok::R27:
+    comment: Under bridge
+
+- .dir(S)
+- _Korok::R44:
+    comment: " "
+
+- run .dir(S>):
+    movements:
+      - _Korok::R45::Start
+- _Korok::R43::Away<white>:
+    comment: Hanging under bridge
+
+- _Korok::R45:
+    comment: .gale(GALE 2)
+
+- .dir(<W)
+- _Korok::R42:
+    comment: " "
+
+- .dir(SE)
+- _Boss::Hinox::Black:
+    coord: [-1177.05, 139.48, 118.51]
+
+- .dir(S)
+- _Location::AncientTreeStump
+- _Korok::C47:
+    comment: " "
+
+- .dir(W)
+- _Korok::R58
+
+- .dir(W) + .dir(W>)
+- _Korok::R57:
+    comment: Snipe from air
+
+- .dir(<W) midair
+- _Korok::R68:
+    comment: Pinwheel
+- _Korok::R69::Away<white>:
+    comment: Snipe from pinwheel
+
+- .dir(S) far
+- _Korok::R78:
+    comment: Near forest path
+
+- .dir(W)
+- _Korok::R77:
+    comment: In tree
+
+- .dir(W):
+    movements:
+        - _Korok::R76
+
+- _Korok::R75::Away<white>:
+    comment: Bomb arrow .dir(NW)
+- _Korok::R76
+
+- .dir(<W) + climb
+- _Korok::G14:
+    comment: Pinwheel
+
+- .dir(N>) far
+- _Korok::R70
+
+- .dir(W) short
+- _Korok::R73:
+    comment: Stasis and shoot boulder
+
+- .dir(W>>)
+- _Korok::R67
+
+- .dir(NE) run
+- _Korok::R66:
+    comment: Magnesis balls
+    notes: Do the one in the water first, to avoid a weird glitch that can cause magnesis to stop working.
+
+- .dir(NE) run
+- _Korok::R65
+
+- .dir(N) run
+- _Korok::R64
+
+- .dir(N>)
+- _Korok::R51
+
+- .dir(SW)
+- _Korok::R63
+
+- .dir(S>)
+- _Korok::R72
+
+- .dir(W)
+- _Korok::R71:
+    comment: Down in corner
+
+- .dir(<N)
+- _Korok::R59:
+    comment: On small island

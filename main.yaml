@@ -51,3 +51,11 @@
   - use: ./branches/daruk.yaml
 - Lake:
   - use: ./branches/lake.yaml
+- Faron:
+  - use: ./branches/faron.yaml
+- Eventide:
+  - use: ./branches/eventide.yaml
+- Letter Quest/Central:
+  - use: ./branches/central.yaml
+- Ridgeland:
+  - use: ./branches/ridgeland.yaml

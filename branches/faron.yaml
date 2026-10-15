@@ -1,0 +1,435 @@
+- .dir(S>)
+- _Korok::D50
+
+- .dir(E>)
+- _Korok::L07:
+    comment: .rune(Stasis) 5 hits, aim at hole
+
+- .dir(S>)
+- _Korok::L19
+
+- .dir(E>):
+    movements:
+      - to: [927.5,2410.5]
+- _Korok::L20:
+    comment: Bring to other side of spring
+
+- _Chest::Special<Ravios's Hood>:
+    coord: [830, 2440]
+
+- Offer .item(Farosh Scale):
+    icon: tots
+    icon-map: null
+    notes: Use the single scale, not from the slot with 2.
+- _Shrine::ShaeKatha
+
+- _Location::SpringofCourage:
+    coord: [876,2366.75]
+    notes: Need to walk out past statue to trigger it
+
+- .dir(W)
+- _Korok::L13
+
+- .dir(.W)
+- _Korok::L18
+- _Korok::L17
+
+- .dir(N>) run
+- _Korok::L12:
+    comment: " "
+
+- .gale(GALE 1) + .dir(S>)
+- _Korok::L28
+
+- .dir(E)
+- _Korok::L29:
+    comment: On hill
+
+- .dir(E>>) down
+- _Korok::L34:
+    comment: .rune(Stasis) 1-hander jump attack
+
+- .dir(<W)
+- _Korok::L35
+
+- .dir(S)
+- _Korok::L45
+
+- .dir(SE) down
+- _Korok::L54:
+    comment: " "
+
+- .dir(E)
+- _Location::ZonaiRuins
+
+- .dir(SW) run
+- _Korok::L56:
+    comment: " "
+
+- .dir(S>) run
+- _Npc::Rito<Kass>:
+    coord: [815.25, 117.95, 3063.44]
+    comment: The Serpent's Jaws
+
+- .dir(S) run
+- _Korok::L57
+
+- .dir(E>>):
+    movements:
+      - to: [1025.15, 130.03, 3235.46]
+- _Korok::F24::Away<white>:
+    comment: Hidden in tree
+
+- _Location::SarjonBridge:
+    notes: If you've less than 15 Hyrule Bass, you can get a few here.
+- _Korok::F23
+- _Chest::Special<Phantom Ganon Armor>:
+    coord: [1026, 3239]
+
+- .dir(NE)
+- _Korok::L58
+
+- .dir(.N)
+- _Korok::L46
+
+- .dir(N) + midairs
+- _Korok::F02:
+    comment: Starts on far peak
+
+- .dir(N.)
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1)
+    coord: [1257.12, 355.80, 2176.52]
+
+- .dir(SE)
+- _Korok::F05:
+    comment: Pinwheel
+- _Korok::F01::Away<white>:
+    notes: .link([Visual cue]https://youtu.be/T5MXXtNCbX0?t=11835) if not raining
+
+- .dir(SW)
+- _Korok::F04:
+    comment: " "
+
+- .dir(NW) glide
+- _Korok::F03:
+    comment: Pinwheel
+
+- Hop to the west platform
+- _Chest::Special<Zant's Helmet>:
+    coord: [1288, 2451]
+
+- .dir(S)
+- _Boss::Hinox::Red:
+    coord: [1330.55, 180.38, 2623.94]
+
+- .dir(S) to cave
+- _Korok::F10:
+    notes: If raining, you can use a gale to do this faster. If you do, skip the gale at F28.
+
+- .dir(E>)
+- _Korok::F16:
+    comment: .gale(GALE 2)
+
+- .dir(<W)
+- _Korok::F15
+
+- .dir(E>) run
+- _Boss::Hinox::Red:
+    coord: [1493.39, 306.77, 3092.14]
+
+- .dir(.S)
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [1552.29, 196.63, 3533.36]
+    notes: Thunder Magnet quest
+    comment: Top of stable
+    vars:
+      - counter-location: .add(1) # Lakeside Stable
+
+- _Korok::F41:
+    text: F41 Chin of Horse
+
+- _Npc::SheikaFemale<Lady by horses>:
+    coord: [1540.08, 165.97, 3531.94]
+    comment: Cima
+    notes: Awake from 7am - 9pm
+
+- _Tod::Night:
+    coord: [1573.26, 165.96, 3530.55]
+    notes: For upcoming Stalnox
+    comment: at cookpot
+
+- _Shrine::ShaiUtoh:
+    comment: Cave behind rubble
+
+- .dir(<E) + midair .dir(<S)
+
+- _Korok::F48:
+    notes: Make sure you have at least 4 bananas
+
+- .dir(SE)
+- _Korok::F55:
+    comment: Up near enemy camp
+
+- .dir(W) + down
+- _Korok::F54:
+    comment: Ledge against cliff
+
+- .dir(W)
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 2)
+    coord: [1392.02, 107.03, 3727.59]
+- _Korok::F53
+
+- .dir(E>)
+- _Korok::F56:
+    comment: Under cliff
+
+- .dir(E)
+- .fury(FURY 3) .!!(Enemy Camp):
+    icon: calamity
+    comment: Take Back the Sea
+    coord: [2087,3916.5]
+    notes: Ancient arrow on the enemies that aren't killed by fury
+
+- .dir(N) + midair
+- _Korok::F43
+
+- .dir(N)
+- _Korok::F30:
+    comment: " "
+- .dir(S>) down
+- _Boss::Hinox::Stal:
+    coord: [2078.62, 110.22, 3450.66]
+
+- .dir(W>)
+- _Korok::F35:
+    comment: " "
+- _Chest::Special<Phantom Ganon Greaves>:
+    coord: [1832, 3355]
+
+- .dir(S)
+- _Korok::F46
+
+- .dir(<N)
+- _KorokLoc<F42,Floria Bridge>
+
+- .dir(W>)
+- _Korok::F34
+
+- .dir(E)
+- _Boss::Talus::Stone:
+    coord: [1690.73, 165.27, 3335.62]
+
+- .dir(N)
+- _Korok::F28:
+    comment: .gale(GALE 3)
+
+- .dir(W>)
+- _Korok::F26:
+    comment: Ledge beside waterfall
+
+- Drop down
+- _Chest::Special<Phantom Ganon Skull>:
+    coord: [1660.15, 252.65, 3163.64]
+
+- .dir(E)
+- _Korok::F27:
+    comment: Ledge beside waterfall
+
+- .dir(N)
+- _Shrine::ShodaSah
+
+- .dir(S) short
+- _Korok::F19:
+    comment: Swim up with Zora Armor
+
+- .dir(N)
+- _Korok::F17
+
+- .dir(E>)
+- _Korok::F20:
+    comment: " "
+
+
+- .dir(<S)
+- _Korok::F29:
+    comment: Block in lake
+    notes: If the lightning starts sparking early, go the shrine and finish F29 and/or Kass afterward.
+
+- .dir(SE) run
+- _Npc::Rito<Kass>:
+    coord: [2081.89, 287.42, 3226.31]
+    comment: Song of Storms
+
+- .dir(<<W)
+- Reveal shrine:
+    icon-doc: tots
+    comment: Get hit by lightning
+- _Shrine::QukahNata:
+    notes: No split for this shrine since it may be done early.
+    # workaround to remove this shrine as a split
+    counter: null
+    vars:
+      - counter-shrine: .add(1)
+
+- .dir(<<E)
+- _Korok::F21
+
+- .dir(N>)
+- _Boss::Hinox::Black:
+    coord: [2420.75, 327.47, 2782.60]
+
+- Deliver orb:
+    time-override: 60
+    icon: tots
+    coord: [2616.91, 323.39, 2823.60]
+
+- .dir(<E)
+- _Korok::F14:
+    comment: " "
+
+- .dir(W)
+- _Boss::Hinox::Red:
+    coord: [2768.06, 258.13, 2711.58]
+
+- Deliver orb:
+    time-override: 60
+    icon: tots
+    coord: [2648.43, 324.55, 2822.85]
+
+- .!!(Read shrine stone):
+    icon: tots
+    icon-map: null
+
+- .dir(.S)
+- _Boss::Hinox::Blue:
+    coord: [2693.70, 273.89, 2967.57]
+
+- Deliver orb:
+    time-override: 60
+    icon: tots
+    coord: [2632.47, 321.84, 2848.53]
+
+- _Shrine::TawaJinn:
+    counter: .user-defined-split()
+    split-name: ".var(counter-korok) - Qukah Jinn"
+    vars:
+      - counter-shrine: .add(1)
+
+- .dir(S)
+
+- _Npc<Guy at heart pond>:
+    coord: [2584.90, 290.11, 3547.64]
+    comment: Gift of Nightshade
+
+- .dir(S>)
+- _Korok::F47:
+    comment: On peak
+
+- .dir(S>)
+- _Korok::F57:
+    comment: " "
+
+- .dir(E)
+- _Chest<Any of 4 Chests>:
+    coord: [3019.81, 100.82, 3897.96]
+    comment: Sunken Treasure
+    notes: Use cryo block, treasure at center of rock triangle.
+
+- .dir(<N)
+- _Korok::F49
+
+- .dir(E)
+- _Korok::F50:
+    comment: " "
+
+- .dir(SE)
+- _Korok::F58:
+    comment: " "
+
+- .dir(NE)
+- _Korok::F51
+
+- .dir(N)
+- _Snap::Quest<Monument Shard>:
+    coord: [3390.50, 105.66, 3481.83]
+
+- .dir(E.)
+- _Korok::F52:
+    comment: End of peninsula
+
+- _Snap::Quest<Monument Shard>:
+    coord: [3800.81, 105.59, 3614.03]
+
+- .dir(NW)
+- _Snap::Quest<Monument Shard>:
+    coord: [3532.50, 112.28, 3365.50]
+
+- .dir(W) surf
+- _Npc<Broken Monument Guy>:
+    coord: [3439.86, 114.87, 3344.20]
+    vars:
+      - counter-location: .add(1) # Palmorae Ruins
+
+- Activate pedestal:
+    icon: tots
+    icon-map: null
+    comment: Crouch
+- _Shrine::KahYah
+
+- .gale(GALE 1) + .dir(W) midair
+
+- _Korok::F37:
+    comment: " "
+
+- .dir(S) swim
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1) from above
+    coord: [3272.52, 133.05, 3409.85]
+
+- .dir(<W)
+- _KorokLoc<F45,Lurelin Village>:
+    comment: On house with 3 trees
+
+- .dir(S) near shore
+- _Material<Hearty Blueshell Snail>:
+    comment: What's for Dinner?
+    coord: [2948.86, 106.06, 3462.70]
+
+- _Shop<Buy Octo Balloon>:
+    coord: [2952.58, 107.66, 3493.43]
+    notes: From shop on pier
+    comment: (Optional) If needed
+
+- .dir(NW) along shore
+- _Npc::SheikaMale<Harpoon Guy>:
+    coord: [2886.5,3442.5]
+    comment: Sebasto
+    notes: Take Back the Sea quest. In house if raining.
+
+- _Material<Palm Fruit>:
+    coord: [2873.80, 106.90, 3432.06]
+    comment: For N54
+
+- .dir(NE) by house
+- _Npc::SheikaFemale<Mom with Kid>:
+    coord: [2884.25, 112.44, 3413.51]
+    notes: What's for Dinner? quest
+    comment: Before 6pm
+
+- _Korok::F44:
+    comment: Shoot apple off palm tree
+    notes: Occasionally the korok will fail to trigger after removing the apple. Come back to it after the shrine and it should be fixed.
+- .dir(SE) run
+- _Npc<Old Man on dock>:
+    comment: Rozel
+    notes: Select "About the ocean...". Talk twice. In house when raining.
+    coord: [2887.5,3495.5]
+
+- .dir(<E)
+- _Korok::F36:
+    notes: .link([Strat]https://youtu.be/Sy_7N7ixshg?t=5445)
+
+- .dir(W>)
+- _Shrine::YahRin
