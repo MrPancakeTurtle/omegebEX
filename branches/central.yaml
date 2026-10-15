@@ -22,7 +22,10 @@
     coord: [705.34, 137.62, 1471.88]
 
 - .dir(E) ride
-- _Korok::D24
+- _Korok::D25
+
+- .dir(<<E)
+- _Korok::D16
 
 - .dir(W)
 - _Korok::D15
@@ -361,6 +364,8 @@
     comment: " "
 
 - .dir(<N)
+- _Chest::Special<Tingle's Shirt>:
+    coord: [-681.15, 119.72, -813.12]
 - _KorokLoc<C08,Castle Town Prison>:
     comment: Drop Rusty Shield
 

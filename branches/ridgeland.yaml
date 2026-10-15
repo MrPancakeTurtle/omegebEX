@@ -51,13 +51,9 @@
 - .dir(<<E)
 - _Korok::K25
 
-- Steal horse:
-    icon: calamity
-    coord: [-1019.50, 208.96, -1721.00]
-
-- .dir(NW) ride
+- .dir(NW) 
 - _Korok::K17:
-    comment: " "
+    comment: "Whistle for horse"
 
 - .dir(S>)
 - _Korok::K23:

@@ -4,7 +4,7 @@
 
 - _Chest::Special<Lightscale Trident>:
     coord: [3328.99, 269.46, -547.36]
-    comment: Don't throw it away, need it much later
+    comment: Equip
 
 - _Npc::ZoraMale<Fronk>:
     coord: [3344.32, 246.76, -471.80]
@@ -18,7 +18,57 @@
     vars:
         Monument: .add(1)
 
-- .dir(<W) + scale waterfall
+- .dir(S>)
+- Activate .!!(Pedestal):
+    icon: calamity
+    comment: Slam attack with Trident
+    coord: [3081,-459]
+
+- Toss trident
+- _Shrine::DagahKeek
+
+- .dir(SW)
+- _Boss::Hinox::Blue:
+    coord: [2930.51, 312.54, -298.40]
+    notes: (optional) Knight's Bow, if you want a metal bow for Eldin.
+
+- .dir(S)
+- _Korok::Z24:
+    comment: " "
+
+- .dir(E>>)
+- _Korok::Z34:
+    comment: On peak
+
+- .dir(<E)
+- _Boss::Talus::Luminous:
+    coord: [3992.27, 353.03, -158.82]
+    notes: Wake with bomb arrow, then use AA. Collect all amber, flint, and luminous stones. If you don't have 10 amber by now, break ores in Eldin and Rudania entry until you have 10.
+
+- .dir(<E)
+- _Korok::Z27
+
+- .dir(N) + midair
+- _Korok::Z19:
+    comment: .rune(Magnesis) the boulder
+
+- _Korok::Z20
+
+- .dir(<N)
+- _Korok::Z08
+
+- .dir(<W)
+- _Npc::ZoraMale<Zora Monument>:
+    coord: [3720.59, 461.92, -532.05]
+    comment: .var(Monument)/10
+    vars:
+        Monument: .add(1)
+
+- .dir(W)
+- _Korok::Z17:
+    comment: Top of Zora's Domain
+
+- .dir(N>) + midair
 - _Chest::Special<Zora Helm>:
     coord: [3466.36, 499.22, -889.05]
     comment: .rune(Magnesis) chest in water
