@@ -5,7 +5,7 @@
     comment: Wake up Talus with ice arrow while dropping down
 
 - .dir(W.)
-- _Korok::E22:
+- _Korok::E20:
     comment: "Kill Talus while doing this korok"
 
 - _Boss::Talus::Igneo:
@@ -14,7 +14,7 @@
         - to: [2141.56, 559.13, -2178.47]
           color: white
         - pop
-
+    icon-map: null
 
 - .dir(.E)
 - _Npc::Goron<Goron Kid>:
