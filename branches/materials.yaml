@@ -222,9 +222,9 @@
     icon: link
     icon-map: null
     comment: |
-    .link([IST Instructions]https://docs.google.com/presentation/d/1mrrG4W08Ri0xB_Jox7eXfeOV0pGGcaFgGQJCTaLf7eg/edit?usp=sharing) or .link([IST Simulator steps]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ist.txt)
+        .link([IST Instructions]https://docs.google.com/presentation/d/1mrrG4W08Ri0xB_Jox7eXfeOV0pGGcaFgGQJCTaLf7eg/edit?usp=sharing) or .link([IST Simulator steps]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ist.txt)
     counter: .user-defined-split()
     notes: |
-    .link([Outdated (but still useful for learning\) video guide for an older IST setup]https://youtu.be/0YZkmVyhfy4?t=3245)
+        .link([Outdated (but still useful for learning\) video guide for an older IST setup]https://youtu.be/0YZkmVyhfy4?t=3245)
 
 - Do NOT reload or close the game until WMC is done.
