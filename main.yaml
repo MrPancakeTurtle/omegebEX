@@ -45,8 +45,8 @@
   - use: ./branches/tabantha.yaml
 - Revali's Song:
   - use: ./branches/hebra2.yaml
-- Travel Medallion:
-  - use: ./branches/medallion.yaml
+- Akkala:
+  - use: ./branches/akkala.yaml
 - Daruk's Song:
   - use: ./branches/daruk.yaml
 - Lake:
@@ -63,3 +63,7 @@
   - use: ./branches/mipha.yaml
 - Kakariko/Hateno:
   - use: ./branches/kakariko.yaml
+- Lanayru Coast:
+  - use: ./branches/lanayru.yaml
+- Forgotten Temple:
+  - use: ./branches/temple.yaml

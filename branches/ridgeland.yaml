@@ -51,6 +51,7 @@
 - .dir(<<E)
 - _Korok::K25
 
+
 - .dir(NW) 
 - _Korok::K17:
     comment: "Whistle for horse"
@@ -138,7 +139,7 @@
 
 - .dir(NE) run
 - _Korok::R18:
-    comment: .gale(GALE 1)
+    comment: .gale(GALE 2)
 
 - .dir(<<S)
 - _Korok::R25:
@@ -169,7 +170,7 @@
     comment: Hanging under bridge
 
 - _Korok::R45:
-    comment: .gale(GALE 2)
+    comment: .gale(GALE 3)
 
 - .dir(<W)
 - _Korok::R42:

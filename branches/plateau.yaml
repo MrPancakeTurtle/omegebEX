@@ -75,11 +75,6 @@
 - _Shrine::OmanAu:
     comment: Magnesis shrine
 
-- _Chest<Amber>:
-    comment: IST Setup asumes you get this
-    notes: Mag amber up and grab it (unless you want to suffer at the hands of RNG during Rudania)
-    coord: [-684.41, 168.85, 1536.43]
-
 - .dir(N)
 - Void of Plateau:
     coord: [-650, 1300]

@@ -1,0 +1,91 @@
+  - .dir(E>>)
+  - _Korok::N40
+
+  - .dir(<N) + midair
+  - _Korok::N25:
+      comment: " "
+
+  - .dir(N.)
+  - _Korok::Z61:
+      comment: On island
+  - _Korok::Z62:
+      comment: " "
+
+  - .dir(N) + midair
+  - _Korok::Z59:
+      comment: " "
+
+  - .dir(<N)
+  - _Korok::Z58
+
+  - _Boss::Hinox::Blue:
+      coord: [4442.00, 160.79, 350.94]
+
+  - .dir(<W)
+  - _Npc::Rito<Kass>:
+      coord: [4151.39, 109.13, 346.02]
+
+  - .dir(S)
+  - Blow up 3 rock piles:
+      icon: tots
+      coord: [4155,452.75]
+  - _Korok::Z56:
+      comment: " "
+
+  - .dir(<S)
+  - _Korok::Z57
+
+  - .dir(W)
+  - _Korok::N12
+
+  - .dir(W>)
+  - _Korok::Z55
+
+  - .dir(W)
+  - _Korok::Z54
+
+  - .dir(S>>)
+  - _Korok::N14
+
+  - .dir(<N)
+  - _Korok::Z51:
+      movements:
+        - to: [3215.92, 106.15, 704.48]
+        - to: [3271.14, 105.92, 656.82]
+
+  - .dir(N.)
+  - _Shrine::RuccoMaag
+
+  - .dir(E>)
+  - _Korok::Z53
+  - _Korok::Z52
+
+  - .dir(.E)
+  - _Korok::Z45
+
+  - .dir(<E)
+  - _Korok::Z46
+
+  - .dir(<S)
+  - Activate Pedestal:
+      icon: tots
+      coord: [4226.75,312.75]
+      comment: Land with paraglider open
+
+  - _Shrine::ShaiYota
+
+  - .dir(N.)
+  - _Korok::Z36
+
+  - .dir(<W) + .dir(W>) midair:
+      notes: (optional) can use a GALE for more height
+  - _Korok::Z35
+
+  - .dir(<E) + .dir(N) midair
+  - _Chest<Star Fragment>:
+      coord: [4218.92, 380.62, -147.56]
+      comment: At enemy camp
+      notes: For armor upgrades
+
+  - .dir(N) run
+  - _Korok::Z28

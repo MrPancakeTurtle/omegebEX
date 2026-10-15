@@ -107,7 +107,7 @@
     icon-map: null
     notes: .link([Detailed instructions]https://docs.google.com/document/d/1-euUqUVIzwN-zqmU82j8uebHEZz8-MPRsoJw25Zf2CA/edit?usp=sharing). Here is a .link([video guide for transmutation]https://youtu.be/0YZkmVyhfy4?t=11238).
 
-- Run out, .gale(GALE 1)
+- Run out, .gale(GALE 3)
 - _Korok::D04:
     comment: On ledge
 - _Korok::D05:
@@ -131,7 +131,7 @@
 - .dir(E)
 - _KorokLoc<N10,Lanayru Road West Gate>
 
-- .gale(GALE 2-3)
+- .dir(S) + midair .dir(N)
 - _Korok::N09
 
 - .dir(S.) + .dir(S.)
