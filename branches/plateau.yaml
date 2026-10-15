@@ -4,7 +4,7 @@
     notes: After cutscene, hold ZL and hop left to exit
     comment: Front entrance
     vars:
-      - counter-location: .add(3) # Great Plateau Twice, Shrine of Resurrection
+      - counter-location: .add(2) # Great Plateau Twice, Shrine of Resurrection
 
 - _Equipment::Weapon<5 Tree Branch>:
     icon-map: null
