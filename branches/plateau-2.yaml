@@ -70,6 +70,8 @@
 
 - .dir(N>)
 - _KorokLoc<C76,Kolomo Garrison Ruins>
+- _Chest::Special<Majora's Mask>:
+    coord: [-448, 1281]
 
 - .dir(N>) short
 - _Korok::C75:
@@ -92,6 +94,8 @@
 
 - .dir(.W)
 - _KorokLoc<C62,Exchange Ruins>
+- _Chest::Special<Tingle's Hood>:
+    coord: [-744, 890]
 
 - .dir(NW)
 - _Shrine::KaamYatak
@@ -112,7 +116,7 @@
 - .dir(<N)
 - _Korok::R74
 
-- .gale(GALE 1) + .dir(<N)
+- .gale(GALE 2) + .dir(<N)
 - _Memory::SanidinPark:
     comment: Memory
     vars:

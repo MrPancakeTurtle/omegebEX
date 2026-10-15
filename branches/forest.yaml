@@ -1,0 +1,24 @@
+- _Warp::Shrine::DaqaKoh
+
+- Run to rock then .dir(<S)
+- _Korok::E21:
+    comment: Wake up Talus with ice arrow while dropping down
+
+- .dir(W.)
+- _Korok::E22:
+    comment: "Kill Talus while doing this korok"
+
+- _Boss::Talus::Igneo:
+    movements:
+        - push
+        - to: [2141.56, 559.13, -2178.47]
+          color: white
+        - pop
+
+
+- .dir(.E)
+- _Npc::Goron<Goron Kid>:
+    coord: [1787.98, 581.97, -2244.39]
+    comment: Dugby (wakes 8am)
+    notes: Death Mountain's Secret
+
