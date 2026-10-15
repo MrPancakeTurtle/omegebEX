@@ -60,7 +60,7 @@
     hide-icon-on-map: true
 
 - BTB to shrine, clip in:
-    notes: https://www.youtube.com/watch?v=yRrB52FAhjE
+    notes: .link([video reference]https://www.youtube.com/watch?v=yRrB52FAhjE)
 - _Shrine::JaBaij:
     comment: Bombs shrine
 
@@ -86,7 +86,7 @@
 
 
 - Walk to bokocamp and BTB to Cryonis:
-    notes: https://www.youtube.com/watch?v=LW01skRA7_Q
+    notes: .link([video reference]https://www.youtube.com/watch?v=LW01skRA7_Q)
 
     movements:
         - to: [-1020, 1790]
@@ -97,7 +97,7 @@
     comment: Cryonis shrine
 
 - BTB to Stasis:
-    notes: https://www.youtube.com/watch?v=fntljFZgt-k
+    notes: .link([video reference]https://www.youtube.com/watch?v=fntljFZgt-k)
 - _Shrine::OwaDaim:
     comment: Stasis shrine
 

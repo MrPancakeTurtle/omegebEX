@@ -1,0 +1,175 @@
+- _Warp::Beast::Naboris:
+    icon: naboris-done
+    icon-priority: 1
+
+- .dir(W>) run
+- _Korok::W33:
+    comment: Under bridge
+
+- midair .dir(W)
+- _Korok::W31:
+    comment: On ledge corner
+
+- .dir(E) climb
+- _Korok::W32
+
+- .dir(N)
+- _Tower::Wasteland
+
+- .dir(N>):
+    coord: [-2220.85, 356.03, 2204.36]
+- _Korok::W12::Away<white>:
+    comment: Underneath rock slabs
+
+- Kill .enemy(Electric Lizalfos):
+    icon-doc: calamity
+    movements:
+        - push
+        - to: [-2210.36, 357.48, 2203.96]
+          icon: calamity
+          color: white
+        - pop
+- _Material<Electric Darner>:
+    coord: [-2220.85, 356.03, 2204.36]
+    comment: Under rock
+    notes: Mash A as you pick up the rock
+
+- _Korok::W16::Away<yellow>:
+    comment: .rune(Stasis), 1 hit w/ two-hander
+
+- .dir(N>) short
+- _Korok::W11
+
+- _Equipment::Weapon<Fire Rod>:
+    coord: [-2173.5,2145.5]
+    comment: Kill fire wizzrobe
+    notes: Keep for Weapon Connoisseur
+
+- _Tod::Noon:
+    coord: [-2158,2141]
+    notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. Make noon later in this segment if you're getting there too late.
+
+- .dir(.S)
+- _Korok::W23
+
+- .dir(<S)
+- _Korok::W24:
+    comment: Do during W23
+
+- .dir(E) + .dir(S) midairs
+- _Korok::W34:
+    comment: " "
+
+- .dir(S.)
+- _Korok::W39
+
+- .dir(W.)
+- _Korok::W38:
+    comment: On pillar
+
+- .dir(SE)
+- _Boss::Talus::Luminous:
+    coord: [-2096.46, 318.46, 3037.91]
+    comment: .fury(FURY 1-3) Collect drops
+    notes: Intentionally "wasting" a fury. Look for amber, flint, and luminous stones.
+
+- .dir(SE)
+- _Korok::W50:
+    comment: " "
+
+- .dir(S>)
+- _Korok::W58:
+    comment: " "
+
+- .dir(<E):
+    coord: [-1748.5,3470.25]
+    notes: See map or vod for where to drop in
+- _Shrine::DilaMaag:
+    vars:
+      - counter-location: .add(1) # South Lomei Labyrinth
+
+- .dir(N) + .dir(E>) + midair + .dir(N>):
+    coord: [-1806.75,3340.5]
+- _Korok::W54
+
+- .dir(S>)
+- _Korok::W59:
+    comment: " "
+
+- .dir(E>>)
+- _Korok::W64:
+    notes: Reposition pebble and use to windbomb
+
+- .dir(N)
+- _Korok::W60:
+    comment: " "
+    notes: There is an RNG lizalfos that may have a Moblin Club or Traveler's Sword. Take it to skip getting it later.
+
+- .dir(N)
+- Read .!!(Mountain Peak Log):
+    icon: tots
+    coord: [-1387.83, 540.50, 3494.08]
+    comment: Cancel after "Day 7"
+
+- Activate .!!(Pedestal):
+    icon: tots
+    icon-map: null
+    notes: 4:00-5:30pm. After 4:40pm, you can use a cryo block in the puddle.
+    comment: Carry snowball
+
+- _Shrine::SumaSahma
+
+- .dir(N>)
+- _Korok::W53:
+    comment: On pillar
+
+- .dir(.N)
+- _Korok::W41
+
+- .dir(SW)
+- _Korok::W45
+
+- .dir(NW) down
+- _Korok::W46:
+    comment: Down in corner
+
+- .dir(<W)
+- _Korok::W49
+
+- .dir(W.)
+- _Korok::W48
+
+- .dir(W) + <N midair:
+    coord: [-2692,2737]
+- _Korok::W35::Away<white>:
+    comment: In arms of statue
+    notes: Can use bomb arrow from first orb
+
+- Complete orb puzzle:
+    icon: tots
+    icon-map: null
+    notes: .link([Orb Puzzle Diagram]https://i.imgur.com/i8XCNI8.png), .link([Alternative Diagram]https://i.imgur.com/ziWggqR.png)
+
+- _Shrine::KorshOhu:
+    vars:
+      - counter-location: .add(1) # East Gerudo Ruins
+
+- .gale(GALE 3) + .dir(S)
+- _Korok::W40
+
+- .dir(N>) + midair
+- _Korok::W30
+
+- .dir(<<N)
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    comment: Missing in Action
+
+- _Cook<Cook Fruitcake>:
+    comment: Apple, melon, wheat, sugar
+    notes: Royal Recipe quest
+    icon-map: null
+
+- _Npc<Beedle>:
+    comment: Buy warm darner
+    coord: [-2795.66, 134.60, 2244.77]

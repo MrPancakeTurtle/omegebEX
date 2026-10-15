@@ -31,3 +31,7 @@
   - use: ./branches/rudania.yaml
 - Champion's Ballad:
   - use: ./branches/plateau-2.yaml
+- Gerudo:
+  - use: ./branches/gerudo.yaml
+- Urbosa's Fury+:
+  - use: ./branches/wasteland.yaml

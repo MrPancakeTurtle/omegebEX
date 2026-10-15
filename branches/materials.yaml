@@ -75,7 +75,6 @@
     vars:
       - counter-location: .add(1) # Hyrule Castle
     comment: .link([video reference]https://youtu.be/IF6sbyBVNpY)
-    notes: This uses a headshot BTB, because this route's IST setup doesn't work if you get ice arrows. If you strongly prefer the easier method of freezing the lizalfos, you can get the ice arrow chest at Satori, and you'll have to use .link([this slower IST setup instead]https://ist.pistonite.app/github/sobolews/omegeb/1.9v2/ice-arrow-ist.txt). Pay close attention to the inventory differences if you use this. (2 zapshrooms, 4 princesses, 3 fairies, and equipping fire arrows at WMC)
 
 - Run through passage to the back of the .loc(Guard's Chamber):
     vars:
@@ -180,7 +179,8 @@
     notes: Skip Ancient Core if you already have one
 
 - .dir(E>) + .dir(E>)
-- _Shrine::DakaTuss
+- _Shrine::DakaTuss:
+    notes: Kill the 3 lizalfos for horns
 
 - .dir(S) + .dir(E>) + .dir(S)
 - _Shrine::TalohNaeg:
