@@ -214,14 +214,15 @@
 - .gale(GALE 2) + .dir(W)
 - _TowerWithMap%::Lake
 
-- .dir(SW)
-- _Korok::L48:
-    comment: On small ledge against cliff
-
-- .dir(SE) short
+- .dir(S>)
 - _Korok::L49
 
-- .dir(NE) down
+- _Korok::L48:
+    comment: On small ledge against cliff
+- _Chest::Special<Island Lobster Shirt>:
+    coord: [-164, 3078]
+
+- .dir(E)
 - _Korok::L50:
     comment: Against cliff, hard to see
 
@@ -284,6 +285,8 @@
     comment: On peak
 
 - .dir(W) surf down
+- _Chest::Special<Ancient Saddle>:
+    coord: [812, 3700]
 - Open Horse God Fountain:
     icon: tots
     coord: [802.00, 186.73, 3719.93]
@@ -322,6 +325,7 @@
 - Take out horse:
     icon: tots
     icon-map: null
+    comments: Equip it with the Ancient Saddle!!!!!
 
 - _Npc<Start Horse Minigame>:
     time-override: 120
@@ -333,25 +337,7 @@
 - _Shrine::KaoMakagh
 
 - .dir(S)
-- Start L65 race:
-    icon: tots
-    coord: [546.27, 231.59, 3580.35]
-
-- .dir(W) ride horse:
-    movements:
-        - to: [502,3447.5]
-        - to: [274,3465.5]
-        - to: [237.5,3515]
-        - to: [190,3518]
-    notes: Ride across the pond, a bit past the right fork. Leave the horse there and windbomb to finish the korok. Do not whistle until after the next shrine, you'll come back here to pick up the horse.
-- Leave horse:
-    icon: tots
-    coord: [161.5,3487]
-
-- .dir(N>>)
-- _Korok::L65:
-    coord: [271.72, 222.37, 3289.59]
-    comment: " "
+- _Korok::L65
 
 - .dir(S.)
 - _Korok::L70:
@@ -413,18 +399,11 @@
 - _Boss::Hinox::Stal:
     comment: Shoot once + .fury(FURY 1-3)
     coord: [100.50, 111.28, 3371.00]
-    notes: Kill stalnox while the horse is approaching you.
 
-- Ride to Mounted Archery Camp:
-    comment: null
-    icon-map: null
-    movements:
-        - to: [25,3350]
-        - to: [-26.5,3362]
-        - to: [-185,3479]
-
+- .dir(.W)
 - Archery Minigame:
     icon: bow
+    comment: Whistle for horse
     notes: To save OmeGEB durability, equip normal GEB for this. Talk to guy while mounted on horse. Need to finish twice, with scores of at least 20 and 23, to get the saddle and bridle.
 
 - .dir(<S)
@@ -467,6 +446,7 @@
 
 - .dir(N)
 - _Boss::Talus::Luminous:
+    comment: .fury(FURY 1-3)
     coord: [-971.13, 355.71, 3236.14]
 
 - .dir(W>)
@@ -515,7 +495,11 @@
 - _KorokLoc<C74,Coliseum Ruins>:
     comment: High on coliseum wall
 
-- Glide .dir(NW) down
+- Glide .dir(S) down
+- _Chest::Special<Phantom Helmet>:
+    coord: [-1200, 1229]
+
+- Run
 - _Korok::C73:
     comment: " "
 
@@ -549,7 +533,11 @@
     comment: " "
 
 - .dir(SE)
-- _Location::HyruleGarrisonRuins
+- _Chest::Special<Phantom Greaves>:
+    comment: Equip
+    coord: [-507, 609]
+    vars:
+        - counter-location: .add(1) #HyruleGarrisonRuins
 - _Korok::C54
 
 - .dir(NE)
@@ -596,45 +584,7 @@
 - Surf .dir(S)
 - _Location::OwlanBridge
 
-- .dir(<E)
-- _Korok::D13:
-    comment: " "
-
-- .dir(NE)
-- _Location::HorwellBridge
-
-- .dir(<S)
-- Steal horse:
-    icon: calamity
-    coord: [867,1226]
-
-- .dir(S) ride
-- _Korok::D25:
-    comment: " "
-
-- .dir(<S)
-- _Korok::D29:
-    comment: On small island
-
-- .dir(W)
-- _Korok::D28
-
-- .dir(.N)
-- _Korok::D24:
-    comment: " "
-
-- .dir(E) surf
-- _Boss::Talus::Stone:
-    comment: .fury(FURY 1)
-    coord: [705.34, 137.62, 1471.88]
-
-- .dir(N)
-- _Korok::D15
-
-- .dir(<W)
-- _Korok::D23
-
-- .dir(W.)
+- .dir(S)
 - _Korok::D22
 
 - .dir(W)
@@ -689,7 +639,7 @@
 
 - .dir(<S)
 - _Boss::Talus::Luminous:
-    comment: .fury(FURY 2) if raining
+    comment: .fury(FURY 1-2) if raining
     notes: If raining, land and wake with fury, then shoot as it gets up. Otherwise you can wake it with bomb arrow from the air on the way to Outpost Ruins, and shoot it on the way to D43.
     coord: [-176.93, 132.59, 1771.62]
 
@@ -726,7 +676,7 @@
 - _Korok::L01
 
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 3) (waste fury if needed)
+    comment: .fury(FURY 3) (or .fury(FURY 1) if it rained at OutpostRuins)
     coord: [359.34, 114.45, 1904.01]
 
 - .dir(S>>)
@@ -765,58 +715,13 @@
     comment: " "
 
 - .dir(E>)
-- _Shrine::ReeDahee
+- _Shrine::ReeDahee:
+    comment: Get storage and SCW into SheeVenath
+
+- _Shrine::SheeVenath
 
 - .dir(.S)
-- _Location::BigTwinBridge
-- _Location::LittleTwinBridge
-
-- .dir(<E)
-- _Korok::D51:
-    comment: " "
-
-- .dir(W)
-- Tame a horse:
-    icon: tots
-    coord: [1784.94, 117.91, 2036.54]
-    comment: Park horse near wagon at stable
-- _Npc<Guy outside stable>:
-    coord: [1748.38, 116.11, 1923.67]
-    comment: Wild Horses
-    notes: Talk to horse guy, cancel dialogue, talk again, deliver horse.
-    vars:
-      - counter-location: .add(1) # Dueling Peaks Stable
-
-- _Npc<Brothers in stable>:
-    coord: [1767.48, 116.07, 1925.15]
-    comment: Misko, the Great Bandit
-    notes: Talk twice
-
-- .dir(W)
-- _Shrine::HaDahamar
-
-- .dir(E)
-- _Korok::D42
-
-- .dir(<N) + midair
-- _Boss::Talus::Stone:
-    coord: [1465.91, 203.77, 1328.91]
-
-- .dir(W)
-- _Korok::D17
-
-- .dir(S) + midair
-- _Korok::D30
-
-- .dir(E) + .dir(S) midair
-- _Korok::D41
-
-- .dir(W)
-- _Korok::D40
-
-- .dir(S)
-- _Korok::D49
-
+- _Shrine::SheeVaneer
 - Kill .enemy(Stalkoblin):
     comment: spawns in front of shrine
     icon: calamity
@@ -825,13 +730,29 @@
     notes: Need to get here at night, otherwise get the one in Kakariko later.
 - _Equipment::Weapon<Traveler's Sword>:
     comment: Weapon Connoisseur
+- Behind shrine
+- _Korok::D49
 
-- _Shrine::SheeVaneer
-- Drop down .dir(N)
-- _Shrine::SheeVenath
+- Square First .dir(N)
+- _Korok::D40
 
-- .dir(<W)
-- _Korok::D48
+- .dir(E)
+- _Korok::D41
 
-- .dir(<N)
+- .dir(N)
+- _Korok::D30
+
+- .dir(N>)
+- _Boss::Talus::Stone:
+    coord: [1465.91, 203.77, 1328.91]
+
+- .dir(W)
+- _Korok::D17
+
+- .dir(S>)
+- _Boss::Talus::Stone:
+    comment: .fury(2-3) if it rained at outpost ruins
+    coord: [1186.62, 254.28, 1642.77]
+
+- .dir(SW)
 - _TowerWithMap%::DuelingPeaks
