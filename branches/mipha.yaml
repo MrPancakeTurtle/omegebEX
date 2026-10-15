@@ -107,15 +107,15 @@
 - _Shrine::KeeDafunia:
     comment: Land in ring
 
+- _Warp::Beast::Ruta:
+    color: lime
+    presets:
+      - _map%<comment>
 
-
-
-
-
-
-
-
-
+- Mipha's Grace+:
+    notes: P1 spear/bow. P2 use all 3 furies
+    comment: .fury(FURY 1-3)
+    icon-doc: ruta-done
 - _Korok::Z15:
     comment: High up against cliff
 
