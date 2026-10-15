@@ -59,7 +59,7 @@
 - _Shrine::ShadaNaw
 
 - .dir(<S)
-- _Korok::H20:
+- _KorokLoc<H20,Selmie's Spot>:
     comment: Chimney of hut
 
 - .dir(.E)
