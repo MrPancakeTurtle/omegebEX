@@ -113,3 +113,476 @@
 
 - .dir(N) 
 - _Korok::K05
+
+- _Warp::Shrine::ShadaNaw:
+    presets:
+      - _map%<comment>
+
+- .dir(.W)
+- _Shrine::MozoShenno:
+    comment: Major Test of Strength
+
+- Climb + surf .dir(<W)
+- _Korok::H26
+
+- .dir(N>)
+- _Korok::H19:
+    comment: Pinwheel
+
+- .dir(W>)
+- _Korok::H18:
+    comment: Top of bare tree
+
+- .dir(W>)
+- _Korok::H17:
+    comment: Snowy ledge
+
+- .dir(S) down
+- _Korok::H24:
+    comment: Starts on canyon floor
+
+- .dir(E>) + midair
+- _Korok::H25
+
+- .dir(.W) + midair
+- _Korok::H32:
+    comment: " "
+
+- .dir(.S)
+- _Korok::H40:
+    comment: On peak
+
+- .dir(W>)
+- _Boss::Hinox::Black:
+    coord: [-4531.00, 333.45, -2679.27]
+
+- .dir(S)
+- Start T06 race:
+    icon: tots
+    coord: [-4495.71, 342.71, -2510.34]
+    notes: Do H53, H60, T08 while the race timer is going.
+
+- .dir(SE)
+- _Korok::H53:
+    comment: On peak
+
+- .dir(SW)
+- _Korok::H60:
+    comment: Pinwheel, can use bullet time
+
+- .dir(.S)
+- _Korok::T08
+
+- .dir(NE)
+- _Korok::T06:
+    comment: Finish race
+    movements:
+        - to: [-4396.84, 183.40, -2049.88]
+
+- .dir(E>) run
+- _Korok::T07:
+    comment: " "
+
+- .dir(NE)
+- _Korok::T01:
+    comment: On cliff past rubble
+
+- .dir(.N) + midair
+- _Location::SturnidaSecretHotSpring:
+    notes: Drop down above hot spring, then glide to updraft.
+
+- .dir(<N) midair
+- _Korok::H39:
+    comment: " "
+
+- .dir(.S) short
+- _Korok::H41
+
+- .dir(SE) surf down
+- _Korok::H42:
+    comment: In corner against cliff
+
+- .dir(E) to cave entrance
+- _Shrine::MakaRah
+
+- _Warp::Shrine::ShadaNaw:
+    color: blue
+    presets:
+      - _map%<comment>
+
+- .dir(S.) down under ice shelf
+- _Boss::Talus::Frost:
+    coord: [-3073.50, 478.42, -2918.50]
+
+- .dir(S>)
+- _Korok::H33
+
+- .gale(GALE 1) + run .dir(E)
+- _Korok::H34
+
+- .gale(GALE 2) + .dir(S) down
+- _Korok::H46
+
+- .dir(SE)
+- _Korok::H48
+
+- .dir(N)
+- _Korok::H49
+
+- .dir(N) run
+- _Korok::H50::Away<white>:
+    comment: Look .dir(E) over river
+
+- _Korok::H47::Away<white>:
+    comment: Look .dir(NW) at river head
+
+- .dir(N)
+- _Korok::H44:
+    comment: Look .dir(NW), balloon under ledge
+
+- .dir(E) midair
+- _Korok::H45
+
+- .dir(S)
+- _Korok::H56:
+    comment: Along bridge
+
+- .dir(NE)
+- _Korok::H51:
+    comment: In cliff corner
+
+- .dir(E>)
+- Open cave door:
+    notes: .link([Snowball strat]https://www.youtube.com/watch?v=cbn3TgjVdDk&t=10)
+- _Shrine::GeeHarah
+
+- .gale(GALE 3) + .dir(N) + .dir(E>) midair:
+    movements:
+        - to: [-2389,-2355]
+
+- _Korok::H57
+
+- .dir(<W)
+- _Shrine::LannoKooh
+
+- _Korok::H64
+- _Tod::Night:
+    icon-map: null
+    comment: Might be needed for Dinraal depending on ToD
+
+- Swim out to cryo + <E
+- _Korok::H61:
+    comment: On peak
+
+- .dir(E>)
+- _Tower::Hebra
+
+- .dir(<E) down
+- _Location::PondosLodge
+
+- .dir(<<W)
+- _KorokLoc<H67,Tabantha Village Ruins>
+
+- .dir(S) surf
+- _Korok::H70
+
+- .dir(W)
+- _Korok::H69:
+    comment: " "
+
+- Shoot Dinraal's Horn:
+    coord: [-2466,-1502.2019464720192]
+    icon: tots
+
+- _Shrine::ShiraGomar
+
+- midair .dir(W>)
+- _Korok::H72
+
+- .dir(W>)
+- _Korok::T18
+
+- .dir(N)
+- _Boss::Talus::Rare:
+    coord: [-2864.50, 408.98, -1825.91]
+
+- .dir(NE)
+- _Korok::H65:
+    comment: Top of tree in island
+
+- .dir(<W)
+- _Korok::H66:
+    comment: " "
+
+- .dir(S>>)
+- _Korok::T19
+
+- _Warp::Beast::Medoh
+- Revali's Gale+:
+    notes: P1 just spam bow. P2 use all 3 furies and spam bow
+    comment: .fury(FURY 1-3)
+    icon-doc: medoh-done
+
+- Gale routing is basically optional after this, only 2 minutes cooldown
+
+- Drop down .dir(SE)
+- _Korok::T15
+
+- .dir(NE) short
+- _Npc::Rito<Yellow Girl in pool>:
+    coord: [-3488.88, 258.52, -1850.25]
+    comment: Kotts
+
+- .dir(.W)
+- _Material<1 Cold Darner>:
+    notes: There's another on the bridge to the shrine if you miss it.
+    comment: On landing pad
+    coord: [-3591.41, 319.37, -1804.93]
+
+- _Npc::Rito<Rito lady on flight pad>:
+    coord: [-3588.75,-1798.375]
+    comment: Bedoli
+    notes: Ancient Rito Song
+
+- Drop down
+- _Cook<Cook Salmon Meuniere>:
+    comment: Wheat, butter, salmon
+    icon-map: null
+
+- _Npc::Rito<Green kid>:
+    coord: [-3586,-1805.375]
+    comment: Genli
+    notes: Give Salmon Meuniere
+
+- Jump down .dir(NW)
+- _Npc::Rito<Fyson>:
+    coord: [-3595.875,-1815]
+    comment: Invite to Tarrey Town
+
+- Next room
+- _Npc::SheikaMale<Flint Guy>:
+    coord: [-3605.16, 289.12, -1852.43]
+    comment: Give 1 flint
+
+- Next room (shop)
+- _Npc::Rito<Blue kid>:
+    coord: [-3647.125,-1822.125]
+    comment: Cree
+
+- Run back to previous room's entrance and .gale(GALE 2)
+- _Npc::SheikaFemale<Baked Apple lady>:
+    coord: [-3616.25,-1829.375]
+    comment: Juney
+
+- Jump down .dir(W)
+- _Npc::Rito<Pink girl>:
+    coord: [-3632,-1833]
+    comment: Molli
+
+- .dir(W.)
+- _Korok::T10
+
+- .dir(E>):
+    movements:
+      - to: [-3646,-1792.75]
+- _Korok::T14::Away<white>:
+    comment: Shoot before dropping down
+- _Npc::Rito<Pink singing girl>:
+    coord: [-3646,-1792.75]
+    comment: Notts
+
+- Glide .dir(SW)
+- _Shrine::AkhVaquot
+
+- Run left
+- _Npc::Rito<Rito Mom>:
+    coord: [-3668.51, 321.49, -1769.96]
+    comment: Amali
+
+- .dir(W)
+- _Korok::T13:
+    movements:
+      - [-4024.75,-1774]
+      - _Korok::T13
+
+- Activate .!!(Pedestal):
+    icon: tots
+    icon-map: null
+    comment: 4-5-3-1-2
+    notes: Talk to Kheel for Korok Leaf if you don't have one
+- _Shrine::VooLota
+
+- .dir(E.)
+- _Korok::T17
+
+- .dir(.E)
+- _Npc::SheikaMale<Old Guy at cookpot>:
+    coord: [-3267.07, 224.60, -1773.77]
+    comment: Lester
+    notes: Talk twice
+    vars:
+      - counter-location: .add(1) # Rito Stable
+
+- _Npc::Rito<Rito guy on bridge>:
+    coord: [-3308.27, 227.83, -1803.34]
+    comment: Gisane
+    notes: Talk twice
+
+- Square First .dir(N>>)
+- _Korok::T11
+
+- .dir(S)
+- _Korok::T21
+
+- .dir(E)
+- _Korok::T22:
+    comment: Hidden in corner
+
+- .dir(.S)
+- _Korok::T25
+
+- .dir(<E) + midair
+- _Korok::R05
+
+- .dir(S) surf
+- _Location::FootraceCheckIn
+
+- .dir(S) + midair
+- _Korok::R13:
+    comment: Above waterfall
+
+- .dir(S>)
+- _Korok::R17:
+    comment: On peak
+
+- .dir(SE), land on tree
+- _Boss::Hinox::Blue:
+    comment: Look .dir(E)
+    movements:
+        - to: [-2450.5,-407.5]
+        - push
+        - to: [-2370.05, 261.70, -419.59]
+          icon: hinox-blue
+          color: white
+        - pop
+    icon-map: null
+- _Korok::R22::Away<white>:
+    comment: Look .dir(.N)
+- _Korok::R31::Away<white>:
+    comment: Look .dir(SE)
+
+- .dir(S)
+- _Korok::R30:
+    comment: " "
+
+- .dir(W>>)
+- _Korok::R21
+
+- .dir(W.)
+- _Shrine::ShaeLoya
+
+- .dir(.N) run
+- _Npc::SheikaMale<Pointing guy>:
+    coord: [-2942.5,-485.5]
+    comment: Geggle
+    notes: Between 8am and midnight
+
+- _Npc<Guy at cookpot>:
+    coord: [-2916.00, 274.73, -561.00]
+    comment: Toren
+    notes: Talk twice. In stable if raining or night.
+    vars:
+      - counter-location: .add(1) # Tabantha Bridge Stable
+
+- .dir(W) run
+- _KorokLoc<T34,Tabantha Great Bridge>:
+    comment: Starts under bridge
+
+- .dir(S>) down
+- _Korok::R28
+
+- .dir(E) run
+- _Korok::R29:
+    comment: " "
+
+- .dir(N)
+- _Korok::R20
+
+- .dir(N>)
+- _Location::TanagarCanyonCourse
+- _Korok::R12
+
+- .dir(N>) + midair
+- _Shrine::DunbaTaag
+
+- .dir(.S) from behind shrine
+- _Korok::H73:
+    comment: " "
+
+- .dir(E>>) down
+- _Korok::R04
+
+- _Warp::Shrine::ShadaNaw:
+    color: "#3a0063"
+    notes: Make night for Stalnox if needed.
+    presets:
+      - _map%<comment>
+
+- .dir(W>>) down
+- _KorokLoc<H09,Goflam's Secret Hot Spring>
+
+- .dir(E>)
+- _Korok::H11
+
+- .dir(W)
+- _Korok::H10:
+    comment: " "
+
+- .dir(<N)
+- _Korok::H04:
+    comment: " "
+
+- .dir(W)
+- _Boss::Hinox::Stal:
+    coord: [-4260.15, 327.00, -3777.48]
+
+- .dir(W)
+- _Korok::H01
+
+- _Shrine::HiaMiu:
+    comment: Major Test of Strength
+
+- .dir(S.) + midairs
+- _Korok::H23:
+    comment: On peak far
+
+- .dir(N>)
+- _Location::SherfinsSecretHotSpring
+
+- .dir(N) + climb
+- _Korok::H07
+
+- .gale(GALE 1) + .dir(E)
+- _Korok::H08:
+    comment: Pinwheel
+
+- .dir(.N)
+- _Korok::H02:
+    comment: Leftmost ice block
+
+- Clip in to mountain:
+    icon: tots
+    icon-map: null
+    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
+
+- Clip back in bounds:
+    icon: tots
+    icon-map: null
+    notes: .link([Setup]https://youtu.be/MZqANcvFr4c?t=16379)
+
+- _KorokLoc<H03,Hebra Great Skeleton>
+
+- _Shrine::ToQuomo
+
+- _Snap::Quest<Hebra Great Skeleton>:
+    icon-map: null
