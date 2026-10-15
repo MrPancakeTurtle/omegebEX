@@ -1,0 +1,115 @@
+- _Warp::Shrine::ShadaNaw:
+    color: orange
+    presets:
+      - _map%<comment>
+
+- _Tod::Night:
+    icon-map: null
+    comment: if needed
+    notes: For Salvager chest. Make night if here after 2:30am.
+
+- .dir(E) + .dir(S) midairs
+- _Korok::H28:
+    comment: On peak
+
+- Look .dir(SE) in the sky:
+    icon: tots
+    icon-map: null
+    comment: Watch chest land
+
+- Drop down
+- _Shrine::GomaAsaagh:
+    comment: Major Test of Strength
+
+- .dir(S) run
+- _Korok::H35:
+    comment: " "
+
+- .dir(E.)
+- _Korok::H36:
+    comment: " "
+
+- .dir(W.)
+- Rings of light:
+    comment: 
+    icon: npc-rito
+    movements:
+    - to: [-2792.1, 665.5, -2810.6]
+    - to: [-2747.4, 636.86, -2727.3]
+- _Chest::Special<Salvager Trousers>:
+    coord: [-2605.00, 583.00, -2652.00]
+- Rings of light:
+    comment: 
+    icon: npc-rito
+    movements:
+    - to: [-2575.1, 578.92, -2648.0]
+    - to: [-2478.8, 557.9, -2650.4]
+    - to: [-2401.8, 542.6, -2671.8]
+    - to: [-2380.6, 525.25, -2727.6]
+    - to: [-2399.8, 514.9, -2800.5]
+    - to: [-2424.8, 498.5, -2891.6]
+    - to: [-2429.21, 489.01, -2961.43]
+    - to: [-2379.9, 473.6, -3090.8]
+    - to: [-2300.0, 456.55, -3116.6]
+    - to: [-2239.0, 447.7, -3118.1]
+    - to: [-2195.09, 443.89, -3156.53]
+- _Shrine::KiahToza
+
+- .gale(GALE 3)
+- _Boss::Talus::Frost:
+    coord: [-2144.88, 491.27, -3082.59]
+    notes: .fury(FURY 1-3)
+
+- .dir(S.)
+- _Korok::H31:
+    comment: " "
+
+- .dir(W>)
+- _Korok::H29:
+    comment: " "
+
+- .dir(<E)
+- _Korok::H30
+
+- .dir(<<N)
+- _Shrine::RokUwog
+
+- .dir(N) + .dir(<E)
+- _Korok::H13:
+    comment: " "
+
+- .dir(N>)
+- _Korok::H05:
+    comment: Pinwheel on peak
+
+- .dir(E)
+- _Shrine::ShaGehma
+
+- .dir(<S)
+- _Korok::H14
+
+- .dir(N>)
+- _Korok::H06
+
+- .dir(E>)
+- _Shrine::QazaTokki:
+    vars:
+      - counter-location: .add(1) # North Lomei Labyrinth
+
+- .dir(S)
+- _Korok::H16
+
+- .dir(W)
+- _Korok::H15
+
+- .dir(.W) + .dir(S>)
+- _Korok::H22:
+    comment: " "
+    notes: WB away while it's rolling, but don't get too far away.
+
+- .dir(SE) + midair
+- _Korok::K11:
+    comment: Peak far away
+
+- .dir(N) 
+- _Korok::K05

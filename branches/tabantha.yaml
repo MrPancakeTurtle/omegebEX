@@ -1,0 +1,160 @@
+- .dir(<W)
+- _Korok::R50:
+    comment: In tree
+    notes: Snipe with bomb arrow from high above
+
+- midair .dir(<N)
+- _Boss::Talus::Rare:
+    coord: [-3137.50, 317.31, 72.90]
+
+- .dir(.W) down
+- _Korok::R46
+
+- .dir(N)
+- _Korok::R36:
+    comment: On close edge of canyon
+
+- .dir(W>)
+- _Korok::R35:
+    comment: " "
+
+- _Korok::R34::Away<white>:
+    comment: Below on windmill tower
+
+- .dir(W>)
+- _Korok::R33
+
+- .dir(<<W)
+- _Korok::R32:
+    comment: Pinwheel
+
+- .dir(N>)
+- _Shrine::KahOkeo
+
+- .gale(GALE 1) + .dir(E>)
+- _Korok::T36
+
+- .dir(N>)
+- _Korok::T32
+
+- .dir(<<N)
+- _Korok::T27:
+    comment: 2 apples
+
+- .dir(N>)
+- _Korok::T26
+
+- .dir(.N)
+- _Korok::T23
+
+- .dir(SE)
+- _Location::GisaCrater
+- _Boss::Talus::Rare:
+    coord: [-3929.30, 197.19, -1083.48]
+
+- .dir(E) + midair .dir(NE)
+- _Npc::Rito<Kass>:
+    coord: [-3653.70, 321.49, -1316.23]
+    comment: Only DLC that needs to listen to Kass
+
+- .dir(S.)
+- _Korok::T24
+
+- .dir(S>)
+- _Korok::T28:
+    comment: " "
+
+- .dir(S) run
+- _Korok::T29
+
+- .dir(E)
+- _Korok::T30:
+    comment: " "
+
+- .dir(SE)
+- _Location::GreatFairyFountainTabantha
+
+- .dir(E>>)
+- _Korok::T33:
+    comment: Pinwheel
+
+- .dir(S)
+- _Shrine::TenaKosah:
+    comment: Major Test of Strength
+    vars:
+      - counter-location: .add(1) # Ancient Columns
+
+- _Memory::AncientColumns:
+    comment: Memory
+
+- .dir(NW) run
+- _Korok::T35:
+    comment: " "
+
+- .dir(W)
+- _Korok::T37:
+    comment: " "
+
+- .dir(N>)
+- _Korok::T31:
+    comment: In small cave
+
+- _Tod::Noon:
+    coord: [-3426,-729.75]
+    notes: For Bareeda Naag
+
+- .dir(N>)
+- _Boss::Talus::Rare:
+    comment: .fury(FURY 1-3) (optional)
+    coord: [-3248.40, 291.68, -1078.12]
+
+- .dir(<N)
+- _Korok::T20
+
+- .dir(<<N)
+- Activate .!!(Pedestal):
+    icon: tots
+    icon-map: null
+    comment: Fire arrow before 1:15pm
+- _Shrine::BareedaNaag
+
+- .dir(W)
+- _Boss::Hinox::Black:
+    coord: [-3793.68, 246.02, -1557.10]
+
+- .dir(W>>)
+- _Npc::Rito<Kheel>:
+    coord: [-3979.33, 271.21, -1751.18]
+    vars:
+      - counter-location: .add(1) # Warbler's Nest
+
+- .dir(<S) run
+- _Material<3 Spicy Pepper>:
+    notes: Pause+unpause to set menu on pepper for T09. Keep 2 of them for transmutation.
+    coord: [-3987.10, 272.52, -1707.67]
+    comment: ""
+- _Korok::T16
+
+- .dir(W>) down
+- _KorokLoc<T12,Dragon Bone Mire>:
+    comment: Hidden under skeleton
+
+- .dir(N) + .dir(N>)
+- _Korok::T09
+
+- .gale(GALE 2) + .dir(NE)
+- _Shrine::NoeRajee
+
+
+
+
+
+
+
+
+
+
+
+
+
+

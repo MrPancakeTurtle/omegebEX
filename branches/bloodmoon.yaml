@@ -95,6 +95,7 @@
 - .dir(SW)
 - _Boss::Hinox::Stal:
     coord: [-2217.00, 372.31, 584.00]
+    comment: optional .fury(FURY 1-3) will be back for next use
 - _Korok::R62:
     comment: " "
 
@@ -124,4 +125,4 @@
     icon-map: null
 - _Shrine::MijahRokee:
     comment: Modest Test of Strength
-    notes: Leave armor off until later
+    notes: Thunderhelm, Zora Armor, Snowboots for the rest of the run after

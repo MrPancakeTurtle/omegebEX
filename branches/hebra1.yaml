@@ -11,21 +11,16 @@
     coord:
     comment: Buy everything you can
 
-- .dir(W)
-- _Korok::T17:
-    comment: On island pillar
+- .dir(NE)
+- _Korok::T05
 
-- .dir(S>)
-- _Boss::Hinox::Black:
-    coord: [-3793.68, 246.02, -1557.10]
+- .dir(NW)
+- _Location::HebraTrailheadLodge
 
-- .dir(W>>)
-- _Npc::Rito<Kheel>:
-    coord: [-3979.33, 271.21, -1751.18]
-    vars:
-      - counter-location: .add(1) # Warbler's Nest
+- .dir(<<E)
+- _Korok::T04
 
-- .dir(N>)
+- .dir(N)
 - _Shrine::ShaWarvo
 
 - .dir(N>>)

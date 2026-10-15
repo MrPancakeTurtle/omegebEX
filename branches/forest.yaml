@@ -1,3 +1,13 @@
+- _Warp::Shrine::DahHesho:
+    comment: Tarrey Town
+- .dir(N>)
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 30 wood
+    notes: Talk twice
+- _Korok::A34
+- _Korok::A38
+
 - _Warp::Shrine::DaqaKoh
 
 - Run to rock then .dir(<S)
@@ -13,7 +23,9 @@
         - push
         - to: [2141.56, 559.13, -2178.47]
           color: white
+          icon: talus-igneo
         - pop
+    icon-map: null
 
 - .dir(W>)
 - _Npc::Goron<Goron Kid>:
@@ -50,8 +62,10 @@
         - push
         - to: [2372.52, 507.89, -1998.62]
           color: white
+          icon: talus-igneo
         - pop
     notes: Wake + shoot from E22
+    icon-map: null
 
 - Drop off island into ring and midair .dir(SW)
 - .loc(Rinu Honika)
@@ -196,8 +210,9 @@
 - Jump into mud to void out
 - .dir(<W)
 - Trial of the Skew Clips:
-    coord: [431, -2111]
+    coord: [431, -2095]
     comment: All 3 Trials of the Sword
+    icon: link
 
 - _Npc<Zooki>:
     coord: [251.03, 285.34, -1979.93]

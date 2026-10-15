@@ -41,3 +41,7 @@
   - use: ./branches/castle.yaml
 - Bloodmoon:
   - use: ./branches/bloodmoon.yaml
+- Tabantha:
+  - use: ./branches/tabantha.yaml
+- Revali's Song:
+  - use: ./branches/hebra2.yaml
