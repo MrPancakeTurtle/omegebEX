@@ -16,9 +16,50 @@
         - pop
     icon-map: null
 
-- .dir(.E)
+- .dir(W>)
 - _Npc::Goron<Goron Kid>:
     coord: [1787.98, 581.97, -2244.39]
     comment: Dugby (wakes 8am)
     notes: Death Mountain's Secret
 
+- .dir(SE)
+- _Npc::Goron<Goron in Cave>:
+    coord: [2045.68, 521.76, -2040.42]
+    comment: A Brother's Roast
+
+- .dir(SW)
+- Deliver rock roast:
+    notes: Unequip bow while carrying rock roast to avoid burning
+    movements:
+        - push
+        - to: [1823.00, 453.77, -1891.17]
+          color: white
+          icon: tots
+        - pop
+
+- _Shrine::KayraMah:
+    comment: Get storage when leaving
+
+- Run out and .dir(E.)
+- _Shrine::RinuHonika
+
+- .dir(NE)
+- _Korok::E22
+
+- _Boss::Talus::Igneo:
+    coord: [2372.52, 507.89, -1998.62]
+    notes: Wake + shoot from E22
+
+- Drop off island into ring and midair .dir(SW)
+- .loc(Rinu Honika)
+
+- .dir(.E)
+- _Korok::E23:
+    comment: In tunnel
+
+- .dir(<W)
+- _Korok::E28:
+    comment: Down in skull
+
+- .dir(<W)
+- _Shrine::QuaRaym
