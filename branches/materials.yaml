@@ -179,8 +179,7 @@
     notes: Skip Ancient Core if you already have one
 
 - .dir(E>) + .dir(E>)
-- _Shrine::DakaTuss:
-    notes: Kill the 3 lizalfos for horns
+- _Shrine::DakaTuss
 
 - .dir(S) + .dir(E>) + .dir(S)
 - _Shrine::TalohNaeg:
