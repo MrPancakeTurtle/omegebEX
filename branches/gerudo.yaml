@@ -292,7 +292,8 @@
 - _Boss::Talus::Rare:
     coord: [-3804.76, 602.57, 1204.77]
 
-- .dir(E) FAR then get storage at Kuh Takkar
+- .dir(E) FAR then get storage at Kuh Takkar:
+    coord: [-3083.42, 570.66, 1222.01]
 - .dir(<W) SCW
 - _Shrine::KihiroMoh:
     comments: head in and get ball+bananas, then WB to top of shrine for Location
