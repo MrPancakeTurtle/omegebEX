@@ -31,14 +31,14 @@
   - use: ./branches/rudania.yaml
 - Champion's Ballad:
   - use: ./branches/plateau-2.yaml
-- Urbosa's Song:
-  - use: ./branches/gerudo.yaml
-- Urbosa's Fury+:
-  - use: ./branches/wasteland.yaml
 - Korok Forest:
   - use: ./branches/forest.yaml
 - Castle:
   - use: ./branches/castle.yaml
+- Urbosa's Song:
+  - use: ./branches/gerudo.yaml
+- Urbosa's Fury+:
+  - use: ./branches/wasteland.yaml
 - Bloodmoon:
   - use: ./branches/bloodmoon.yaml
 - Tabantha:
