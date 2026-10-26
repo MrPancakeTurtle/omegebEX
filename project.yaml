@@ -39,6 +39,8 @@ config:
         - UserDefined
       expose: true
   - use: split-format
+    with:
+      Shrines: ".var(counter-korok) - .prop(text)"
   - use: link
     with:
       Shrines: "[.var(pad02:counter-shrine)] .prop(text)"
