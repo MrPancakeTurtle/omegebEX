@@ -179,3 +179,8 @@
 - _Npc<Beedle>:
     comment: Buy warm darner
     coord: [-2795.66, 134.60, 2244.77]
+
+- _Npc<Rushroom Guy>:
+    coord: [-2796.56, 134.90, 2240.07]
+    comment: Talk Twice
+    icon-map: null

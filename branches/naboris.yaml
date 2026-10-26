@@ -181,40 +181,11 @@
       notes: Search for Barta quest
       comment: Liana, in training yard
 
-  - _Npc::Gerudo<Guard at entrance>:
-      coord: [-3916.17, 149.18, 2877.34]
-      notes: Silent Swordswomen quest
-      comment: Laine
-
-  - _Npc::Gerudo<Library Lady>:
-      coord: [-3877.78, 151.99, 2881.72]
-      notes: Seven Heroines quest
-      comment: Rotana
-
   - _Npc::Gerudo<Bartender>:
       coord: [-3856.93, 152.43, 2856.37]
       notes: Perfect Drink quest
       comment: Furosa
 
-  - _Npc::Gerudo<Berries child>:
-      coord: [-3833,2852.75]
-      notes: Mystery Polluter quest
-      comment: Dalia, end of street
-
-  - .dir(N)
-  - _Npc::Gerudo<Northern Icehouse>:
-      vars:
-        - counter-location: .add(1) # Northern Icehouse
-      coord: [-3743.75, 146.81, 2304.44]
-      notes: Bring ice up stairs, then melt it to carry it faster. Stand over it and shoot the top face with a fire arrow to get a consistent size.
-
-  - Carry ice cube
-
-  - _Npc::Gerudo<Bartender>:
-      coord: [-3764.49, 141.00, 2699.75]
-      comment: Deliver ice
-
-  - .dir(N>) + midair
   - _Shrine::DakoTah
 
   - .dir(<<E)
@@ -243,7 +214,3 @@
       notes: If missed cold darner, can substitute butterfly from Beedle.
       coord: [-2811.31, 134.87, 2239.89]
 
-  - _Npc<Rushroom Guy>:
-      coord: [-2796.56, 134.90, 2240.07]
-      comment: Talk Twice
-      icon-map: null

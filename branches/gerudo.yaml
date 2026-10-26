@@ -294,7 +294,7 @@
 
 - .dir(E) FAR then get storage at Kuh Takkar:
     coord: [-3083.42, 570.66, 1222.01]
-- .dir(<W) SCW
+- .dir(<W) SCW use campfire set Morning
 - _Shrine::KihiroMoh:
     comments: head in and get ball+bananas, then WB to top of shrine for Location
 
@@ -346,12 +346,41 @@
 - .dir(E>)
 - _Korok::G33
 
-- .dir(<S)
+- .dir(SE)
+- _Npc::Gerudo<Northern Icehouse>:
+    vars:
+    - counter-location: .add(1) # Northern Icehouse
+    coord: [-3743.75, 146.81, 2304.44]
+    notes: Bring ice up stairs, then melt it to carry it faster. Stand over it and shoot the top face with a fire arrow to get a consistent size.
+
+- Carry ice cube
+
+- _Npc::Gerudo<Bartender>:
+    coord: [-3764.49, 141.00, 2699.75]
+    comment: Deliver ice
+
+- .dir(S)
 - _Npc<Bozai>:
     coord: [-3750,2874]
     comment: 8th Heroine, Forgotten Sword
     notes: Talk 3 times, equip sandboots
     time-override: 360
+
+- _Npc::Gerudo<Berries child>:
+    coord: [-3833,2852.75]
+    notes: Mystery Polluter quest
+    comment: Dalia, end of street
+
+- _Npc::Gerudo<Library Lady>:
+    coord: [-3877.78, 151.99, 2881.72]
+    notes: Seven Heroines quest
+    comment: Rotana
+
+- _Npc::Gerudo<Guard at entrance>:
+    coord: [-3916.17, 149.18, 2877.34]
+    notes: Silent Swordswomen quest
+    comment: Laine
+
 - _Npc::Gerudo<Kohm>:
     coord: [-3903.74,2882.96]
     comment: Talk for a sand seal.
