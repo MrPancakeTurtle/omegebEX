@@ -233,7 +233,7 @@
     notes: Select "This area?"
     comment: Nobo
 - _Tod::Night:
-    notes: For stalhorse, stalnox, and quests after Rudania
+    notes: For stalhorse, stalnox
     icon-map: null
 
 - .dir(W>)
