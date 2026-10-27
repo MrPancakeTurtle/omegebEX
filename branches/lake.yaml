@@ -518,10 +518,7 @@
 - .dir(<E) + midair
 - _Korok::C53
 
-- .dir(<E)
-- _TowerWithMap%::Central
-
-- .dir(N>) down
+- .dir(<<E)
 - _Korok::C48:
     comment: " "
 
@@ -577,7 +574,51 @@
 - Surf .dir(S)
 - _Location::OwlanBridge
 
-- .dir(S)
+- .dir(<E)
+- _Korok::D13
+
+- .dir(NE)
+- _Location::HorwellBridge
+
+- .dir(NE)
+- _Shrine::HilaRao:
+    vars:
+      - counter-location: .add(1) # Floret Sandbar
+
+- .dir(SE)
+- _Location::EagusBridge
+
+- _Korok::D01:
+    comment: Below bridge
+
+- .dir(.S)
+- _Korok::D16
+
+- .dir(<<W)
+- _Korok::D25:
+    comment: Whistle for horse
+
+- .dir(<S)
+- _Korok::D29
+
+- .dir(W)
+- _Korok::D28
+
+- .dir(<N)
+- _Korok::D24
+
+- .dir(E) surf
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1)
+    coord: [705.34, 137.62, 1471.88]
+
+- .dir(N)
+- _Korok::D15
+
+- .dir(SW)
+- _Korok::D23
+
+- .dir(W>)
 - _Korok::D22
 
 - .dir(W)
@@ -632,8 +673,8 @@
 
 - .dir(<S)
 - _Boss::Talus::Luminous:
-    comment: .fury(FURY 1-2) if raining
-    notes: If raining, land and kill with fury. Otherwise you can wake it with bomb arrow from the air on the way to Outpost Ruins, and shoot it on the way to D43.
+    comment: .fury(FURY 2) if raining (Waste at L16 if not raining)
+    notes: If raining, fury and bow. Otherwise wake it with bomb arrow from the air on the way to Outpost Ruins, and shoot it on the way to D43.
     coord: [-176.93, 132.59, 1771.62]
 
 - .dir(S)
@@ -669,7 +710,7 @@
 - _Korok::L01
 
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 3) (or .fury(FURY 1) if it rained at Outpost Ruins)
+    comment: .fury(FURY 3)
     coord: [359.34, 114.45, 1904.01]
 
 - .dir(S>>)
@@ -737,6 +778,7 @@
 
 - .dir(N>)
 - _Boss::Talus::Stone:
+    comment: .fury(FURY 1)
     coord: [1465.91, 203.77, 1328.91]
 
 - .dir(W)
@@ -744,7 +786,7 @@
 
 - .dir(S>)
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 2-3) if it rained at Outpost Ruins
+    comment: .fury(FURY 2)
     coord: [1186.62, 254.28, 1642.77]
 
 - .dir(SW)

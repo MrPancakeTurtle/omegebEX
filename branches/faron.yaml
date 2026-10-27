@@ -101,7 +101,7 @@
 
 - .dir(N.)
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 1)
+    comment: .fury(FURY 3)
     coord: [1257.12, 355.80, 2176.52]
 
 - .dir(SE)
@@ -180,7 +180,7 @@
 
 - .dir(W)
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 2)
+    comment: .fury(FURY 1)
     coord: [1392.02, 107.03, 3727.59]
 - _Korok::F53
 
@@ -189,7 +189,7 @@
     comment: Under cliff
 
 - .dir(E)
-- .fury(FURY 3) .!!(Enemy Camp):
+- .fury(FURY 2) .!!(Enemy Camp):
     icon: calamity
     comment: Take Back the Sea
     coord: [2087,3916.5]
@@ -388,7 +388,7 @@
 
 - .dir(S) swim
 - _Boss::Talus::Stone:
-    comment: .fury(FURY 1) from above
+    comment: .fury(FURY 3) from above
     coord: [3272.52, 133.05, 3409.85]
 
 - .dir(<W)

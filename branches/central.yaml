@@ -1,51 +1,8 @@
-- _Warp::Tower::DuelingPeaks:
-    text: Warp .loc(Dueling Peaks Tower)
+- _Warp::Shrine::HilaRao:
+    text: Warp .loc(Hila Rao)
     color: red
     presets:
       - _map%<comment>
-
-- .dir(W>)
-- _Korok::D29
-
-- .dir(W)
-- _Korok::D28
-
-- .dir(NW)
-- _Korok::D23
-
-- .dir(E)
-- _Korok::D24
-
-- .dir(E) surf
-- _Boss::Talus::Stone:
-    comment: Whistle for horse and .fury(FURY 3)
-    coord: [705.34, 137.62, 1471.88]
-
-- .dir(E) ride
-- _Korok::D25
-
-- .dir(<<E)
-- _Korok::D16
-
-- .dir(W)
-- _Korok::D15
-
-- .dir(W>>)
-- _Korok::D13
-
-- .dir(NE)
-- _Location::HorwellBridge
-
-- .dir(<E)
-- _Location::EagusBridge
-
-- _Korok::D01:
-    comment: Below bridge
-
-- .dir(W>)
-- _Shrine::HilaRao:
-    vars:
-      - counter-location: .add(1) # Floret Sandbar
 
 - Run (avoid flowers)
 - _Npc<Flower Lady>:

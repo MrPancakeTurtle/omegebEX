@@ -184,7 +184,7 @@
     comment: On peak
 
 - .dir(E>)
-- _Tower::Hebra
+- _TowerWithMap%::Hebra
 
 - .dir(<E) down
 - _Location::PondosLodge
