@@ -245,7 +245,7 @@
 - .dir(N) + climb
 - _Korok::H07
 
-- .dir(E) + midair .dir(E):
+- .dir(E) + midair .dir(E)
 - _Korok::H08:
     comment: Pinwheel
 
