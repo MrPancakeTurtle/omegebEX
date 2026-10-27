@@ -69,6 +69,11 @@
     comment: Korok Trials
     coord: [431.66, 250.56, -2139.55]
 
+- Trial of the Skew Clips:
+    coord: [431, -2095]
+    comment: All 3 Trials of the Sword
+    icon: link
+
 - _Warp::Shrine::JolooNah:
     presets:
       - _map%<comment>
