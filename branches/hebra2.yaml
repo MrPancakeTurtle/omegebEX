@@ -115,162 +115,6 @@
 - _Korok::K05
 
 - _Warp::Shrine::ShadaNaw:
-    presets:
-      - _map%<comment>
-
-- .dir(.W)
-- _Shrine::MozoShenno:
-    comment: Major Test of Strength
-
-- Climb + surf .dir(<W)
-- _Korok::H26
-
-- .dir(N>)
-- _Korok::H19:
-    comment: Pinwheel
-
-- .dir(W>)
-- _Korok::H18:
-    comment: Top of bare tree
-
-- .dir(W>)
-- _Korok::H17:
-    comment: Snowy ledge
-
-- .dir(S) down
-- _Korok::H24:
-    comment: Starts on canyon floor
-
-- .dir(E>) + midair
-- _Korok::H25
-
-- .dir(.W) + midair
-- _Korok::H32:
-    comment: " "
-
-- .dir(.S)
-- _Korok::H40:
-    comment: On peak
-
-- .dir(W>)
-- _Boss::Hinox::Black:
-    coord: [-4531.00, 333.45, -2679.27]
-
-- .dir(S)
-- Start T06 race:
-    icon: tots
-    coord: [-4495.71, 342.71, -2510.34]
-    notes: Do H53, H60, T08 while the race timer is going.
-
-- .dir(SE)
-- _Korok::H53:
-    comment: On peak
-
-- .dir(SW)
-- _Korok::H60:
-    comment: Pinwheel, can use bullet time
-
-- .dir(.S)
-- _Korok::T08
-
-- .dir(NE)
-- _Korok::T06:
-    comment: Finish race
-    movements:
-        - to: [-4396.84, 183.40, -2049.88]
-
-- .dir(E>) run
-- _Korok::T07:
-    comment: " "
-
-- .dir(NE)
-- _Korok::T01:
-    comment: On cliff past rubble
-
-- .dir(.N) + midair
-- _Location::SturnidaSecretHotSpring:
-    notes: Drop down above hot spring, then glide to updraft.
-
-- .dir(<N) midair
-- _Korok::H39:
-    comment: " "
-
-- .dir(.S) short
-- _Korok::H41
-
-- .dir(SE) surf down
-- _Korok::H42:
-    comment: In corner against cliff
-
-- .dir(E) to cave entrance
-- _Shrine::MakaRah
-
-- _Warp::Shrine::ShadaNaw:
-    color: "#3a0063"
-    notes: Hopefully I routed it so it's night here
-    presets:
-      - _map%<comment>
-
-- .dir(W>>) down
-- _KorokLoc<H09,Goflam's Secret Hot Spring>
-
-- .dir(E>)
-- _Korok::H11
-
-- .dir(W)
-- _Korok::H10:
-    comment: " "
-
-- .dir(<N)
-- _Korok::H04:
-    comment: " "
-
-- .dir(W)
-- _Boss::Hinox::Stal:
-    coord: [-4260.15, 327.00, -3777.48]
-
-- .dir(W)
-- _Korok::H01
-
-- _Shrine::HiaMiu:
-    comment: Major Test of Strength
-
-- .dir(S.) + midairs
-- _Korok::H23:
-    comment: On peak far
-
-- .dir(N>)
-- _Location::SherfinsSecretHotSpring
-
-- .dir(N) + climb
-- _Korok::H07
-
-- .dir(E) + midair .dir(E)
-- _Korok::H08:
-    comment: Pinwheel
-
-- .dir(.N)
-- _Korok::H02:
-    comment: Leftmost ice block
-
-- Clip in to mountain:
-    icon: tots
-    icon-map: null
-    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
-
-- Clip back in bounds:
-    icon: tots
-    icon-map: null
-    notes: .link([Setup]https://youtu.be/MZqANcvFr4c?t=16379)
-
-- _KorokLoc<H03,Hebra Great Skeleton>
-
-- _Shrine::ToQuomo
-
-- _Snap::Quest<Hebra Great Skeleton>:
-    icon-map: null
-
-- _Warp::Shrine::ShadaNaw:
     color: blue
     presets:
       - _map%<comment>
@@ -591,3 +435,158 @@
 - .dir(E>>) down
 - _Korok::R04
 
+- _Warp::Shrine::ShadaNaw:
+    presets:
+      - _map%<comment>
+
+- .dir(.W)
+- _Shrine::MozoShenno:
+    comment: Major Test of Strength
+
+- Climb + surf .dir(<W)
+- _Korok::H26
+
+- .dir(N>)
+- _Korok::H19:
+    comment: Pinwheel
+
+- .dir(W>)
+- _Korok::H18:
+    comment: Top of bare tree
+
+- .dir(W>)
+- _Korok::H17:
+    comment: Snowy ledge
+
+- .dir(S) down
+- _Korok::H24:
+    comment: Starts on canyon floor
+
+- .dir(E>) + midair
+- _Korok::H25
+
+- .dir(.W) + midair
+- _Korok::H32:
+    comment: " "
+
+- .dir(.S)
+- _Korok::H40:
+    comment: On peak
+
+- .dir(W>)
+- _Boss::Hinox::Black:
+    coord: [-4531.00, 333.45, -2679.27]
+
+- .dir(S)
+- Start T06 race:
+    icon: tots
+    coord: [-4495.71, 342.71, -2510.34]
+    notes: Do H53, H60, T08 while the race timer is going.
+
+- .dir(SE)
+- _Korok::H53:
+    comment: On peak
+
+- .dir(SW)
+- _Korok::H60:
+    comment: Pinwheel, can use bullet time
+
+- .dir(.S)
+- _Korok::T08
+
+- .dir(NE)
+- _Korok::T06:
+    comment: Finish race
+    movements:
+        - to: [-4396.84, 183.40, -2049.88]
+
+- .dir(E>) run
+- _Korok::T07:
+    comment: " "
+
+- .dir(NE)
+- _Korok::T01:
+    comment: On cliff past rubble
+
+- .dir(.N) + midair
+- _Location::SturnidaSecretHotSpring:
+    notes: Drop down above hot spring, then glide to updraft.
+
+- .dir(<N) midair
+- _Korok::H39:
+    comment: " "
+
+- .dir(.S) short
+- _Korok::H41
+
+- .dir(SE) surf down
+- _Korok::H42:
+    comment: In corner against cliff
+
+- .dir(E) to cave entrance
+- _Shrine::MakaRah
+
+- _Warp::Shrine::ShadaNaw:
+    color: "#3a0063"
+    notes: Hopefully I routed it so it's night here
+    presets:
+      - _map%<comment>
+
+- .dir(W>>) down
+- _KorokLoc<H09,Goflam's Secret Hot Spring>
+
+- .dir(E>)
+- _Korok::H11
+
+- .dir(W)
+- _Korok::H10:
+    comment: " "
+
+- .dir(<N)
+- _Korok::H04:
+    comment: " "
+
+- .dir(W)
+- _Boss::Hinox::Stal:
+    coord: [-4260.15, 327.00, -3777.48]
+
+- .dir(W)
+- _Korok::H01
+
+- _Shrine::HiaMiu:
+    comment: Major Test of Strength
+
+- .dir(S.) + midairs
+- _Korok::H23:
+    comment: On peak far
+
+- .dir(N>)
+- _Location::SherfinsSecretHotSpring
+
+- .dir(N) + climb
+- _Korok::H07
+
+- .dir(E) + midair .dir(E)
+- _Korok::H08:
+    comment: Pinwheel
+
+- .dir(.N)
+- _Korok::H02:
+    comment: Leftmost ice block
+
+- Clip in to mountain:
+    icon: tots
+    icon-map: null
+    notes: .link([Setup]https://twitter.com/i_piston/status/1474500850110189568)
+
+- Clip back in bounds:
+    icon: tots
+    icon-map: null
+    notes: .link([Setup]https://youtu.be/MZqANcvFr4c?t=16379)
+
+- _KorokLoc<H03,Hebra Great Skeleton>
+
+- _Shrine::ToQuomo
+
+- _Snap::Quest<Hebra Great Skeleton>:
+    icon-map: null
