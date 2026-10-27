@@ -6,7 +6,7 @@
 - .dir(W)
 - _Korok::E10
 
-- .dir(S>) + midair
+- .dir(E) + midair
 - _Korok::E11:
     comment: Rock above, circle below
 
