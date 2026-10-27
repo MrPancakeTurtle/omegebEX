@@ -15,6 +15,18 @@
 - .dir(<S)
 - _Korok::A20
 
+- .dir(E>)
+- _Korok::A26
+
+- .dir(N)
+- _Memory::SpringofPower:
+    comment: Memory
+- Offer .item(Dinraal Scale):
+    icon: tots
+    icon-map: null
+- _Shrine::TutsuwaNima:
+    comment: Major Test of Strength
+
 - _Warp::Beast::Rudania:
     presets:
       - _map%<comment>

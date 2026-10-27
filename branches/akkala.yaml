@@ -249,18 +249,8 @@
 - midair .dir(S)
 - _KorokLoc<A21,Spring of Power>:
     comment: Above spring
-- _Memory::SpringofPower:
-    comment: Memory
-- Offer .item(Dinraal Scale):
-    icon: tots
-    icon-map: null
-- _Shrine::TutsuwaNima:
-    comment: Major Test of Strength
 
-- .dir(S.)
-- _Korok::A26
-
-- .dir(E>)
+- .dir(<S)
 - _Korok::A27
 
 - .dir(E>)
