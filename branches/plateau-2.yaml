@@ -5,7 +5,8 @@
     coord: [3981.65, 233.41, -1599.11]
     comment: 20 wood
     notes: Talk twice
-- _Warp::SOR
+- _Warp::SOR:
+    notes: Equip Snowquil Headdress and any chestpiece that is not Flamebreaker
 - _Korok::P09
 - _Npc::SheikaFemale<Monk Maz Koshia>:
     comment: EX The Champions' Ballad
