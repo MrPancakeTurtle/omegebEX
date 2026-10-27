@@ -19,6 +19,8 @@
 - _Korok::A26
 
 - .dir(N)
+- _KorokLoc<A21,Spring of Power>:
+    comment: Above spring
 - _Memory::SpringofPower:
     comment: Memory
 - Offer .item(Dinraal Scale):
