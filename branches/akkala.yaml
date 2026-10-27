@@ -30,7 +30,7 @@
 
 - _Shrine::KamiaOmuna
 
-- _dir(N)
+- .dir(N)
 - _Korok::E02
 - _Snap::Quest<Eldin Great Skeleton>:
     movements:
