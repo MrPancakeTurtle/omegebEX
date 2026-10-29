@@ -5,8 +5,7 @@
 
 - _Tod::Night:
     icon-map: null
-    comment: if needed
-    notes: For Salvager chest. Make night if here after 2:30am.
+    notes: For Salvager chest.
 
 - .dir(E) + .dir(S) midairs
 - _Korok::H28:
@@ -177,7 +176,7 @@
 - _Korok::H64
 - _Tod::Morning:
     icon-map: null
-    comment: Might be needed for Dinraal depending on ToD
+    comment: For Dinraal
 
 - Swim out to cryo + <E
 - _Korok::H61:

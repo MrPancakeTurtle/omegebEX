@@ -53,7 +53,7 @@
 
 - _Tod::Noon:
     coord: [-2158,2141]
-    notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. Make noon later in this segment if you're getting there too late.
+    notes: Timing to reach Suma Sahma between 4:00pm and 5:30pm. Also for Stalnox at Satori and Bloodmoon
 
 - .dir(.S)
 - _Korok::W23
@@ -76,8 +76,7 @@
 - .dir(SE)
 - _Boss::Talus::Luminous:
     coord: [-2096.46, 318.46, 3037.91]
-    comment: .fury(FURY 1-3) Collect drops
-    notes: Intentionally "wasting" a fury. Look for amber, flint, and luminous stones.
+    comment: Shoot from midair
 
 - .dir(SE)
 - _Korok::W50:

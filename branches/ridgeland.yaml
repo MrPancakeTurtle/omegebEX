@@ -179,13 +179,19 @@
 - .dir(SE)
 - _Boss::Hinox::Black:
     coord: [-1177.05, 139.48, 118.51]
+- _Korok::C38:
+    comment: Starts at tree stump
 
 - .dir(S)
 - _Location::AncientTreeStump
 - _Korok::C47:
     comment: " "
 
-- .dir(W)
+- .dir(<W)
+- _Korok::C37:
+    comment: On beach
+
+- .dir(SE)
 - _Korok::R58
 
 - .dir(W) + .dir(W>)

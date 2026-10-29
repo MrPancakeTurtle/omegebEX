@@ -11,14 +11,7 @@
     presets:
       - _map%<comment>
 
-- .dir(W>>)
-- _Korok::C38:
-    comment: Starts at tree stump
-
-- .dir(<W)
-- _Korok::C37:
-    comment: On beach
-
+- .dir(W>)
 - _Chest::Special<Midna's Helmet>:
     coord: [-1402.26, 113.92, 219.36]
 
