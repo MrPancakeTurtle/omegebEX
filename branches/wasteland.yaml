@@ -175,6 +175,11 @@
     notes: Royal Recipe quest
     icon-map: null
 
+- _Cook<Cook Attack Up food>:
+    comment: Bananas
+    notes: For Windblight and Waterblight
+    icon-map: null
+
 - _Npc<Beedle>:
     comment: Buy warm darner
     coord: [-2795.66, 134.60, 2244.77]
