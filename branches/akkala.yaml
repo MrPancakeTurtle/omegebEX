@@ -246,7 +246,10 @@
 - _Korok::A18:
     comment: " "
 
-- midair .dir(<S)
+- midair .dir(S)
+- _Korok::A26
+
+- .dir(E>)
 - _Korok::A27
 
 - .dir(E>)
