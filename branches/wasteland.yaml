@@ -20,7 +20,7 @@
 - _Korok::W32
 
 - .dir(N)
-- _Tower::Wasteland
+- _TowerWithMap%::Wasteland
 
 - .dir(N>):
     coord: [-2220.85, 356.03, 2204.36]
