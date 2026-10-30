@@ -141,6 +141,9 @@
 - _Boss::Hinox::Red:
     coord: [1493.39, 306.77, 3092.14]
 
+- .dir(S)
+- _Korok::F34
+
 - .dir(.S)
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
@@ -217,10 +220,7 @@
 - .dir(<N)
 - _KorokLoc<F42,Floria Bridge>
 
-- .dir(W>)
-- _Korok::F34
-
-- .dir(E)
+- .dir(N)
 - _Boss::Talus::Stone:
     coord: [1690.73, 165.27, 3335.62]
 

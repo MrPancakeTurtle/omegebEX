@@ -68,6 +68,9 @@
 - _Npc<Korok near Deku Entrance>:
     comment: Korok Trials
     coord: [431.66, 250.56, -2139.55]
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
 
 - Trial of the Skew Clips:
     coord: [431, -2095]

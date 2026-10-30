@@ -6,7 +6,10 @@
 - _Korok::R16:
     comment: Against cliff
 
-- .dir(<N)
+- .dir(N>)
+- _Korok::R11
+
+- .dir(W)
 - _KorokLoc<R10,Royal Ancient Lab Ruins>:
     comment: In ruins
 

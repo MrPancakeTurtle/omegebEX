@@ -333,10 +333,7 @@
 - _Korok::C01:
     comment: Near malice pillar
 
-- .dir(W)
-- _Korok::R11
-
-- .dir(<S)
+- .dir(SE)
 - _Korok::C07
 
 - .dir(S)

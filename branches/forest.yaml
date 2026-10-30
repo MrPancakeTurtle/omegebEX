@@ -146,9 +146,6 @@
     icon: equipment
     notes: The claymore's durability would get overwritten if equipped while pulling master sword.
 
-- _Npc<Peeks>:
-    coord: [441.00, 248.56, -2133.05]
-    comment: Legendary Rabbit Trial
 - _Npc<Kula>:
     comment: Freezing Rod
     coord: [419.28, 248.65, -2134.93]
