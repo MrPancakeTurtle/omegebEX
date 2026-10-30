@@ -47,8 +47,6 @@
   - use: ./branches/hebra2.yaml
 - Akkala:
   - use: ./branches/akkala.yaml
-- Daruk's Song:
-  - use: ./branches/daruk.yaml
 - Lake:
   - use: ./branches/lake.yaml
 - Faron:
@@ -59,6 +57,8 @@
   - use: ./branches/central.yaml
 - Ridgeland:
   - use: ./branches/ridgeland.yaml
+- Daruk's Song:
+  - use: ./branches/daruk.yaml
 - Mipha's Song:
   - use: ./branches/mipha.yaml
 - Kakariko/Hateno:
